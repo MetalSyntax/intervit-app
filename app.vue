@@ -140,11 +140,11 @@
             </div>
 
             <div>
-                <label class="block text-sm font-medium my-2" style="color: #4e4e4d">Nombre del Mercaderista</label>
+                <label class="text-sm font-medium my-2 hidden" style="color: #4e4e4d">Nombre del Mercaderista</label>
                 <input
                   type="text"
                   v-model="formData.mercaderista"
-                  class="w-full px-4 py-3 rounded-lg border-2 focus:ring-2 focus:outline-none transition-all"
+                  class="w-full px-4 py-3 rounded-lg border-2 focus:ring-2 focus:outline-none transition-all hidden"
                   :style="{ 'border-color': '#ebbe1c', 'focus:border-color': '#e89e16', 'focus:ring-color': '#ebbe1c40' }"
                   placeholder="Ingrese nombre completo"
                 >
