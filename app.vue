@@ -95,7 +95,7 @@
                 >
               </div>
 
-              <div>
+              <!--<div>
                 <label class="block text-sm font-medium mb-2" style="color: #4e4e4d">Nombre del Cliente</label>
                 <input
                   type="text"
@@ -104,7 +104,55 @@
                   :style="{ 'border-color': '#ebbe1c', 'focus:border-color': '#e89e16', 'focus:ring-color': '#ebbe1c40' }"
                   placeholder="Ingrese nombre completo"
                 >
-              </div>
+              </div>-->
+
+                <!-- Campo para Nombre del Cliente -->
+                <div class="relative">
+                  <div>
+                    <label class="block text-sm font-medium mb-2" style="color: #4e4e4d">Nombre del Cliente</label>
+                    <input
+                      type="text"
+                      v-model="clientQuery"
+                      @input="showClientSuggestions = true"
+                      @focus="showClientSuggestions = true"
+                      @blur="setTimeout(() => { showClientSuggestions = false }, 200)"
+                      class="w-full px-4 py-3 rounded-lg border-2 focus:ring-2 focus:outline-none transition-all"
+                      :style="{ 'border-color': '#ebbe1c', 'focus:border-color': '#e89e16', 'focus:ring-color': '#ebbe1c40' }"
+                      placeholder="Buscar o seleccionar cliente"
+                    >
+
+                    <div class="absolute right-3 top-10">
+                      <button v-if="showClientSuggestions && filteredClients.length"
+                    @click="closeClientSuggestions" class="text-gray-500 hover:text-gray-700">Cerrar</button>
+                    </div>
+                    
+                    <button
+                      v-if="clientQuery"
+                      @click="clearClientQuery"
+                      class="absolute right-3 top-10 text-gray-500 hover:text-gray-700"
+                    >✕</button>
+                  </div>
+                  
+                  <!-- Sugerencias de clientes -->
+                  <div
+                    v-if="showClientSuggestions && filteredClients.length"
+                    class="absolute z-10 w-full mt-1 bg-white border-2 rounded-lg shadow-lg max-h-60 overflow-auto"
+                    style="border-color: #ebbe1c"
+                  >
+                 
+                    <ul class="divide-y divide-gray-200">
+                      <li
+                        v-for="client in filteredClients"
+                        :key="client.id"
+                        @mousedown="selectClient(client)"
+                        class="px-4 py-3 hover:bg-gray-50 cursor-pointer transition-colors"
+                        style="color: #4e4e4d"
+                      >
+                        {{ client.nombre }} <span style="color: #e89e16">({{ client.codigo }})</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
 
               <div>
                 <label class="block text-sm font-medium mb-2" style="color: #4e4e4d">Frecuencia del cliente</label>
@@ -175,25 +223,73 @@
                   </div>
                 </div> -->
 
-                <select
-                  v-model="selectedProduct"
-                  class="w-full px-4 py-3 rounded-lg border-2 focus:ring-2 focus:outline-none transition-all"
-                  :style="{ 
-                    'border-color': '#ebbe1c',
-                    'focus:border-color': '#e89e16',
-                    'focus:ring-color': '#ebbe1c40'
-                  }"
-                >
-                  <option :value="null">Seleccione un producto...</option>
-                  <option
-                    v-for="product in productos"
-                    :key="product.código"
-                    :value="product"
-                  >
-                    {{ product.código }} - {{ product.descripción }}
-                  </option>
-                </select>
+                <!-- Selector de Productos mejorado -->
+                 
+                  <div class="relative">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                      <label class="block text-sm font-medium mb-2" style="color: #4e4e4d">Seleccionar Producto</label>
+                      <input
+                        type="text"
+                        v-model="productQuery"
+                        @input="showProductSuggestions = true"
+                        @focus="showProductSuggestions = true"
+                        @blur="setTimeout(() => { showProductSuggestions = false }, 200)"
+                        class="w-full px-4 py-3 rounded-lg border-2 focus:ring-2 focus:outline-none transition-all"
+                        :style="{ 
+                          'border-color': '#ebbe1c',
+                          'focus:border-color': '#e89e16',
+                          'focus:ring-color': '#ebbe1c40'
+                        }"
+                        placeholder="Buscar producto por código o nombre"
+                      >
+                      <div class="relative place-self-end -top-10 right-2">
+                        <button v-if="showProductSuggestions" @click="closeProductSuggestions" class="text-gray-500 hover:text-gray-700">Cerrar</button>
+                      </div>
+                      <button 
+                        v-if="productQuery"
+                        @click="clearProductQuery"
+                        class="relative justify-end text-gray-500 hover:text-gray-700"
+                      >✕</button>
+                    </div>
+                    <!-- Cantidad en Inventario -->
+                    <div>
+                      <label class="block text-sm font-medium mb-2" style="color: #4e4e4d">Ingrese la cantidad de productos en el inventario</label>
+                      <input
+                        type="number"
+                        v-model.number="selectedProduct.cantidad"
+                        @input="updateProductQuantity"
+                        class="w-full px-4 py-3 rounded-lg border-2 text-center"
+                        style="border-color: #ebbe1c"
+                        placeholder="Cantidad"
+                      >
+                    </div>
+                  </div> 
 
+                    <!-- Sugerencias de productos -->
+                    <div
+                      v-if="showProductSuggestions"
+                      class="absolute z-10 w-1/2 mt-1 top-20 bg-white border-2 rounded-lg shadow-lg max-h-60 overflow-auto"
+                      style="border-color: #ebbe1c"
+                    >
+                      <ul class="divide-y divide-gray-200">
+                        <li
+                          v-for="product in filteredProducts"
+                          :key="product.código"
+                          @mousedown="selectProduct(product)"
+                          class="px-4 py-3 hover:bg-gray-50 cursor-pointer transition-colors"
+                          style="color: #4e4e4d"
+                        >
+                          <span style="color: #e89e16">{{ product.código }}</span> - {{ product.descripción }}
+                          <div class="text-sm mt-1" style="color: #4e4e4d80">{{ product.línea }}</div>
+                        </li>
+                        <li v-if="filteredProducts.length === 0" class="px-4 py-3 text-gray-400">
+                          No se encontraron productos
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                
                 <button
                   @click="agregarProducto"
                   class="mt-4 px-6 py-3 rounded-lg font-semibold hover:scale-105 transition-transform"
@@ -230,6 +326,7 @@
                       <div class="text-sm mt-1 space-x-4">
                         <span style="color: #e89e16">{{ product.código }}</span>
                         <span style="color: #4e4e4d80">{{ product.línea }}</span>
+                        <span style="color: #4e4e4d">Qt. {{ product.cantidad }}</span>
                       </div>
                     </div>
                     <button
@@ -309,10 +406,22 @@
 export default {
   data() {
     return {
+      clientes: [
+        { id: 1, codigo: 'CLI-001', nombre: 'Farmacia La Esperanza' },
+        { id: 2, codigo: 'CLI-002', nombre: 'Droguería San Martín' },
+        { id: 3, codigo: 'CLI-003', nombre: 'Clínica Santa María' },
+        { id: 4, codigo: 'CLI-004', nombre: 'Laboratorio Salud Total' },
+        { id: 5, codigo: 'CLI-005', nombre: 'Centro Médico Los Andes' }
+      ],
+      clientQuery: '',
+      showClientSuggestions: false,
+      productQuery: '',
+      showProductSuggestions: false,
       isLoggedIn: false,
       searchQuery: '',
       showSuggestions: false,
       selectedMercaderista: null,
+      selectedProduct: { código: '', descripción: '', línea: '', cantidad: 0 },
       mercadistas: [
         { id: 1, nombre: 'María González', codigo: 'M001' },
         { id: 2, nombre: 'Carlos Rodríguez', codigo: 'M002' },
@@ -324,10 +433,9 @@ export default {
         fecha: new Date().toISOString().split("T")[0],
         cliente: "",
         frecuencia: "Semanal",
-        region: "",
+        region: "Capital",
       },
       mostrarNotificacion: false,
-      selectedProduct: null,
       productosAgregados: [],
       regionesVenezuela: [
         "Capital",
@@ -343,242 +451,286 @@ export default {
           código: "PT-0004",
           descripción: "RHELEN ARNICA PLUS FLIP TOP 240 GR",
           línea: "ARNICA RHELEN",
+          cantidad: 0
         },
         {
           código: "PT-0005",
           descripción: "RHELEN ARNICA PLUS TARRO 250 GR",
           línea: "ARNICA RHELEN",
+          cantidad: 0
         },
         {
           código: "PT-0006",
           descripción: "RHELEN ARNICA ROLL ON PLUS 90 ML",
           línea: "ARNICA RHELEN",
+          cantidad: 0
         },
         {
           código: "PT-0011",
           descripción: "RHELEN ARNICA PLUS 100 GR",
           línea: "ARNICA RHELEN",
+          cantidad: 0
         },
         {
           código: "PT-0012",
           descripción: "RHELEN ARNICA SPRAY X 120 ML",
           línea: "ARNICA RHELEN",
+          cantidad: 0
         },
         {
           código: "PT-0014",
           descripción: "RHELEN ARNICA PLUS CRISTAL 250 GR",
           línea: "ARNICA RHELEN",
+          cantidad: 0
         },
         {
           código: "PT-0026",
           descripción: "GEL COOL ICE 250 CC AZUL",
           línea: "ARNICA RHELEN",
+          cantidad: 0
         },
         {
           código: "PT-0034",
           descripción: "ACEITE CREMOSO DE ARNICA 250 ML",
           línea: "ARNICA RHELEN",
+          cantidad: 0
         },
         {
           código: "PT-0038",
           descripción:
             "RHELEN CREMA REFRESCANTE PARA LOS PIES 250 GR",
           línea: "ARNICA RHELEN",
+          cantidad: 0
         },
         {
           código: "PT-0046",
           descripción: "RHELEN ARNICA ROLL ON 90 ML",
           línea: "ARNICA RHELEN",
+          cantidad: 0
         },
         {
           código: "PT-0153",
           descripción: "RHELEN ARNICA CRISTAL 100 GR",
           línea: "ARNICA RHELEN",
+          cantidad: 0          
         },
         {
           código: "PT-0314",
           descripción:
             "RHELEN ARNICA ROLL ON KIDS 90 ML - SIN MENTOL",
           línea: "ARNICA RHELEN",
+          cantidad: 0
         },
         {
           código: "PT-0073",
           descripción: "LINAZEITE ACEITE DE LINAZA 30 CPS  (E)",
           línea: "LINAZEITE",
+          cantidad: 0
         },
         {
           código: "PT-0074",
           descripción: "LINAZEITE ACEITE DE LINAZA 60 CPS (E)",
           línea: "LINAZEITE",
+          cantidad: 0
         },
         {
           código: "PT-0077",
           descripción: "VITAL WAY OMEGA MAX III 50 SOFT (E)",
           línea: "NUTRICIONAL",
+          cantidad: 0
         },
         {
           código: "PT-0274",
           descripción: "LINAZA MOLIDA LIFESYSTEM x 250GR (E)",
           línea: "NUTRICIONAL",
+          cantidad: 0
         },
         {
           código: "PT-0275",
           descripción: "LINAZA CON AVENA LIFESYSTEM x 250GR (E)",
           línea: "NUTRICIONAL",
+          cantidad: 0
         },
         {
           código: "PT-0382",
           descripción:
             "PROTEINA LS SOYA SABOR A CHOCOLATE 250 GR",
           línea: "NUTRICIONAL",
+          cantidad: 0
         },
         {
           código: "PT-0383",
           descripción:
             "PROTEINA LS SOYA SABOR A VAINILLA 250 GR",
           línea: "NUTRICIONAL",
+          cantidad: 0
         },
         {
           código: "PT-0386",
           descripción:
             "PROTEINA LS HUEVO SABOR A CHOCOLATE 250 GR",
           línea: "NUTRICIONAL",
+          cantidad: 0
         },
         {
           código: "PT-0387",
           descripción:
             "PROTEINA LS HUEVO SABOR A VAINILLA 250 GR",
           línea: "NUTRICIONAL",
+          cantidad: 0
         },
         {
           código: "PT-0009",
           descripción:
             "RHELEN SIN SAL CREMA PARA PEINAR CAYENA Y VIT. E 300 ML",
           línea: "RHELEN CAPILAR",
+          cantidad: 0
         },
         {
           código: "PT-0010",
           descripción:
             "RHELEN SIN SAL CREMA PARA PEINAR SABILA Y COLAGENO 300 ML",
           línea: "RHELEN CAPILAR",
+          cantidad: 0
         },
         {
           código: "PT-0028",
           descripción:
             "ACONDICIONADOR NUTRITIVO REVITALIZANTE SIN SAL  400 ml",
           línea: "RHELEN CAPILAR",
+          cantidad: 0
         },
         {
           código: "PT-0029",
           descripción:
             "ACONDICIONADOR REESTRUCTURANTE SIN SAL 400 ml",
           línea: "RHELEN CAPILAR",
+          cantidad: 0
         },
         {
           código: "PT-0041",
           descripción:
             "RHELEN BAÑO DE CREMA SIN SAL SABILA Y COLAGENO 250 ML",
           línea: "RHELEN CAPILAR",
+          cantidad: 0
         },
         {
           código: "PT-0042",
           descripción:
             "RHELEN BAÑO DE CREMA SIN SAL CAYENA Y VITAMINA E 250 ML",
           línea: "RHELEN CAPILAR",
+          cantidad: 0
         },
         {
           código: "PT-0043",
           descripción:
             "RHELEN SIN SAL CREMA PARA PEINAR SABILA Y COLAGENO 150 ML",
           línea: "RHELEN CAPILAR",
+          cantidad: 0
         },
         {
           código: "PT-0044",
           descripción:
             "RHELEN SIN SAL CREMA PARA PEINAR CAYENA Y VIT. E 150 ML",
           línea: "RHELEN CAPILAR",
+          cantidad: 0
         },
         {
           código: "PT-0422",
           descripción:
             "CHAMPU NUTRITIVO REVITALIZANTE SIN SAL 400ML",
           línea: "RHELEN CAPILAR",
+          cantidad: 0
         },
         {
           código: "PT-0423",
           descripción:
             "CHAMPU NUTRITIVO REVITALIZANTE SIN SAL 250ML",
           línea: "RHELEN CAPILAR",
+          cantidad: 0
         },
         {
           código: "PT-0424",
           descripción: "CHAMPU REESTRUCTURANTE SIN SAL 400ML",
           línea: "RHELEN CAPILAR",
+          cantidad: 0
         },
         {
           código: "PT-0425",
           descripción: "CHAMPU REESTRUCTURANTE SIN SAL 250ML",
           línea: "RHELEN CAPILAR",
+          cantidad: 0
         },
         {
           código: "PT-0426",
           descripción:
             "ACONDICIONADOR NUTRITIVO REVITALIZANTE SIN SAL 250ML",
           línea: "RHELEN CAPILAR",
+          cantidad: 0
         },
         {
           código: "PT-0427",
           descripción:
             "ACONDICIONADOR REESTRUCTURANTE SIN SAL 250ML",
           línea: "RHELEN CAPILAR",
+          cantidad: 0
         },
         {
           código: "PT-0007",
           descripción:
             "RHELEN CREMA CORPORAL CON VITAMINA E 400 ML",
           línea: "RHELEN CORPORAL",
+          cantidad: 0
         },
         {
           código: "PT-0036",
           descripción: "RHELEN BODY CARE TROPICAL 400 ML",
           línea: "RHELEN CORPORAL",
+          cantidad: 0
         },
         {
           código: "PT-0037",
           descripción: "RHELEN   BODY CARE FRESH 400ML",
           línea: "RHELEN CORPORAL",
+          cantidad: 0
         },
         {
           código: "PT-0059",
           descripción:
             "RHELEN CREMA CORPORAL CON VITAMINA E 250 ML",
           línea: "RHELEN CORPORAL",
+          cantidad: 0
         },
         {
           código: "PT-0060",
           descripción: "RHELEN BODY CARE TROPICAL 250 ML",
           línea: "RHELEN CORPORAL",
+          cantidad: 0
         },
         {
           código: "PT-0061",
           descripción: "RHELEN BODY CARE FRESH 250 ML",
           línea: "RHELEN CORPORAL",
+          cantidad: 0
         },
         {
           código: "PT-0438",
           descripción: "RHELEN GEL HIDRATANTE INTIMO 40 ML",
           línea: "RHELEN INTIMA",
+          cantidad: 0
         },
         {
           código: "PT-0439",
           descripción:
             "RHELEN SOLUCION JABONOSA INTIMA CON ACIDO LACTICO 250 ML",
           línea: "RHELEN INTIMA",
+          cantidad: 0
         },
         {
           código: "PT-0441",
           descripción: "ARNICA AEROSOL",
           línea: "ARNICA RHELEN",
+          cantidad: 0
         },
       ],
     };
@@ -589,9 +741,53 @@ export default {
         m.nombre.toLowerCase().includes(this.searchQuery.toLowerCase()) ||
         m.codigo.toLowerCase().includes(this.searchQuery.toLowerCase())
       )
+    },
+    filteredClients() {
+      return this.clientes.filter(client => 
+        client.nombre.toLowerCase().includes(this.clientQuery.toLowerCase()) ||
+        client.codigo.toLowerCase().includes(this.clientQuery.toLowerCase())
+      )
+    },
+    filteredProducts() {
+      return this.productos.filter(product => 
+        product.código.toLowerCase().includes(this.productQuery.toLowerCase()) ||
+        product.descripción.toLowerCase().includes(this.productQuery.toLowerCase()) ||
+        product.línea.toLowerCase().includes(this.productQuery.toLowerCase())
+      )
     }
   },
   methods: {
+    selectClient(client) {
+      this.formData.cliente = client.nombre
+      this.clientQuery = client.nombre
+      this.showClientSuggestions = false
+    },
+    selectProduct(product) {
+      this.selectedProduct = { ...product }
+      this.productQuery = product.descripción
+      this.showProductSuggestions = false
+    },
+    clearClientQuery() {
+      this.clientQuery = ''
+      this.showClientSuggestions = false
+    },
+    clearProductQuery() {
+      this.productQuery = ''
+      this.selectedProduct = { código: '', descripción: '', línea: '', cantidad: 0 }
+      this.showProductSuggestions = false
+    }
+    ,closeClientSuggestions() {
+      this.showClientSuggestions = false
+    },
+    closeProductSuggestions() {
+      this.showProductSuggestions = false
+    },
+    updateProductQuantity() {
+      const index = this.productos.findIndex(p => p.código === this.selectedProduct.código)
+      if (index !== -1) {
+        this.productos[index].cantidad = this.selectedProduct.cantidad
+      }
+    },
     selectMercaderista(mercaderista) {
       this.selectedMercaderista = mercaderista
       this.searchQuery = mercaderista.nombre
@@ -612,7 +808,8 @@ export default {
     agregarProducto() {
       if (this.selectedProduct) {
         this.productosAgregados.push({ ...this.selectedProduct });
-        this.selectedProduct = null;
+        this.selectedProduct = { código: '', descripción: '', línea: '', cantidad: 0 };
+        this.productQuery = '';
       }
     },
     eliminarProducto(index) {
@@ -629,6 +826,7 @@ export default {
           "Código Producto",
           "Descripción",
           "Línea",
+          "Cantidad"
         ],
         ...this.productosAgregados.map((product) => [
           this.formData.fecha,
@@ -639,6 +837,7 @@ export default {
           product.código,
           product.descripción,
           product.línea,
+          product.cantidad
         ]),
       ]
         .map((row) => row.join(","))
