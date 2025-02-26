@@ -84,7 +84,7 @@
             </div>
 
             <div>
-                <label class="block text-sm font-medium mb-2" style="color: #4e4e4d">Nombre del Mercaderista</label>
+                <label class="block text-sm font-medium my-2" style="color: #4e4e4d">Nombre del Mercaderista</label>
                 <input
                   type="text"
                   v-model="formData.mercaderista"
