@@ -15,7 +15,63 @@
 
     <!-- Contenido principal -->
     <main class="flex-1">
+        <!-- Pantalla de Login -->
+    <div v-if="!isLoggedIn" class="min-h-screen flex items-center justify-center px-4" style="background: #4e4e4d">
+      <div class="w-full max-w-md bg-white rounded-xl shadow-2xl p-8 space-y-6">
+        <!-- Logo -->
+        <div class="text-center">
+          <img src="assets/img/logo-intervit.png" class="w-48 mx-auto" alt="Logo Intervit">
+        </div>
+
+        <!-- Selector de Mercaderista -->
+        <div class="relative">
+          <label class="block text-sm font-medium mb-2" style="color: #4e4e4d">Mercaderista</label>
+          <input
+            type="text"
+            v-model="searchQuery"
+            @input="showSuggestions = true"
+            class="w-full px-4 py-3 rounded-lg border-2 focus:ring-2 focus:outline-none transition-all"
+            :style="{ 'border-color': '#ebbe1c', 'focus:border-color': '#e89e16' }"
+            placeholder="Busque o seleccione su nombre"
+          >
+
+          <!-- Sugerencias -->
+          <div 
+            v-if="showSuggestions && filteredMercadistas.length"
+            class="absolute z-10 w-full mt-1 bg-white border-2 rounded-lg shadow-lg max-h-60 overflow-auto"
+            style="border-color: #ebbe1c"
+          >
+            <ul class="divide-y divide-gray-200">
+              <li
+                v-for="mercaderista in filteredMercadistas"
+                :key="mercaderista.id"
+                @click="selectMercaderista(mercaderista)"
+                class="px-4 py-3 hover:bg-gray-50 cursor-pointer transition-colors"
+                style="color: #4e4e4d"
+              >
+                {{ mercaderista.nombre }}
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <button
+          @click="handleLogin"
+          class="w-full px-6 py-3 rounded-lg font-bold hover:scale-[1.02] transition-transform"
+          :style="{ 
+            'background': selectedMercaderista ? '#e89e16' : '#ebbe1c60',
+            'color': 'white',
+            'cursor': selectedMercaderista ? 'pointer' : 'not-allowed'
+          }"
+        >
+          Ingresar al Sistema
+        </button>
+      </div>
+    </div>
+
+    <div v-else class="mx-auto px-4 py-8 sm:px-6 lg:px-8">
       <div class="mx-auto px-4 py-8 sm:px-6 lg:px-8">
+        <h1 class="block w-full text-brown-800 text-center text-lg bold py-2 uppercase">Bienvenido!,<span class="block w-full font-bold">{{ formData.mercaderista }}</span></h1>
         <div class="bg-white rounded-xl shadow-2xl overflow-hidden" style="border: 2px solid #ebbe1c">
           <!-- Encabezado formulario -->
           <div class="px-8 py-6 border-b-2" style="border-color: #e89e16">
@@ -208,6 +264,18 @@
               ></span>
             </button>
           </div>
+        </div>
+
+        <!-- Botón de Cerrar Sesión -->
+        <div class="text-center my-4">
+            <button
+              @click="handleLogout"
+              class="px-4 py-2 rounded-lg font-medium hover:bg-opacity-90 transition-colors"
+              style="background: #d43123; color: white; cursor: pointer; "
+            >
+              Cerrar Sesión - {{ formData.mercaderista }}
+            </button>
+          </div>
 
           <!-- Notificación Toast -->
           <transition name="slide-fade">
@@ -241,6 +309,17 @@
 export default {
   data() {
     return {
+      isLoggedIn: false,
+      searchQuery: '',
+      showSuggestions: false,
+      selectedMercaderista: null,
+      mercadistas: [
+        { id: 1, nombre: 'María González', codigo: 'M001' },
+        { id: 2, nombre: 'Carlos Rodríguez', codigo: 'M002' },
+        { id: 3, nombre: 'Ana Fernández', codigo: 'M003' },
+        { id: 4, nombre: 'Luis Pérez', codigo: 'M004' },
+        { id: 5, nombre: 'Laura Sánchez', codigo: 'M005' }
+      ],
       formData: {
         fecha: new Date().toISOString().split("T")[0],
         cliente: "",
@@ -504,7 +583,32 @@ export default {
       ],
     };
   },
+  computed: {
+    filteredMercadistas() {
+      return this.mercadistas.filter(m => 
+        m.nombre.toLowerCase().includes(this.searchQuery.toLowerCase()) ||
+        m.codigo.toLowerCase().includes(this.searchQuery.toLowerCase())
+      )
+    }
+  },
   methods: {
+    selectMercaderista(mercaderista) {
+      this.selectedMercaderista = mercaderista
+      this.searchQuery = mercaderista.nombre
+      this.showSuggestions = false
+    },
+    handleLogin() {
+      if (this.selectedMercaderista) {
+        this.isLoggedIn = true
+        this.formData.mercaderista = this.selectedMercaderista.nombre
+      }
+    },
+    handleLogout() {
+      this.isLoggedIn = false
+      this.searchQuery = ''
+      this.selectedMercaderista = null
+      // Restablecer otros datos del formulario si es necesario
+    },
     agregarProducto() {
       if (this.selectedProduct) {
         this.productosAgregados.push({ ...this.selectedProduct });
@@ -546,7 +650,7 @@ export default {
       const url = URL.createObjectURL(blob);
 
       link.setAttribute("href", url);
-      link.setAttribute('download', `Registro_${this.formData.cliente}_${new Date().toISOString().slice(0,10)}.csv`);
+      link.setAttribute('download', `Registro_${this.formData.mercaderista}_${new Date().toISOString().slice(0,10)}.csv`);
       link.style.visibility = "hidden";
       document.body.appendChild(link);
       link.click();
