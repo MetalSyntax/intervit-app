@@ -106,17 +106,6 @@
                 >
               </div>
 
-              <!--<div>
-                <label class="block text-sm font-medium mb-2" style="color: #4e4e4d">Nombre del Cliente</label>
-                <input
-                  type="text"
-                  v-model="formData.cliente"
-                  class="w-full px-4 py-3 rounded-lg border-2 focus:ring-2 focus:outline-none transition-all"
-                  :style="{ 'border-color': '#ebbe1c', 'focus:border-color': '#e89e16', 'focus:ring-color': '#ebbe1c40' }"
-                  placeholder="Ingrese nombre completo"
-                >
-              </div>-->
-
                 <!-- Campo para Nombre del Cliente -->
                 <div class="relative">
                   <div>
@@ -216,26 +205,7 @@
                   <span style="color: #e89e16">▶</span> Selección de Productos
                 </h3>
 
-                <!-- Detalles del producto seleccionado 
-                <div v-if="selectedProduct" class="mb-6 p-4 rounded-lg bg-gray-50 border-2" style="border-color: #ebbe1c">
-                  <div class="grid grid-cols-3 gap-4 text-sm">
-                    <div>
-                      <p class="font-medium" style="color: #4e4e4d">codigo:</p>
-                      <p style="color: #e89e16">{{ selectedProduct.codigo }}</p>
-                    </div>
-                    <div>
-                      <p class="font-medium" style="color: #4e4e4d">descripcion:</p>
-                      <p style="color: #4e4e4d">{{ selectedProduct.descripcion }}</p>
-                    </div>
-                    <div>
-                      <p class="font-medium" style="color: #4e4e4d">linea:</p>
-                      <p style="color: #4e4e4d">{{ selectedProduct.linea }}</p>
-                    </div>
-                  </div>
-                </div> -->
-
                 <!-- Selector de Productos mejorado -->
-                 
                   <div class="relative">
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div>
@@ -1042,7 +1012,6 @@ export default {
       this.isLoggedIn = false
       this.searchQuery = ''
       this.selectedMercaderista = null
-      // Restablecer otros datos del formulario si es necesario
     },
     agregarProducto() {
       if (this.selectedProduct) {
