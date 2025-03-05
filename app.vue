@@ -940,14 +940,12 @@ export default {
   computed: {
     filteredMercadistas() {
       return this.mercadistas.filter(m => 
-        m.nombre.toLowerCase().includes(this.searchQuery.toLowerCase()) ||
-        m.codigo.toLowerCase().includes(this.searchQuery.toLowerCase())
+        m.nombre.toLowerCase().includes(this.searchQuery.toLowerCase())
       )
     },
     filteredClients() {
       return this.clientes.filter(client => 
-        client.nombre.toLowerCase().includes(this.clientQuery.toLowerCase()) ||
-        client.codigo.toLowerCase().includes(this.clientQuery.toLowerCase())
+        client.nombre.toLowerCase().includes(this.clientQuery.toLowerCase())
       )
     },
     filteredProducts() {
