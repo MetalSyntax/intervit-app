@@ -115,7 +115,7 @@
                       v-model="clientQuery"
                       @input="showClientSuggestions = true"
                       @focus="showClientSuggestions = true"
-                      @blur="setTimeout(() => { showClientSuggestions = false }, 200)"
+                      @blur="showClientSuggestions = false"
                       class="w-full px-4 py-3 rounded-lg border-2 focus:ring-2 focus:outline-none transition-all"
                       :style="{ 'border-color': '#ebbe1c', 'focus:border-color': '#e89e16', 'focus:ring-color': '#ebbe1c40' }"
                       placeholder="Buscar o seleccionar cliente"
@@ -215,7 +215,7 @@
                         v-model="productQuery"
                         @input="showProductSuggestions = true"
                         @focus="showProductSuggestions = true"
-                        @blur="setTimeout(() => { showProductSuggestions = false }, 200)"
+                        @blur="showProductSuggestions = false"
                         class="w-full px-4 py-3 rounded-lg border-2 focus:ring-2 focus:outline-none transition-all"
                         :style="{ 
                           'border-color': '#ebbe1c',
@@ -230,7 +230,7 @@
                       <button 
                         v-if="productQuery"
                         @click="clearProductQuery"
-                        class="relative justify-end text-gray-500 hover:text-gray-700"
+                        class="relative place-self-end -top-10 right-2 text-gray-500 hover:text-gray-700"
                       >✕</button>
                     </div>
                     <!-- Cantidad en Inventario -->
@@ -274,11 +274,11 @@
                 <button
                   @click="agregarProducto"
                   class="mt-4 px-6 py-3 rounded-lg font-semibold hover:scale-105 transition-transform"
-                  :disabled="!selectedProduct"
+                  :disabled="selectedProduct.cantidad == 0"
                   :style="{ 
-                    'background': selectedProduct ? '#e89e16' : '#ebbe1c60',
+                    'background': selectedProduct.cantidad == 0 ?'#ebbe1c60' : '#e89e16',
                     'color': 'white',
-                    'cursor': selectedProduct ? 'pointer' : 'not-allowed'
+                    'cursor': selectedProduct.cantidad == 0 ? 'not-allowed' : 'pointer'  
                   }"
                 >
                   ➕ Agregar Producto
