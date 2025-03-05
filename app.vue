@@ -18,13 +18,13 @@
         <!-- Pantalla de Login -->
     <div v-if="!isLoggedIn" class="min-h-screen flex items-center justify-center px-4" style="background: #4e4e4d">
       <div class="w-full max-w-md bg-white rounded-xl shadow-2xl p-8 space-y-6">
-        <!-- Logo -->
+        <!-- Logo 
         <div class="text-center">
           <img src="assets/img/logo-intervit.png" class="w-48 mx-auto" alt="Logo Intervit">
-        </div>
+        </div> -->
 
         <!-- Selector de Mercaderista -->
-        <div class="relative">
+        <div class="relative mb-6">
           <label class="block text-sm font-medium mb-2" style="color: #4e4e4d">Mercaderista</label>
           <input
             type="text"
@@ -230,8 +230,11 @@
                       <button 
                         v-if="productQuery"
                         @click="clearProductQuery"
-                        class="relative place-self-end -top-10 right-2 text-gray-500 hover:text-gray-700"
-                      >✕</button>
+                        class="absolute place-self-end top-10 text-gray-500 hover:text-gray-700"
+                        :class="{'right-[calc(50%+20px)]': !isMobile, 'right-[calc(0%+20px)]': isMobile}"
+                      >
+                        ✕
+                      </button>
                     </div>
                     <!-- Cantidad en Inventario -->
                     <div>
@@ -954,6 +957,9 @@ export default {
         product.descripcion.toLowerCase().includes(this.productQuery.toLowerCase()) ||
         product.linea.toLowerCase().includes(this.productQuery.toLowerCase())
       )
+    },
+    isMobile() {
+      return window.innerWidth <= 768;
     }
   },
   methods: {
