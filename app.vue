@@ -373,7 +373,7 @@
                     <!-- Sugerencias de productos -->
                     <div
                       v-if="showProductSuggestions"
-                      class="absolute z-10 w-1/2 mt-1 top-20 bg-white border-2 rounded-lg shadow-lg max-h-60 overflow-auto"
+                      class="absolute z-10 w-full lg:w-1/2  mt-1 top-20 bg-white border-2 rounded-lg shadow-lg max-h-60 overflow-auto"
                       style="border-color: #ebbe1c"
                     >
                       <ul class="divide-y divide-gray-200">
