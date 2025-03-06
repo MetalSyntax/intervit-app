@@ -1318,6 +1318,17 @@ export default {
     eliminarProducto(index) {
       this.productosAgregados.splice(index, 1);
     },
+    getFormattedDateTime() {
+      const date = new Date();
+      return date.toLocaleString('en-US', {
+        year: 'numeric',
+        month: '2-digit',
+        day: '2-digit',
+        hour: '2-digit',
+        minute: '2-digit',
+        hour12: true
+      }).replace(/,/g, '_').replace(/:/g,'-');
+    },
     guardarCSV() {
       const csvContent = [
         [
@@ -1358,9 +1369,7 @@ export default {
       link.setAttribute("href", url);
       link.setAttribute(
         "download",
-        `Registro_${this.formData.mercaderista}_${new Date()
-          .toISOString()
-          .slice(0, 10)}.csv`
+        `Registro_${this.formData.mercaderista}_${this.getFormattedDateTime()}.csv`
       );
       link.style.visibility = "hidden";
       document.body.appendChild(link);
