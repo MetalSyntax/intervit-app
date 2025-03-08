@@ -1327,7 +1327,7 @@ export default {
         hour: '2-digit',
         minute: '2-digit',
         hour12: true
-      }).replace(/,/g, '_').replace(/:/g,'-');
+      }).replace(/,/g, '').replace(/:/g,'-');
     },
     guardarCSV() {
       const csvContent = [
@@ -1345,7 +1345,7 @@ export default {
           "Numero de Caras Competencia"
         ],
         ...this.productosAgregados.map((product) => [
-          this.formData.fecha,
+          this.getFormattedDateTime(),
           this.formData.cliente,
           this.formData.mercaderista,
           this.formData.frecuencia,
