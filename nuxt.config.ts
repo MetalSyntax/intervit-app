@@ -1,10 +1,21 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 import tailwindcss from "@tailwindcss/vite";
+import process from 'node:process'
+
+const sw = process.env.SW === 'true'
 
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
+
+  app: {
+    head: {
+      link: [
+        { rel: 'icon', type: 'image/png', href: 'logo.png' }
+      ]
+    }
+  }, 
 
   vite: {
     plugins: [
@@ -15,7 +26,9 @@ export default defineNuxtConfig({
   modules: ['@vite-pwa/nuxt'],
 
   pwa: {
-    strategies: 'generateSW',
+    strategies: sw ? 'injectManifest' : 'generateSW',
+    srcDir: sw ? 'service-worker' : undefined,
+    filename: sw ? 'sw.ts' : undefined,
     registerType: 'autoUpdate',
     manifest: {
       name: 'Nuxt Vite PWA',
