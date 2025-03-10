@@ -31,8 +31,8 @@ export default defineNuxtConfig({
     filename: sw ? 'sw.ts' : undefined,
     registerType: 'autoUpdate',
     manifest: {
-      name: 'Nuxt Vite PWA',
-      short_name: 'NuxtVitePWA',
+      name: 'Intervit App',
+      short_name: 'IntervitApp',
       theme_color: '#ffffff',
       icons: [
         {
