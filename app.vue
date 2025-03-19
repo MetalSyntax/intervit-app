@@ -368,12 +368,115 @@
                           placeholder="N Caras Competencia"
                         />
                       </div>
+
+                      <!-- $ PRECIO INTERVIT -->
+                      <div>
+                        <label
+                          class="block text-sm font-medium mb-2"
+                          style="color: #4e4e4d"
+                          >Precio Intervit (USD)</label
+                        >
+                        <input
+                          type="number"
+                          v-model.number="selectedProduct.precioIntervit"
+                          @input="updatePrecioIntervit"
+                          class="w-full px-4 py-3 rounded-lg border-2 text-center"
+                          style="border-color: #ebbe1c"
+                          placeholder="$ Precio Intervit"
+                        />
+                      </div>
+
+                      <!-- PRESENCIA -->
+                      <div>
+                        <label
+                          class="block text-sm font-medium mb-2"
+                          style="color: #4e4e4d"
+                          >Presencia en Punto de Venta</label
+                        >
+                        <select
+                          v-model="selectedProduct.presencia"
+                          @change="updatePresencia"
+                          class="w-full px-4 py-3 rounded-lg border-2 text-center"
+                          style="border-color: #ebbe1c"
+                        >
+                          <option value="">Seleccione</option>
+                          <option value="Si">Sí</option>
+                          <option value="No">No</option>
+                        </select>
+                      </div>
+
+                      <!-- LOTE -->
+                      <div>
+                        <label
+                          class="block text-sm font-medium mb-2"
+                          style="color: #4e4e4d"
+                          >Número de Lote</label
+                        >
+                        <input
+                          type="number"
+                          v-model.number="selectedProduct.lote"
+                          @input="updateLote"
+                          class="w-full px-4 py-3 rounded-lg border-2 text-center"
+                          style="border-color: #ebbe1c"
+                          placeholder="Número de Lote"
+                        />
+                      </div>
+
+                      <!-- FECHA DE VENCIMIENTO -->
+                      <div>
+                        <label
+                          class="block text-sm font-medium mb-2"
+                          style="color: #4e4e4d"
+                          >Fecha de Vencimiento</label
+                        >
+                        <input
+                          type="date"
+                          v-model="selectedProduct.fechaVencimiento"
+                          @input="updateFechaVencimiento"
+                          class="w-full px-4 py-3 rounded-lg border-2 text-center"
+                          style="border-color: #ebbe1c"
+                        />
+                      </div>
+
+                      <!-- PRODUCTO DE LA COMPETENCIA -->
+                      <div>
+                        <label
+                          class="block text-sm font-medium mb-2"
+                          style="color: #4e4e4d"
+                          >Producto Competencia</label
+                        >
+                        <input
+                          type="text"
+                          v-model="selectedProduct.productoCompetencia"
+                          @input="updateProductoCompetencia"
+                          class="w-full px-4 py-3 rounded-lg border-2"
+                          style="border-color: #ebbe1c"
+                          placeholder="Nombre del producto"
+                        />
+                      </div>
+
+                      <!-- $ PRECIO DE LA COMPETENCIA -->
+                      <div>
+                        <label
+                          class="block text-sm font-medium mb-2"
+                          style="color: #4e4e4d"
+                          >Precio Competencia (USD)</label
+                        >
+                        <input
+                          type="number"
+                          v-model.number="selectedProduct.precioCompetencia"
+                          @input="updatePrecioCompetencia"
+                          class="w-full px-4 py-3 rounded-lg border-2 text-center"
+                          style="border-color: #ebbe1c"
+                          placeholder="$ Precio Competencia"
+                        />
+                      </div>
                     </div>
 
                     <!-- Sugerencias de productos -->
                     <div
                       v-if="showProductSuggestions"
-                      class="absolute z-10 w-full lg:w-1/2  mt-1 top-20 bg-white border-2 rounded-lg shadow-lg max-h-60 overflow-auto"
+                      class="absolute z-10 w-full lg:w-1/2 mt-1 top-20 bg-white border-2 rounded-lg shadow-lg max-h-60 overflow-auto"
                       style="border-color: #ebbe1c"
                     >
                       <ul class="divide-y divide-gray-200">
@@ -440,29 +543,24 @@
                       class="flex items-center justify-between p-4 rounded-lg border-2 hover:shadow-md transition-all"
                       style="border-color: #ebbe1c"
                     >
-                      <div class="flex-1">
-                        <p class="font-medium" style="color: #4e4e4d">
-                          {{ product.descripcion }}
-                        </p>
-                        <div class="text-sm mt-1 space-x-4">
-                          <span style="color: #e89e16">{{
-                            product.codigo
-                          }}</span>
-                          <span style="color: #4e4e4d80">{{
-                            product.linea
-                          }}</span>
-                          <span style="color: #4e4e4d"
-                            >Qt. {{ product.cantidad }}</span
-                          >
-                          <span style="color: #4e4e4d"
-                            >N.Caras Intervit {{ product.carasIntervit }}</span
-                          >
-                          <span style="color: #4e4e4d"
-                            >N.Caras Competencia
-                            {{ product.carasCompetencia }}</span
-                          >
-                        </div>
+                    <div class="flex-1">
+                      <p class="font-medium" style="color: #4e4e4d">
+                        {{ product.descripcion }}
+                      </p>
+                      <div class="text-sm mt-1 space-x-4">
+                        <span style="color: #e89e16">{{ product.codigo }}</span>
+                        <span style="color: #4e4e4d80">{{ product.linea }}</span>
+                        <span style="color: #4e4e4d">Qt. {{ product.cantidad }}</span>
+                        <span style="color: #4e4e4d">N.Caras Intervit {{ product.carasIntervit }}</span>
+                        <span style="color: #4e4e4d">N.Caras Competencia {{ product.carasCompetencia }}</span>
+                        <span style="color: #4e4e4d">$P. Intervit {{ product.precioIntervit }}</span>
+                        <span style="color: #4e4e4d">Presencia: {{ product.presencia }}</span>
+                        <span style="color: #4e4e4d">Lote: {{ product.lote }}</span>
+                        <span style="color: #4e4e4d">Vence: {{ product.fechaVencimiento }}</span>
+                        <span style="color: #4e4e4d">Comp.: {{ product.productoCompetencia }}</span>
+                        <span style="color: #4e4e4d">$P. Comp. {{ product.precioCompetencia }}</span>
                       </div>
+                    </div>
                       <button
                         @click="eliminarProducto(index)"
                         class="ml-4 px-3 py-1 rounded-md hover:bg-opacity-20 transition-colors cursor-pointer"
@@ -802,6 +900,12 @@ export default {
         cantidad: 0,
         carasIntervit: 0,
         carasCompetencia: 0,
+        precioIntervit: 0, 
+        presencia: "", 
+        lote: 0, 
+        fechaVencimiento: "", 
+        productoCompetencia: "", 
+        precioCompetencia: 0, 
       },
       mercadistas: [
         { id: 1, nombre: "JESUS GRANADOS" },
@@ -821,12 +925,13 @@ export default {
       productosAgregados: [],
       regionesVenezuela: [
         "Capital",
-        "Central",
-        "Los Llanos",
-        "Andina",
-        "Zuliana",
-        "Sur",
+        //"Central",
+        //"Los Llanos",
+        //"Andina",
+        //"Zuliana",
+        //"Sur",
         "Oriente",
+        "Barquisimeto",
       ],
       productos: [
         {
@@ -1245,6 +1350,12 @@ export default {
         cantidad: 0,
         carasIntervit: 0,
         carasCompetencia: 0,
+        precioIntervit: 0, 
+        presencia: "", 
+        lote: 0, 
+        fechaVencimiento: "", 
+        productoCompetencia: "", 
+        precioCompetencia: 0, 
       };
       this.showProductSuggestions = false;
     },
@@ -1309,8 +1420,12 @@ export default {
           cantidad: 0,
           carasIntervit: 0,
           carasCompetencia: 0,
-          carasIntervit: 0,
-          carasCompetencia: 0,
+          precioIntervit: 0, 
+          presencia: "", 
+          lote: 0, 
+          fechaVencimiento: "", 
+          productoCompetencia: "", 
+          precioCompetencia: 0, 
         };
         this.productQuery = "";
       }
@@ -1320,14 +1435,17 @@ export default {
     },
     getFormattedDateTime() {
       const date = new Date();
-      return date.toLocaleString('en-US', {
-        year: 'numeric',
-        month: '2-digit',
-        day: '2-digit',
-        hour: '2-digit',
-        minute: '2-digit',
-        hour12: true
-      }).replace(/,/g, '').replace(/:/g,'-');
+      return date
+        .toLocaleString("en-US", {
+          year: "numeric",
+          month: "2-digit",
+          day: "2-digit",
+          hour: "2-digit",
+          minute: "2-digit",
+          hour12: true,
+        })
+        .replace(/,/g, "")
+        .replace(/:/g, "-");
     },
     guardarCSV() {
       const csvContent = [
@@ -1342,7 +1460,13 @@ export default {
           "Linea",
           "Cantidad",
           "Numero de Caras Intervit",
-          "Numero de Caras Competencia"
+          "Numero de Caras Competencia",
+          "Precio Intervit", 
+          "presencia", 
+          "lote", 
+          "Fecha Vencimiento", 
+          "Producto Competencia", 
+          "Precio Competencia",
         ],
         ...this.productosAgregados.map((product) => [
           this.getFormattedDateTime(),
@@ -1356,6 +1480,12 @@ export default {
           product.cantidad,
           product.carasIntervit,
           product.carasCompetencia,
+          product.precioIntervit, 
+          product.presencia,
+          product.lote,
+          product.fechaVencimiento,
+          product.productoCompetencia,
+          product.precioCompetencia,
         ]),
       ]
         .map((row) => row.join(","))
@@ -1369,7 +1499,9 @@ export default {
       link.setAttribute("href", url);
       link.setAttribute(
         "download",
-        `Registro_${this.formData.mercaderista}_${this.getFormattedDateTime()}.csv`
+        `Registro_${
+          this.formData.mercaderista
+        }_${this.getFormattedDateTime()}.csv`
       );
       link.style.visibility = "hidden";
       document.body.appendChild(link);
