@@ -120,7 +120,7 @@
             </div>
 
             <!-- Cuerpo del formulario -->
-            <div class="px-8 py-6 space-y-6">
+            <div class="lg:px-8 lg:py-6 p-4 space-y-6">
               <!-- Sección de datos básicos -->
               <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
@@ -276,7 +276,7 @@
 
                   <!-- Selector de Productos mejorado -->
                   <div class="relative">
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    
                       <div>
                         <label
                           class="block text-sm font-medium mb-2"
@@ -318,12 +318,14 @@
                           ✕
                         </button>
                       </div>
+
+                      <div class="grid grid-cols-2 gap-6 pt-4 items-end">
                       <!-- Cantidad en Inventario -->
                       <div>
                         <label
                           class="block text-sm font-medium mb-2"
                           style="color: #4e4e4d"
-                          >Ingrese la cantidad de productos en el
+                          >Cantidad de productos en el
                           inventario</label
                         >
                         <input
@@ -340,7 +342,7 @@
                         <label
                           class="block text-sm font-medium mb-2"
                           style="color: #4e4e4d"
-                          >Ingrese el número de caras de Intervit</label
+                          >Número de caras de Intervit</label
                         >
                         <input
                           type="number"
@@ -357,7 +359,7 @@
                         <label
                           class="block text-sm font-medium mb-2"
                           style="color: #4e4e4d"
-                          >Ingrese el número de caras de Competencia</label
+                          >Número de caras de Competencia</label
                         >
                         <input
                           type="number"
@@ -540,7 +542,7 @@
                     <li
                       v-for="(product, index) in productosAgregados"
                       :key="index"
-                      class="flex items-center justify-between p-4 rounded-lg border-2 hover:shadow-md transition-all"
+                      class="flex flex-wrap items-center justify-between p-4 rounded-lg border-2 hover:shadow-md transition-all"
                       style="border-color: #ebbe1c"
                     >
                     <div class="flex-1">
@@ -563,7 +565,7 @@
                     </div>
                       <button
                         @click="eliminarProducto(index)"
-                        class="ml-4 px-3 py-1 rounded-md hover:bg-opacity-20 transition-colors cursor-pointer"
+                        class="lg:ml-4 px-3 py-1 rounded-md hover:bg-opacity-20 transition-colors cursor-pointer"
                         style="background: #d4312340; color: #d43123"
                       >
                         ✕ Eliminar
