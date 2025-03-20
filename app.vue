@@ -276,57 +276,86 @@
 
                   <!-- Selector de Productos mejorado -->
                   <div class="relative">
-                    
-                      <div>
-                        <label
-                          class="block text-sm font-medium mb-2"
-                          style="color: #4e4e4d"
-                          >Seleccionar Producto</label
-                        >
-                        <input
-                          type="text"
-                          v-model="productQuery"
-                          @input="showProductSuggestions = true"
-                          @focus="showProductSuggestions = true"
-                          @blur="showProductSuggestions = false"
-                          class="w-full px-4 py-3 rounded-lg border-2 focus:ring-2 focus:outline-none transition-all"
-                          :style="{
-                            'border-color': '#ebbe1c',
-                            'focus:border-color': '#e89e16',
-                            'focus:ring-color': '#ebbe1c40',
-                          }"
-                          placeholder="Buscar producto por codigo o nombre"
-                        />
-                        <div class="relative place-self-end -top-10 right-2">
-                          <button
-                            v-if="showProductSuggestions"
-                            @click="closeProductSuggestions"
-                            class="text-gray-500 hover:text-gray-700"
-                          >
-                            Cerrar
-                          </button>
-                        </div>
+                    <div>
+                      <label
+                        class="block text-sm font-medium mb-2"
+                        style="color: #4e4e4d"
+                        >Seleccionar Producto</label
+                      >
+                      <input
+                        type="text"
+                        v-model="productQuery"
+                        @input="showProductSuggestions = true"
+                        @focus="showProductSuggestions = true"
+                        @blur="showProductSuggestions = false"
+                        class="w-full px-4 py-3 rounded-lg border-2 focus:ring-2 focus:outline-none transition-all"
+                        :style="{
+                          'border-color': '#ebbe1c',
+                          'focus:border-color': '#e89e16',
+                          'focus:ring-color': '#ebbe1c40',
+                        }"
+                        placeholder="Buscar producto por codigo o nombre"
+                      />
+                      <div class="relative place-self-end -top-10 right-2">
                         <button
-                          v-if="productQuery"
-                          @click="clearProductQuery"
-                          class="absolute place-self-end top-10 text-gray-500 hover:text-gray-700"
-                          :class="{
-                            'right-[calc(50%+20px)]': !isMobile,
-                            'right-[calc(0%+20px)]': isMobile,
-                          }"
+                          v-if="showProductSuggestions"
+                          @click="closeProductSuggestions"
+                          class="text-gray-500 hover:text-gray-700"
                         >
-                          ✕
+                          Cerrar
                         </button>
                       </div>
+                      <button
+                        v-if="productQuery"
+                        @click="clearProductQuery"
+                        class="absolute place-self-end top-10 text-gray-500 hover:text-gray-700"
+                        :class="{
+                          'right-[calc(50%+20px)]': !isMobile,
+                          'right-[calc(0%+20px)]': isMobile,
+                        }"
+                      >
+                        ✕
+                      </button>
+                    </div>
 
-                      <div class="grid grid-cols-2 gap-6 pt-4 items-end">
+                    <!-- Sugerencias de productos -->
+                    <div
+                      v-if="showProductSuggestions"
+                      class="absolute z-10 w-full mt-1 top-20 bg-white border-2 rounded-lg shadow-lg max-h-60 overflow-auto"
+                      style="border-color: #ebbe1c"
+                    >
+                      <ul class="divide-y divide-gray-200">
+                        <li
+                          v-for="product in filteredProducts"
+                          :key="product.codigo"
+                          @mousedown="selectProduct(product)"
+                          class="px-4 py-3 hover:bg-gray-50 cursor-pointer transition-colors"
+                          style="color: #4e4e4d"
+                        >
+                          <span style="color: #e89e16">{{
+                            product.codigo
+                          }}</span>
+                          - {{ product.descripcion }}
+                          <div class="text-sm mt-1" style="color: #4e4e4d80">
+                            {{ product.linea }}
+                          </div>
+                        </li>
+                        <li
+                          v-if="filteredProducts.length === 0"
+                          class="px-4 py-3 text-gray-400"
+                        >
+                          No se encontraron productos
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div class="grid grid-cols-2 gap-6 pt-4 items-end">
                       <!-- Cantidad en Inventario -->
                       <div>
                         <label
                           class="block text-sm font-medium mb-2"
                           style="color: #4e4e4d"
-                          >Cantidad de productos en el
-                          inventario</label
+                          >Cantidad de productos en el inventario</label
                         >
                         <input
                           type="number"
@@ -445,16 +474,90 @@
                         <label
                           class="block text-sm font-medium mb-2"
                           style="color: #4e4e4d"
-                          >Producto Competencia</label
                         >
+                          Producto de la Competencia
+                        </label>
+
+                        <!-- Input de búsqueda -->
                         <input
                           type="text"
-                          v-model="selectedProduct.productoCompetencia"
-                          @input="updateProductoCompetencia"
-                          class="w-full px-4 py-3 rounded-lg border-2"
-                          style="border-color: #ebbe1c"
-                          placeholder="Nombre del producto"
+                          v-model="productoCompetenciaQuery"
+                          @input="showProductCompetencieSuggestions = true"
+                          @focus="showProductCompetencieSuggestions = true"
+                          class="w-full px-4 py-3 rounded-lg border-2 focus:ring-2 focus:outline-none transition-all pr-10"
+                          :style="{
+                            'border-color': '#ebbe1c',
+                            'focus:border-color': '#e89e16',
+                            'focus:ring-color': '#ebbe1c40',
+                          }"
+                          placeholder="Buscar o seleccionar producto"
                         />
+
+                        <!-- Botón de limpiar -->
+                        <div class="relative">
+                        <button
+                          v-if="
+                            productoCompetenciaQuery ||
+                            selectedProduct.productoCompetencia
+                          "
+                          @mousedown.prevent="clearProductSearch"
+                          class="absolute right-3 top-[-25px] transform -translate-y-1/2 text-gray-500 hover:text-gray-700 focus:outline-none"
+                        >
+                          ✕
+                        </button>
+                      </div>
+
+                        <!-- Lista de sugerencias -->
+                        <div
+                          v-show="
+                            showProductCompetencieSuggestions &&
+                            filteredProductosCompetencia.length
+                          "
+                          class="absolute z-10 w-full mt-1 bg-white rounded-lg shadow-lg border-2"
+                          style="
+                            border-color: #ebbe1c;
+                            max-height: 200px;
+                            overflow-y: auto;
+                          "
+                        >
+                          <ul>
+                            <li
+                              v-for="producto in filteredProductosCompetencia"
+                              :key="producto.id"
+                              @mousedown.prevent="
+                                selectProductCompetencie(producto)
+                              "
+                              class="px-4 py-2 hover:bg-yellow-50 cursor-pointer transition-colors"
+                              :style="{ color: '#4e4e4d' }"
+                            >
+                              {{ producto.nombre }}
+                            </li>
+                            <li
+                              v-if="filteredProductosCompetencia.length === 0"
+                              class="px-4 py-3 text-gray-400"
+                            >
+                              No se encontraron productos
+                            </li>
+                          </ul>
+                        </div>
+
+                        <!-- Botón de cerrar -->
+                        <div
+                          v-if="
+                            showProductCompetencieSuggestions &&
+                            filteredProductosCompetencia.length
+                          "
+                          class="relative transform -translate-y-1/2"
+                        >
+                          <button
+                            @mousedown.prevent="
+                              showProductCompetencieSuggestions = false
+                            "
+                            class="absolute top-[-35px] right-2 text-gray-500 hover:text-gray-700 text-sm focus:outline-none"
+                          >
+                            Cerrar
+                          </button>
+                        </div>
                       </div>
 
                       <!-- $ PRECIO DE LA COMPETENCIA -->
@@ -473,37 +576,6 @@
                           placeholder="$ Precio Competencia"
                         />
                       </div>
-                    </div>
-
-                    <!-- Sugerencias de productos -->
-                    <div
-                      v-if="showProductSuggestions"
-                      class="absolute z-10 w-full lg:w-1/2 mt-1 top-20 bg-white border-2 rounded-lg shadow-lg max-h-60 overflow-auto"
-                      style="border-color: #ebbe1c"
-                    >
-                      <ul class="divide-y divide-gray-200">
-                        <li
-                          v-for="product in filteredProducts"
-                          :key="product.codigo"
-                          @mousedown="selectProduct(product)"
-                          class="px-4 py-3 hover:bg-gray-50 cursor-pointer transition-colors"
-                          style="color: #4e4e4d"
-                        >
-                          <span style="color: #e89e16">{{
-                            product.codigo
-                          }}</span>
-                          - {{ product.descripcion }}
-                          <div class="text-sm mt-1" style="color: #4e4e4d80">
-                            {{ product.linea }}
-                          </div>
-                        </li>
-                        <li
-                          v-if="filteredProducts.length === 0"
-                          class="px-4 py-3 text-gray-400"
-                        >
-                          No se encontraron productos
-                        </li>
-                      </ul>
                     </div>
                   </div>
 
@@ -542,30 +614,79 @@
                     <li
                       v-for="(product, index) in productosAgregados"
                       :key="index"
-                      class="flex flex-wrap items-center justify-between p-4 rounded-lg border-2 hover:shadow-md transition-all"
+                      class="flex flex-wrap space-x-4 items-center justify-between p-4 rounded-lg border-2 hover:shadow-md transition-all"
                       style="border-color: #ebbe1c"
                     >
-                    <div class="flex-1">
-                      <p class="font-medium" style="color: #4e4e4d">
-                        {{ product.descripcion }}
-                      </p>
-                      <div class="text-sm mt-1 space-x-4">
-                        <span style="color: #e89e16">{{ product.codigo }}</span>
-                        <span style="color: #4e4e4d80">{{ product.linea }}</span>
-                        <span style="color: #4e4e4d">Qt. {{ product.cantidad }}</span>
-                        <span style="color: #4e4e4d">N.Caras Intervit {{ product.carasIntervit }}</span>
-                        <span style="color: #4e4e4d">N.Caras Competencia {{ product.carasCompetencia }}</span>
-                        <span style="color: #4e4e4d">$P. Intervit {{ product.precioIntervit }}</span>
-                        <span style="color: #4e4e4d">Presencia: {{ product.presencia }}</span>
-                        <span style="color: #4e4e4d">Lote: {{ product.lote }}</span>
-                        <span style="color: #4e4e4d">Vence: {{ product.fechaVencimiento }}</span>
-                        <span style="color: #4e4e4d">Comp.: {{ product.productoCompetencia }}</span>
-                        <span style="color: #4e4e4d">$P. Comp. {{ product.precioCompetencia }}</span>
+                      <div class="w-full">
+                        <p class="font-medium" style="color: #4e4e4d">
+                          {{ product.descripcion }}
+                        </p>
+                        <div class="text-sm mt-1 space-x-4">
+                          <span style="color: #e89e16">{{
+                            product.codigo
+                          }}</span>
+                          <span style="color: #4e4e4d80">{{
+                            product.linea
+                          }}</span>
+                          <span style="color: #4e4e4d"
+                            >Qt.
+                            <span style="color: #e89e16">{{
+                              product.cantidad
+                            }}</span></span
+                          >
+                          <span style="color: #4e4e4d"
+                            >N.Caras Intervit:
+                            <span style="color: #e89e16">{{
+                              product.carasIntervit
+                            }}</span></span
+                          >
+                          <span style="color: #4e4e4d"
+                            >N.Caras Competencia:
+                            <span style="color: #e89e16">{{
+                              product.carasCompetencia
+                            }}</span></span
+                          >
+                          <span style="color: #4e4e4d"
+                            >$P. Intervit:
+                            <span style="color: #e89e16">{{
+                              product.precioIntervit
+                            }}</span></span
+                          >
+                          <span style="color: #4e4e4d"
+                            >Presencia:
+                            <span style="color: #e89e16">{{
+                              product.presencia
+                            }}</span></span
+                          >
+                          <span style="color: #4e4e4d"
+                            >Lote:
+                            <span style="color: #e89e16">{{
+                              product.lote
+                            }}</span></span
+                          >
+                          <span style="color: #4e4e4d"
+                            >Vence:
+                            <span style="color: #e89e16">{{
+                              product.fechaVencimiento
+                            }}</span></span
+                          >
+                          <span style="color: #4e4e4d"
+                            >Comp.:
+                            <span style="color: #4e4e4d">{{
+                              product.productoCompetencia
+                            }}</span></span
+                          >
+                          <span style="color: #4e4e4d"
+                            >$P. Comp.
+                            <span style="color: #e89e16">{{
+                              product.precioCompetencia
+                            }}</span></span
+                          >
+                        </div>
                       </div>
-                    </div>
                       <button
                         @click="eliminarProducto(index)"
-                        class="lg:ml-4 px-3 py-1 rounded-md hover:bg-opacity-20 transition-colors cursor-pointer"
+                        class="w-1/2 lg:ml-4 px-3 my-2 mx-auto py-1 rounded-md hover:bg-opacity-20 transition-colors cursor-pointer"
                         style="background: #d4312340; color: #d43123"
                       >
                         ✕ Eliminar
@@ -902,12 +1023,12 @@ export default {
         cantidad: 0,
         carasIntervit: 0,
         carasCompetencia: 0,
-        precioIntervit: 0, 
-        presencia: "", 
-        lote: 0, 
-        fechaVencimiento: "", 
-        productoCompetencia: "", 
-        precioCompetencia: 0, 
+        precioIntervit: 0,
+        presencia: "",
+        lote: 0,
+        fechaVencimiento: "",
+        productoCompetencia: "",
+        precioCompetencia: 0,
       },
       mercadistas: [
         { id: 1, nombre: "JESUS GRANADOS" },
@@ -917,6 +1038,32 @@ export default {
         { id: 5, nombre: "MARIANNYS RAMIREZ" },
         { id: 6, nombre: "JESUS BARAJAS" },
       ],
+      productosCompetencia: [
+        { id: 1, nombre: "FC PHARMA COLOR GRIS" },
+        { id: 2, nombre: "FC PHARMA COLOR AMARILLO" },
+        { id: 3, nombre: "FC PHARMA COLOR AZUL" },
+        { id: 4, nombre: "BY COHER" },
+        { id: 5, nombre: "PROSALUD" },
+        { id: 6, nombre: "DULCILINA" },
+        { id: 7, nombre: "PURE EGG" },
+        { id: 8, nombre: "ACON PANTENE RESTAURACION" },
+        { id: 9, nombre: "ACON PANTENE 3 MINUTOS 170" },
+        { id: 10, nombre: "CREMA P PEINAR PANTENE 200G" },
+        { id: 11, nombre: "CREMA P PEINAR PANTENE 100G" },
+        { id: 12, nombre: "PANTENE PROV S/S RESTAURACION 400ML/MYSTIC" },
+        { id: 13, nombre: "PANTENE PROV S/S SHAMPOO 400ML" },
+        { id: 14, nombre: "ACONDICIONADOR S/S 400ML - PANTENE" },
+        { id: 15, nombre: "DERMO HUMECTANTE VITM E 400ML" },
+        { id: 16, nombre: "LOCION CORPORAL SECOS EVERY NIGHT 250G" },
+        { id: 17, nombre: "CRENA CORP EVERY NIGHT 4000ML" },
+        { id: 18, nombre: "DERMOX HUMECTANTE EVERY NIGHT 400" },
+        { id: 19, nombre: "DERMOX CREMA CORPORAL 350ML" },
+        { id: 20, nombre: "INTYLACT" },
+        { id: 21, nombre: "PERLAVIS FC PHARMA" },
+        { id: 22, nombre: "FC PHARMA AEROSOL/ DENCORUB" },
+      ],
+      productoCompetenciaQuery: "",
+      showProductCompetencieSuggestions: false,
       formData: {
         fecha: new Date().toISOString().split("T")[0],
         cliente: "",
@@ -1320,6 +1467,13 @@ export default {
           product.linea.toLowerCase().includes(this.productQuery.toLowerCase())
       );
     },
+    filteredProductosCompetencia() {
+      if (!this.productoCompetenciaQuery) return this.productosCompetencia;
+      const query = this.productoCompetenciaQuery.toLowerCase();
+      return this.productosCompetencia.filter((producto) =>
+        producto.nombre.toLowerCase().includes(query)
+      );
+    },
     isMobile() {
       return window.innerWidth <= 768;
     },
@@ -1334,6 +1488,11 @@ export default {
       this.selectedProduct = { ...product };
       this.productQuery = product.descripcion;
       this.showProductSuggestions = false;
+    },
+    selectProductCompetencie(producto) {
+      this.selectedProduct.productoCompetencia = producto.nombre;
+      this.productoCompetenciaQuery = producto.nombre;
+      this.showProductCompetencieSuggestions = false;
     },
     clearMercQuery() {
       this.searchQuery = "";
@@ -1352,14 +1511,19 @@ export default {
         cantidad: 0,
         carasIntervit: 0,
         carasCompetencia: 0,
-        precioIntervit: 0, 
-        presencia: "", 
-        lote: 0, 
-        fechaVencimiento: "", 
-        productoCompetencia: "", 
-        precioCompetencia: 0, 
+        precioIntervit: 0,
+        presencia: "",
+        lote: 0,
+        fechaVencimiento: "",
+        productoCompetencia: "",
+        precioCompetencia: 0,
       };
       this.showProductSuggestions = false;
+    },
+    clearProductSearch() {
+      this.productoCompetenciaQuery = "";
+      this.selectedProduct.productoCompetencia = "";
+      this.showProductCompetencieSuggestions = false;
     },
     closeMercSuggestions() {
       this.showSuggestions = false;
@@ -1422,14 +1586,15 @@ export default {
           cantidad: 0,
           carasIntervit: 0,
           carasCompetencia: 0,
-          precioIntervit: 0, 
-          presencia: "", 
-          lote: 0, 
-          fechaVencimiento: "", 
-          productoCompetencia: "", 
-          precioCompetencia: 0, 
+          precioIntervit: 0,
+          presencia: "",
+          lote: 0,
+          fechaVencimiento: "",
+          productoCompetencia: "",
+          precioCompetencia: 0,
         };
         this.productQuery = "";
+        this.productoCompetenciaQuery = "";
       }
     },
     eliminarProducto(index) {
@@ -1463,11 +1628,11 @@ export default {
           "Cantidad",
           "Numero de Caras Intervit",
           "Numero de Caras Competencia",
-          "Precio Intervit", 
-          "presencia", 
-          "lote", 
-          "Fecha Vencimiento", 
-          "Producto Competencia", 
+          "Precio Intervit",
+          "presencia",
+          "lote",
+          "Fecha Vencimiento",
+          "Producto Competencia",
           "Precio Competencia",
         ],
         ...this.productosAgregados.map((product) => [
@@ -1482,7 +1647,7 @@ export default {
           product.cantidad,
           product.carasIntervit,
           product.carasCompetencia,
-          product.precioIntervit, 
+          product.precioIntervit,
           product.presencia,
           product.lote,
           product.fechaVencimiento,
