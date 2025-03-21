@@ -495,17 +495,17 @@
 
                         <!-- Botón de limpiar -->
                         <div class="relative">
-                        <button
-                          v-if="
-                            productoCompetenciaQuery ||
-                            selectedProduct.productoCompetencia
-                          "
-                          @mousedown.prevent="clearProductSearch"
-                          class="absolute right-3 top-[-25px] transform -translate-y-1/2 text-gray-500 hover:text-gray-700 focus:outline-none"
-                        >
-                          ✕
-                        </button>
-                      </div>
+                          <button
+                            v-if="
+                              productoCompetenciaQuery ||
+                              selectedProduct.productoCompetencia
+                            "
+                            @mousedown.prevent="clearProductSearch"
+                            class="absolute right-3 top-[-25px] transform -translate-y-1/2 text-gray-500 hover:text-gray-700 focus:outline-none"
+                          >
+                            ✕
+                          </button>
+                        </div>
 
                         <!-- Lista de sugerencias -->
                         <div
@@ -1037,6 +1037,10 @@ export default {
         { id: 4, nombre: "MARGIA BRITO" },
         { id: 5, nombre: "MARIANNYS RAMIREZ" },
         { id: 6, nombre: "JESUS BARAJAS" },
+        { id: 7, nombre: "SANDRA PEREZ" },
+        { id: 8, nombre: "KARINA MARCANO" },
+        { id: 9, nombre: "GIRSON CONTRERAS" },
+        { id: 10, nombre: "ANTONIO HERNANDEZ" },
       ],
       productosCompetencia: [
         { id: 1, nombre: "FC PHARMA COLOR GRIS" },
