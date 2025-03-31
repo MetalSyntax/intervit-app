@@ -5,7 +5,7 @@
       <h1 class="text-xl font-bold mb-2 uppercase" style="color: #4e4e4d">Bienvenido!, {{ mercaderistaName }}</h1>
     </div>
 
-    <h1 class="text-xl font-bold mb-4" style="color: rgb(78, 78, 77);"><span style="color: rgb(232, 158, 22);"></span> Seguimiento para el Punto de Venta </h1>
+    <h1 class="text-lg font-bold mb-4" style="color: rgb(78, 78, 77);"><span style="color: rgb(232, 158, 22);"></span> Seguimiento para el Punto de Venta </h1>
 
     <!-- Date Input -->
     <div class="mb-8">
@@ -74,7 +74,7 @@
 
     <!-- Product Section -->
     <div class="mt-8">
-      <h2 class="text-xl font-semibold mb-4" style="color: #4e4e4d">Productos</h2>
+      <h3 class="text-lg font-semibold mb-4" style="color: rgb(78, 78, 77);"> Selección de Productos </h3>
       
       <ProductSelector
         ref="productSelector"
@@ -109,6 +109,7 @@
     </div>
 
     <!-- Products List -->
+    <h3 class="text-lg font-semibold my-4" style="color: rgb(78, 78, 77);">Productos Agregados </h3>
     <div v-if="formData.productos.length" class="mt-8">
       <h2 class="text-xl font-semibold mb-4" style="color: #4e4e4d">Productos Agregados</h2>
       <div class="space-y-4">
