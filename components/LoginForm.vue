@@ -60,6 +60,8 @@
 </template>
 
 <script>
+import mercaderistas from '../assets/json/mercaderistas.json';
+
 export default {
   name: 'LoginForm',
   data() {
@@ -67,18 +69,7 @@ export default {
       searchQuery: '',
       showSuggestions: false,
       selectedMercaderista: null,
-      mercadistas: [
-        { id: 1, nombre: "JESUS GRANADOS" },
-        { id: 2, nombre: "AMELIA MORAO" },
-        { id: 3, nombre: "ROBERT LEON" },
-        { id: 4, nombre: "MARGIA BRITO" },
-        { id: 5, nombre: "MARIANNYS RAMIREZ" },
-        { id: 6, nombre: "JESUS BARAJAS" },
-        { id: 7, nombre: "SANDRA PEREZ" },
-        { id: 8, nombre: "KARINA MARCANO" },
-        { id: 9, nombre: "GIRSON CONTRERAS" },
-        { id: 10, nombre: "ANTONIO HERNANDEZ" },
-      ]
+      mercadistas: mercaderistas
     }
   },
   computed: {

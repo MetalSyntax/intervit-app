@@ -1,0 +1,360 @@
+[
+    {
+      "codigo": "PT-0004",
+      "descripcion": "RHELEN ARNICA PLUS FLIP TOP 240 GR",
+      "linea": "ARNICA RHELEN",
+      "cantidad": 0,
+      "carasIntervit": 0,
+      "carasCompetencia": 0
+    },
+    {
+      "codigo": "PT-0005",
+      "descripcion": "RHELEN ARNICA PLUS TARRO 250 GR",
+      "linea": "ARNICA RHELEN",
+      "cantidad": 0,
+      "carasIntervit": 0,
+      "carasCompetencia": 0
+    },
+    {
+      "codigo": "PT-0006",
+      "descripcion": "RHELEN ARNICA ROLL ON PLUS 90 ML",
+      "linea": "ARNICA RHELEN",
+      "cantidad": 0,
+      "carasIntervit": 0,
+      "carasCompetencia": 0
+    },
+    {
+      "codigo": "PT-0011",
+      "descripcion": "RHELEN ARNICA PLUS 100 GR",
+      "linea": "ARNICA RHELEN",
+      "cantidad": 0,
+      "carasIntervit": 0,
+      "carasCompetencia": 0
+    },
+    {
+      "codigo": "PT-0012",
+      "descripcion": "RHELEN ARNICA SPRAY X 120 ML",
+      "linea": "ARNICA RHELEN",
+      "cantidad": 0,
+      "carasIntervit": 0,
+      "carasCompetencia": 0
+    },
+    {
+      "codigo": "PT-0014",
+      "descripcion": "RHELEN ARNICA PLUS CRISTAL 250 GR",
+      "linea": "ARNICA RHELEN",
+      "cantidad": 0,
+      "carasIntervit": 0,
+      "carasCompetencia": 0
+    },
+    {
+      "codigo": "PT-0026",
+      "descripcion": "GEL COOL ICE 250 CC AZUL",
+      "linea": "ARNICA RHELEN",
+      "cantidad": 0,
+      "carasIntervit": 0,
+      "carasCompetencia": 0
+    },
+    {
+      "codigo": "PT-0034",
+      "descripcion": "ACEITE CREMOSO DE ARNICA 250 ML",
+      "linea": "ARNICA RHELEN",
+      "cantidad": 0,
+      "carasIntervit": 0,
+      "carasCompetencia": 0
+    },
+    {
+      "codigo": "PT-0038",
+      "descripcion": "RHELEN CREMA REFRESCANTE PARA LOS PIES 250 GR",
+      "linea": "ARNICA RHELEN",
+      "cantidad": 0,
+      "carasIntervit": 0,
+      "carasCompetencia": 0
+    },
+    {
+      "codigo": "PT-0046",
+      "descripcion": "RHELEN ARNICA ROLL ON 90 ML",
+      "linea": "ARNICA RHELEN",
+      "cantidad": 0,
+      "carasIntervit": 0,
+      "carasCompetencia": 0
+    },
+    {
+      "codigo": "PT-0153",
+      "descripcion": "RHELEN ARNICA CRISTAL 100 GR",
+      "linea": "ARNICA RHELEN",
+      "cantidad": 0,
+      "carasIntervit": 0,
+      "carasCompetencia": 0
+    },
+    {
+      "codigo": "PT-0314",
+      "descripcion": "RHELEN ARNICA ROLL ON KIDS 90 ML - SIN MENTOL",
+      "linea": "ARNICA RHELEN",
+      "cantidad": 0,
+      "carasIntervit": 0,
+      "carasCompetencia": 0
+    },
+    {
+      "codigo": "PT-0073",
+      "descripcion": "LINAZEITE ACEITE DE LINAZA 30 CPS  (E)",
+      "linea": "LINAZEITE",
+      "cantidad": 0,
+      "carasIntervit": 0,
+      "carasCompetencia": 0
+    },
+    {
+      "codigo": "PT-0074",
+      "descripcion": "LINAZEITE ACEITE DE LINAZA 60 CPS (E)",
+      "linea": "LINAZEITE",
+      "cantidad": 0,
+      "carasIntervit": 0,
+      "carasCompetencia": 0
+    },
+    {
+      "codigo": "PT-0077",
+      "descripcion": "VITAL WAY OMEGA MAX III 50 SOFT (E)",
+      "linea": "NUTRICIONAL",
+      "cantidad": 0,
+      "carasIntervit": 0,
+      "carasCompetencia": 0
+    },
+    {
+      "codigo": "PT-0274",
+      "descripcion": "LINAZA MOLIDA LIFESYSTEM x 250GR (E)",
+      "linea": "NUTRICIONAL",
+      "cantidad": 0,
+      "carasIntervit": 0,
+      "carasCompetencia": 0
+    },
+    {
+      "codigo": "PT-0275",
+      "descripcion": "LINAZA CON AVENA LIFESYSTEM x 250GR (E)",
+      "linea": "NUTRICIONAL",
+      "cantidad": 0,
+      "carasIntervit": 0,
+      "carasCompetencia": 0
+    },
+    {
+      "codigo": "PT-0382",
+      "descripcion": "PROTEINA LS SOYA SABOR A CHOCOLATE 250 GR",
+      "linea": "NUTRICIONAL",
+      "cantidad": 0,
+      "carasIntervit": 0,
+      "carasCompetencia": 0
+    },
+    {
+      "codigo": "PT-0383",
+      "descripcion": "PROTEINA LS SOYA SABOR A VAINILLA 250 GR",
+      "linea": "NUTRICIONAL",
+      "cantidad": 0,
+      "carasIntervit": 0,
+      "carasCompetencia": 0
+    },
+    {
+      "codigo": "PT-0386",
+      "descripcion": "PROTEINA LS HUEVO SABOR A CHOCOLATE 250 GR",
+      "linea": "NUTRICIONAL",
+      "cantidad": 0,
+      "carasIntervit": 0,
+      "carasCompetencia": 0
+    },
+    {
+      "codigo": "PT-0387",
+      "descripcion": "PROTEINA LS HUEVO SABOR A VAINILLA 250 GR",
+      "linea": "NUTRICIONAL",
+      "cantidad": 0,
+      "carasIntervit": 0,
+      "carasCompetencia": 0
+    },
+    {
+      "codigo": "PT-0009",
+      "descripcion":
+        "RHELEN SIN SAL CREMA PARA PEINAR CAYENA Y VIT. E 300 ML",
+      "linea": "RHELEN CAPILAR",
+      "cantidad": 0,
+      "carasIntervit": 0,
+      "carasCompetencia": 0
+    },
+    {
+      "codigo": "PT-0010",
+      "descripcion":
+        "RHELEN SIN SAL CREMA PARA PEINAR SABILA Y COLAGENO 300 ML",
+      "linea": "RHELEN CAPILAR",
+      "cantidad": 0,
+      "carasIntervit": 0,
+      "carasCompetencia": 0
+    },
+    {
+      "codigo": "PT-0028",
+      "descripcion": "ACONDICIONADOR NUTRITIVO REVITALIZANTE SIN SAL  400 ml",
+      "linea": "RHELEN CAPILAR",
+      "cantidad": 0,
+      "carasIntervit": 0,
+      "carasCompetencia": 0
+    },
+    {
+      "codigo": "PT-0029",
+      "descripcion": "ACONDICIONADOR REESTRUCTURANTE SIN SAL 400 ml",
+      "linea": "RHELEN CAPILAR",
+      "cantidad": 0,
+      "carasIntervit": 0,
+      "carasCompetencia": 0
+    },
+    {
+      "codigo": "PT-0041",
+      "descripcion": "RHELEN BAÑO DE CREMA SIN SAL SABILA Y COLAGENO 250 ML",
+      "linea": "RHELEN CAPILAR",
+      "cantidad": 0,
+      "carasIntervit": 0,
+      "carasCompetencia": 0
+    },
+    {
+      "codigo": "PT-0042",
+      "descripcion":
+        "RHELEN BAÑO DE CREMA SIN SAL CAYENA Y VITAMINA E 250 ML",
+      "linea": "RHELEN CAPILAR",
+      "cantidad": 0,
+      "carasIntervit": 0,
+      "carasCompetencia": 0
+    },
+    {
+      "codigo": "PT-0043",
+      "descripcion":
+        "RHELEN SIN SAL CREMA PARA PEINAR SABILA Y COLAGENO 150 ML",
+      "linea": "RHELEN CAPILAR",
+      "cantidad": 0,
+      "carasIntervit": 0,
+      "carasCompetencia": 0
+    },
+    {
+      "codigo": "PT-0044",
+      "descripcion":
+        "RHELEN SIN SAL CREMA PARA PEINAR CAYENA Y VIT. E 150 ML",
+      "linea": "RHELEN CAPILAR",
+      "cantidad": 0,
+      "carasIntervit": 0,
+      "carasCompetencia": 0
+    },
+    {
+      "codigo": "PT-0422",
+      "descripcion": "CHAMPU NUTRITIVO REVITALIZANTE SIN SAL 400ML",
+      "linea": "RHELEN CAPILAR",
+      "cantidad": 0,
+      "carasIntervit": 0,
+      "carasCompetencia": 0
+    },
+    {
+      "codigo": "PT-0423",
+      "descripcion": "CHAMPU NUTRITIVO REVITALIZANTE SIN SAL 250ML",
+      "linea": "RHELEN CAPILAR",
+      "cantidad": 0,
+      "carasIntervit": 0,
+      "carasCompetencia": 0
+    },
+    {
+      "codigo": "PT-0424",
+      "descripcion": "CHAMPU REESTRUCTURANTE SIN SAL 400ML",
+      "linea": "RHELEN CAPILAR",
+      "cantidad": 0,
+      "carasIntervit": 0,
+      "carasCompetencia": 0
+    },
+    {
+      "codigo": "PT-0425",
+      "descripcion": "CHAMPU REESTRUCTURANTE SIN SAL 250ML",
+      "linea": "RHELEN CAPILAR",
+      "cantidad": 0,
+      "carasIntervit": 0,
+      "carasCompetencia": 0
+    },
+    {
+      "codigo": "PT-0426",
+      "descripcion": "ACONDICIONADOR NUTRITIVO REVITALIZANTE SIN SAL 250ML",
+      "linea": "RHELEN CAPILAR",
+      "cantidad": 0,
+      "carasIntervit": 0,
+      "carasCompetencia": 0
+    },
+    {
+      "codigo": "PT-0427",
+      "descripcion": "ACONDICIONADOR REESTRUCTURANTE SIN SAL 250ML",
+      "linea": "RHELEN CAPILAR",
+      "cantidad": 0,
+      "carasIntervit": 0,
+      "carasCompetencia": 0
+    },
+    {
+      "codigo": "PT-0007",
+      "descripcion": "RHELEN CREMA CORPORAL CON VITAMINA E 400 ML",
+      "linea": "RHELEN CORPORAL",
+      "cantidad": 0,
+      "carasIntervit": 0,
+      "carasCompetencia": 0
+    },
+    {
+      "codigo": "PT-0036",
+      "descripcion": "RHELEN BODY CARE TROPICAL 400 ML",
+      "linea": "RHELEN CORPORAL",
+      "cantidad": 0,
+      "carasIntervit": 0,
+      "carasCompetencia": 0
+    },
+    {
+      "codigo": "PT-0037",
+      "descripcion": "RHELEN   BODY CARE FRESH 400ML",
+      "linea": "RHELEN CORPORAL",
+      "cantidad": 0,
+      "carasIntervit": 0,
+      "carasCompetencia": 0
+    },
+    {
+      "codigo": "PT-0059",
+      "descripcion": "RHELEN CREMA CORPORAL CON VITAMINA E 250 ML",
+      "linea": "RHELEN CORPORAL",
+      "cantidad": 0,
+      "carasIntervit": 0,
+      "carasCompetencia": 0
+    },
+    {
+      "codigo": "PT-0060",
+      "descripcion": "RHELEN BODY CARE TROPICAL 250 ML",
+      "linea": "RHELEN CORPORAL",
+      "cantidad": 0,
+      "carasIntervit": 0,
+      "carasCompetencia": 0
+    },
+    {
+      "codigo": "PT-0061",
+      "descripcion": "RHELEN BODY CARE FRESH 250 ML",
+      "linea": "RHELEN CORPORAL",
+      "cantidad": 0,
+      "carasIntervit": 0,
+      "carasCompetencia": 0
+    },
+    {
+      "codigo": "PT-0438",
+      "descripcion": "RHELEN GEL HIDRATANTE INTIMO 40 ML",
+      "linea": "RHELEN INTIMA",
+      "cantidad": 0,
+      "carasIntervit": 0,
+      "carasCompetencia": 0
+    },
+    {
+      "codigo": "PT-0439",
+      "descripcion":
+        "RHELEN SOLUCION JABONOSA INTIMA CON ACIDO LACTICO 250 ML",
+      "linea": "RHELEN INTIMA",
+      "cantidad": 0,
+      "carasIntervit": 0,
+      "carasCompetencia": 0
+    },
+    {
+      "codigo": "PT-0441",
+      "descripcion": "ARNICA AEROSOL",
+      "linea": "ARNICA RHELEN",
+      "cantidad": 0,
+      "carasIntervit": 0,
+      "carasCompetencia": 0
+    }
+  ]
