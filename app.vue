@@ -34,9 +34,9 @@ export default {
     }
   },
   methods: {
-    handleLogin(mercaderista) {
+    handleLogin(mercaderistaName) {
       this.isLoggedIn = true
-      this.formData.mercaderista = mercaderista.nombre
+      this.formData.mercaderista = mercaderistaName
     },
     handleLogout() {
       this.isLoggedIn = false

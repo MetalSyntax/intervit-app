@@ -43,14 +43,13 @@
       <ul class="divide-y divide-gray-200">
         <li
           v-for="product in filteredProducts"
-          :key="product.codigo"
+          :key="product.id"
           @mousedown="selectProduct(product)"
           class="px-4 py-3 hover:bg-gray-50 cursor-pointer transition-colors"
           style="color: #4e4e4d"
         >
-          <span style="color: #e89e16">{{ product.codigo }}</span>
-          - {{ product.descripcion }}
-          <div class="text-sm mt-1" style="color: #4e4e4d80">{{ product.linea }}</div>
+          {{ product.descripcion }}
+        <div class="text-sm mt-1" style="color: #4e4e4d80">{{ product.linea }}</div>
         </li>
         <li v-if="filteredProducts.length === 0" class="px-4 py-3 text-gray-400">
           No se encontraron productos
@@ -61,6 +60,8 @@
 </template>
 
 <script>
+import productsData from '../assets/json/products.json'
+
 export default {
   name: 'ProductSelector',
   props: {
@@ -72,14 +73,13 @@ export default {
   data() {
     return {
       productQuery: '',
-      showSuggestions: false
+      showSuggestions: false,
     }
   },
   computed: {
     filteredProducts() {
       return this.productos.filter(
         (product) =>
-          product.codigo.toLowerCase().includes(this.productQuery.toLowerCase()) ||
           product.descripcion.toLowerCase().includes(this.productQuery.toLowerCase()) ||
           product.linea.toLowerCase().includes(this.productQuery.toLowerCase())
       );
@@ -101,14 +101,10 @@ export default {
     },
     closeSuggestions() {
       this.showSuggestions = false;
-    },
-    clearSelection() {
-      this.productQuery = '';
-      this.showSuggestions = false;
-      this.$emit('clear');
     }
   },
-  // Expose methods to parent component
-  expose: ['clearSelection']
+  created() {
+    this.products = productsData;
+  }
 }
-</script> 
+</script>

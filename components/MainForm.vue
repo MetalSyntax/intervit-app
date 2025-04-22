@@ -22,6 +22,7 @@
     <ClientSelector
       v-model="formData.cliente"
       :clientes="clientes"
+      :merchant="mercaderistaName"
       @select="handleClientSelect"
     />
 
@@ -235,7 +236,7 @@
 import ClientSelector from './ClientSelector.vue'
 import ProductSelector from './ProductSelector.vue'
 import ProductDetailsForm from './ProductDetailsForm.vue'
-import clientes from '../assets/json/clients.json';
+import clientsData from '../assets/json/clients.json';
 import productos from '../assets/json/products.json';
 import productosCompetencia from '../assets/json/productsCompetencia.json';
 
@@ -248,44 +249,41 @@ export default {
   },
   props: {
     mercaderista: {
-      type: [String, Object],
+      type: String,
       required: true
     }
   },
   computed: {
     mercaderistaName() {
-      return typeof this.mercaderista === 'object' ? this.mercaderista.nombre : this.mercaderista
+      return this.mercaderista
     }
   },
   data() {
+    const uniqueRegions = [...new Set(clientsData.map(client => client.region.toUpperCase()))]
+      .filter(region => region !== 'CAPITAL')
+      .sort()
+      .map(region => region.charAt(0) + region.slice(1).toLowerCase());
+
     return {
       formData: {
         fechaVisita: '',
         cliente: '',
         frecuencia: 'Semanal',
         region: 'Capital',
-        productos: []
+        productos: [],
       },
       selectedProduct: null,
       showToast: false,
-      regionesVenezuela: [
-        "Capital",
-        //"Central",
-        //"Los Llanos",
-        //"Andina",
-        //"Zuliana",
-        //"Sur",
-        "Oriente",
-        "Barquisimeto",
-      ],
-      clientes: clientes,
+      regionesVenezuela: ['Capital', ...uniqueRegions],
+      clientes: clientsData,
       productos: productos,
       productosCompetencia: productosCompetencia,
     }
   },
   methods: {
     handleClientSelect(cliente) {
-      this.formData.cliente = cliente.nombre
+      this.formData.cliente = cliente.cliente
+      this.mercaderistaName = cliente.mercaderista
     },
     handleProductSelect(producto) {
       this.selectedProduct = {
@@ -382,7 +380,7 @@ export default {
         cliente: "",
         frecuencia: "",
         region: "",
-        productos: []
+        productos: [],
       };
       this.selectedProduct = null;
 

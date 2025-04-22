@@ -33,12 +33,12 @@
           <ul class="divide-y divide-gray-200">
             <li
               v-for="mercaderista in filteredMercadistas"
-              :key="mercaderista.id"
+              :key="mercaderista"
               @click="selectMercaderista(mercaderista)"
               class="px-4 py-3 hover:bg-gray-50 cursor-pointer transition-colors"
               style="color: #4e4e4d"
             >
-              {{ mercaderista.nombre }}
+              {{ mercaderista }}
             </li>
           </ul>
         </div>
@@ -60,8 +60,6 @@
 </template>
 
 <script>
-import mercaderistas from '../assets/json/mercaderistas.json';
-
 export default {
   name: 'LoginForm',
   data() {
@@ -69,20 +67,20 @@ export default {
       searchQuery: '',
       showSuggestions: false,
       selectedMercaderista: null,
-      mercadistas: mercaderistas
+      mercaderistas: []
     }
   },
   computed: {
     filteredMercadistas() {
-      return this.mercadistas.filter((m) =>
-        m.nombre.toLowerCase().includes(this.searchQuery.toLowerCase())
+      return this.mercaderistas.filter((m) =>
+        m.toLowerCase().includes(this.searchQuery.toLowerCase())
       );
     }
   },
   methods: {
     selectMercaderista(mercaderista) {
       this.selectedMercaderista = mercaderista;
-      this.searchQuery = mercaderista.nombre;
+      this.searchQuery = mercaderista;
       this.showSuggestions = false;
     },
     clearMercQuery() {
@@ -97,6 +95,27 @@ export default {
         this.$emit('login', this.selectedMercaderista);
       }
     }
+  },
+  created() {
+    // Load clients data and extract unique mercaderistas
+    import('@/assets/json/clients.json').then((module) => {
+      const clients = module.default || module; // Handle both default and named exports
+      if (!Array.isArray(clients)) {
+        console.error('Invalid clients data format:', clients);
+        return;
+      }
+      
+      // Extract unique mercaderistas
+      const uniqueMercaderistas = new Set();
+      clients.forEach(client => {
+        if (client.mercaderista) {
+          uniqueMercaderistas.add(client.mercaderista);
+        }
+      });
+      this.mercaderistas = Array.from(uniqueMercaderistas).sort();
+    }).catch(error => {
+      console.error('Error loading clients data:', error);
+    });
   }
 }
-</script> 
+</script>

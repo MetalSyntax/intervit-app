@@ -2,7 +2,7 @@
   <div class="grid grid-cols-2 gap-6 pt-4 items-end">
     <!-- Cantidad en Inventario -->
     <div>
-      <label class="block text-sm font-medium mb-2" style="color: #4e4e4d">Cantidad de productos en el inventario</label>
+      <label class="block text-sm font-medium mb-2" style="color: #4e4e4d">Cantidad en Inventario</label>
       <input
         type="number"
         v-model.number="product.cantidad"
@@ -12,6 +12,20 @@
         placeholder="Cantidad"
       />
     </div>
+    
+    <!-- Precio Intervit -->
+    <div>
+      <label class="block text-sm font-medium mb-2" style="color: #4e4e4d">Precio Intervit (USD)</label>
+      <input
+        type="number"
+        v-model.number="product.precioIntervit"
+        @input="$emit('update:precioIntervit', $event.target.value)"
+        class="w-full px-4 py-3 rounded-lg border-2 text-center"
+        style="border-color: #ebbe1c"
+        placeholder="$ Precio Intervit"
+      />
+    </div>
+
     <!-- Número de caras de Intervit -->
     <div>
       <label class="block text-sm font-medium mb-2" style="color: #4e4e4d">Número de caras de Intervit</label>
@@ -25,33 +39,7 @@
       />
     </div>
 
-    <!-- Número de caras de Competencia -->
-    <div>
-      <label class="block text-sm font-medium mb-2" style="color: #4e4e4d">Número de caras de Competencia</label>
-      <input
-        type="number"
-        v-model.number="product.carasCompetencia"
-        @input="$emit('update:carasCompetencia', $event.target.value)"
-        class="w-full px-4 py-3 rounded-lg border-2 text-center"
-        style="border-color: #ebbe1c"
-        placeholder="N Caras Competencia"
-      />
-    </div>
-
-    <!-- $ PRECIO INTERVIT -->
-    <div>
-      <label class="block text-sm font-medium mb-2" style="color: #4e4e4d">Precio Intervit (USD)</label>
-      <input
-        type="number"
-        v-model.number="product.precioIntervit"
-        @input="$emit('update:precioIntervit', $event.target.value)"
-        class="w-full px-4 py-3 rounded-lg border-2 text-center"
-        style="border-color: #ebbe1c"
-        placeholder="$ Precio Intervit"
-      />
-    </div>
-
-    <!-- PRESENCIA -->
+    <!-- Presencia -->
     <div>
       <label class="block text-sm font-medium mb-2" style="color: #4e4e4d">Presencia en Punto de Venta</label>
       <select
@@ -90,10 +78,11 @@
         style="border-color: #ebbe1c"
       />
     </div>
+  </div>
 
     <!-- PRODUCTO DE LA COMPETENCIA -->
     <div>
-      <label class="block text-sm font-medium mb-2" style="color: #4e4e4d">Producto de la Competencia</label>
+      <label class="block text-sm font-medium my-2" style="color: #4e4e4d">Producto de la Competencia</label>
       <input
         type="text"
         v-model="productoCompetenciaQuery"
@@ -120,7 +109,7 @@
 
       <div
         v-show="showSuggestions && filteredProductosCompetencia.length"
-        class="absolute z-10 w-full mt-1 bg-white rounded-lg shadow-lg border-2"
+        class="absolute z-10 w-11/12 mt-1 bg-white rounded-lg shadow-lg border-2"
         style="border-color: #ebbe1c; max-height: 200px; overflow-y: auto;"
       >
         <ul>
@@ -148,7 +137,8 @@
         </button>
       </div>
     </div>
-
+    
+    <div class="grid grid-cols-2 gap-6 pt-4 items-end">
     <!-- $ PRECIO DE LA COMPETENCIA -->
     <div>
       <label class="block text-sm font-medium mb-2" style="color: #4e4e4d">Precio Competencia (USD)</label>
@@ -159,6 +149,19 @@
         class="w-full px-4 py-3 rounded-lg border-2 text-center"
         style="border-color: #ebbe1c"
         placeholder="$ Precio Competencia"
+      />
+    </div>
+
+    <!-- Número de caras de Competencia -->
+    <div>
+      <label class="block text-sm font-medium mb-2" style="color: #4e4e4d">Número de caras de Competencia</label>
+      <input
+        type="number"
+        v-model.number="product.carasCompetencia"
+        @input="$emit('update:carasCompetencia', $event.target.value)"
+        class="w-full px-4 py-3 rounded-lg border-2 text-center"
+        style="border-color: #ebbe1c"
+        placeholder="N Caras Competencia"
       />
     </div>
   </div>
@@ -204,7 +207,11 @@ export default {
       this.showSuggestions = false;
     }
   },
-  // Expose methods to parent component
-  expose: ['clearProductSearch']
+  created() {
+    // Load products from JSON
+    import('../assets/json/productsCompetencia.json').then((products) => {
+      this.productosCompetencia = products;
+    });
+  }
 }
-</script> 
+</script>

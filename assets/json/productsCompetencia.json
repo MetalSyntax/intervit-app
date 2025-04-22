@@ -1,36 +1,172 @@
 [
-    { "id": 1, "nombre": "FC PHARMA ÁRNICA FC PLUS 90GR ROLL-ON GRIS" },
-    { "id": 2, "nombre": "FC PHARMA ARNICA FC GEL PARA MASAJES 90GR ROLL-ON AMARILLO" },
-    { "id": 3, "nombre": "FC PHARMA ÁRNICA + ALCANFOR FC 90GR ROLL-ON AZUL" },
-    { "id": 4, "nombre": "FC PHARMA ÁRNICA FC SPORT GEL CORPORAL X 250 GR TARRO AZUL" },
-    { "id": 5, "nombre": "FC PHARMA ARNICA FC FORTE 250GR TARRO AMARILLO" },
-    { "id": 6, "nombre": "FC PHARMA ÁRNICA FC X 75 GR AEROSOL" },
-    { "id": 7, "nombre": "FC PHARMA ÁRNICA FC PLUS 250GR TARRO GRIS" },
-    { "id": 8, "nombre": "DULCILINA PROTEINA DE SOYA SABOR CHOCOLATE X 250 G" },
-    { "id": 9, "nombre": "DULCILINA PROTEINA DE SOYA SOY PROTEIN ISOLATE VAINILLA X 250 GR" },
-    { "id": 10, "nombre": "PURE EGG PROTEINA VAINILLA X 250G" },
-    { "id": 11, "nombre": "PURE EGG PROTEINA CHOCOLATE X 250G" },
-    { "id": 12, "nombre": "INTYLACT GEL INTIMO HIDRATANTE X 50 ML" },
-    { "id": 13, "nombre": "PERLAVIS JABÓN INTIMO FEMME BIO PLUS X 360 ML TAPA MORADA" },
-    { "id": 14, "nombre": "BY COHER CREMA HIDRATANTE PARA PIES URI FOOT UREA AL 10% X 200 ML" },
-    { "id": 15, "nombre": "PROSALUD LINAZA MOLINA" },
-    { "id": 16, "nombre": "DERMOX CREMA CORPORAL HYDRA PLUS VITAMINA E + COCO X 400 ML" },
-    { "id": 17, "nombre": "DERMOX CREMA CORPORAL HYDRA PLUS VITAMINA E + COCO X 250 ML" },
-    { "id": 18, "nombre": "EVERY NIGHT CREMA CORPORAL CACAO + FRUTOS ROJOS 250 ML" },
-    { "id": 19, "nombre": "EVERY NIGHT CREMA CORPORAL CACAO + FRUTOS ROJOS 400 ML" },
-    { "id": 20, "nombre": "DERMOX LOCION CORPORAL ANTIEDAD PIEL SECA 250 ML" },
-    { "id": 21, "nombre": "DERMOX LOCION CORPORAL ANTIEDAD PIEL SECA 400 ML" },
-    { "id": 22, "nombre": "PANTENE ACONDICIONADOR KERATINA X 300 ML (SIN SAL)" },
-    { "id": 23, "nombre": "PANTENE CHAMPÚ KERATINA X 400 ML (SIN SAL)" },
-    { "id": 24, "nombre": "PANTENE ACONDICIONADOR COLAGENO X 400 ML SIN SAL)" },
-    { "id": 25, "nombre": "PANTENE CHAMPÚ COLAGENO X 400 ML (SIN SAL)" },
-    { "id": 26, "nombre": "PANTENE ACONDICIONADOR RESTAURACION X 400 ML (SIN SAL)" },
-    { "id": 27, "nombre": "PANTENE CHAMPÚ RESTAURACION X 400 ML (SIN SAL)" },
-    { "id": 28, "nombre": "VITANE SHAMPOO RESTAURACIÓN 6 EN 1 X 400 ML (SIN SAL)" },
-    { "id": 29, "nombre": "VITANE ACONDICIONADOR RESTAURACIÓN 6 EN 1 X 400 ML (SIN SAL)" },
-    { "id": 30, "nombre": "FORELLE SHAMPOO DE ARGAN X 240 ML (SIN SAL)" },
-    { "id": 31, "nombre": "PANTENE CREMA PARA PEINAR RESTAURACIÓN 300 ML (SIN SAL)" },
-    { "id": 32, "nombre": "PANTENE CREMA PARA PEINAR COLAGENO 300 ML (SIN SAL)" },
-    { "id": 33, "nombre": "MODELLA SHAMPOO REESTRUCTURACIÓN PROFUNDA CON KERATINA X 375 ML (SIN SAL)" },
-    { "id": 34, "nombre": "MODELLA ACONDICIONADOR REESTRUCTURACIÓN PROFUNDA CON KERATINA X 375 ML (SIN SAL)" }
-  ]
+    {
+        "id": 1,
+        "nombre": "FC PHARMA ÁRNICA + ALCANFOR FC 90GR ROLL-ON AZUL)",
+        "linea": "TERAPEUTICA"
+    },
+    {
+        "id": 2,
+        "nombre": "FC PHARMA ÁRNICA FC SPORT GEL CORPORAL X 250 GR TARRO AZUL)",
+        "linea": "TERAPEUTICA"
+    },
+    {
+        "id": 3,
+        "nombre": "FC PHARMA ARNICA FC FORTE 250GR TARRO AMARILLO)",
+        "linea": "TERAPEUTICA"
+    },
+    {
+        "id": 4,
+        "nombre": "FC PHARMA ÁRNICA FC X 75 GR AEROSOL)",
+        "linea": "TERAPEUTICA"
+    },
+    {
+        "id": 5,
+        "nombre": "FC PHARMA ÁRNICA FC PLUS 250GR TARRO GRIS)",
+        "linea": "TERAPEUTICA"
+    },
+    {
+        "id": 6,
+        "nombre": "DULCILINA PROTEINA DE SOYA SABOR CHOCOLATE X 250 G",
+        "linea": "NUTRICIONAL"
+    },
+    {
+        "id": 7,
+        "nombre": "DULCILINA PROTEINA DE SOYA SOY PROTEIN ISOLATE VAINILLA X 250 GR",
+        "linea": "NUTRICIONAL"
+    },
+    {
+        "id": 8,
+        "nombre": "PURE EGG PROTEINA VAINILLA X 250G",
+        "linea": "NUTRICIONAL"
+    },
+    {
+        "id": 9,
+        "nombre": "PURE EGG PROTEINA CHOCOLATE X 250G",
+        "linea": "NUTRICIONAL"
+    },
+    {
+        "id": 10,
+        "nombre": "INTYLACT GEL INTIMO HIDRATANTE X 50 ML",
+        "linea": "INTIMA"
+    },
+    {
+        "id": 11,
+        "nombre": "PERLAVIS JABÓN INTIMO FEMME BIO PLUS X 360 ML TAPA MORADA)",
+        "linea": "INTIMA"
+    },
+    {
+        "id": 12,
+        "nombre": "BY COHER CREMA HIDRATANTE PARA PIES URI FOOT UREA AL 10% X 200 ML",
+        "linea": "TERAPEUTICA"
+    },
+    {
+        "id": 13,
+        "nombre": "PROSALUD LINAZA MOLINA",
+        "linea": "NUTRICIONAL"
+    },
+    {
+        "id": 14,
+        "nombre": "DERMOX CREMA CORPORAL HYDRA PLUS VITAMINA E + COCO X 400 ML",
+        "linea": "CORPORAL"
+    },
+    {
+        "id": 15,
+        "nombre": "DERMOX CREMA CORPORAL HYDRA PLUS VITAMINA E + COCO X 250 ML",
+        "linea": "CORPORAL"
+    },
+    {
+        "id": 16,
+        "nombre": "EVERY NIGHT CREMA CORPORAL CACAO + FRUTOS ROJOS 250 ML",
+        "linea": "CORPORAL"
+    },
+    {
+        "id": 17,
+        "nombre": "EVERY NIGHT CREMA CORPORAL CACAO + FRUTOS ROJOS 400 ML",
+        "linea": "CORPORAL"
+    },
+    {
+        "id": 18,
+        "nombre": "DERMOX LOCION CORPORAL ANTIEDAD PIEL SECA 250 ML",
+        "linea": "CORPORAL"
+    },
+    {
+        "id": 19,
+        "nombre": "DERMOX LOCION CORPORAL ANTIEDAD PIEL SECA 400 ML",
+        "linea": "CORPORAL"
+    },
+    {
+        "id": 20,
+        "nombre": "PANTENE ACONDICIONADOR KERATINA X 300 ML (SIN SAL)",
+        "linea": "CAPILAR"
+    },
+    {
+        "id": 21,
+        "nombre": "PANTENE CHAMPÚ KERATINA X 400 ML (SIN SAL)",
+        "linea": "CAPILAR"
+    },
+    {
+        "id": 22,
+        "nombre": "PANTENE ACONDICIONADOR COLAGENO X 400 ML SIN SAL)",
+        "linea": "CAPILAR"
+    },
+    {
+        "id": 23,
+        "nombre": "PANTENE CHAMPÚ COLAGENO X 400 ML (SIN SAL)",
+        "linea": "CAPILAR"
+    },
+    {
+        "id": 24,
+        "nombre": "PANTENE ACONDICIONADOR RESTAURACION X 400 ML (SIN SAL)",
+        "linea": "CAPILAR"
+    },
+    {
+        "id": 25,
+        "nombre": "PANTENE CHAMPÚ RESTAURACION X 400 ML (SIN SAL)",
+        "linea": "CAPILAR"
+    },
+    {
+        "id": 26,
+        "nombre": "VITANE SHAMPOO RESTAURACIÓN 6 EN 1 X 400 ML (SIN SAL)",
+        "linea": "CAPILAR"
+    },
+    {
+        "id": 27,
+        "nombre": "VITANE ACONDICIONADOR RESTAURACIÓN 6 EN 1 X 400 ML (SIN SAL)",
+        "linea": "CAPILAR"
+    },
+    {
+        "id": 28,
+        "nombre": "FORELLE SHAMPOO DE ARGAN X 240 ML (SIN SAL)",
+        "linea": "CAPILAR"
+    },
+    {
+        "id": 29,
+        "nombre": "PANTENE CREMA PARA PEINAR RESTAURACIÓN 300 ML (SIN SAL)",
+        "linea": "CAPILAR"
+    },
+    {
+        "id": 30,
+        "nombre": "PANTENE CREMA PARA PEINAR COLAGENO 300 ML (SIN SAL)",
+        "linea": "CAPILAR"
+    },
+    {
+        "id": 31,
+        "nombre": "MODELLA SHAMPOO REESTRUCTURACIÓN PROFUNDA CON KERATINA X 375 ML (SIN SAL)",
+        "linea": "CAPILAR"
+    },
+    {
+        "id": 32,
+        "nombre": "MODELLA ACONDICIONADOR REESTRUCTURACIÓN PROFUNDA CON KERATINA X 375 ML (SIN SAL)",
+        "linea": "CAPILAR"
+    },
+    {
+        "id": 33,
+        "nombre": "ELEGANCE PROFESIONAL (BIO TECNOLOGY) HIDRATACIÓN CAPILAR 240ML",
+        "linea": "CAPILAR"
+    },
+    {
+        "id": 34,
+        "nombre": "ELEGANCE PROFESIONAL (BIO TECNOLOGY) RENOVACIÓN MOLECULAR 240ML",
+        "linea": "CAPILAR"
+    }
+]

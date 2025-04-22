@@ -1,7 +1,7 @@
 <template>
   <div class="relative">
     <div>
-      <label class="block text-sm font-medium mb-2" style="color: #4e4e4d">Nombre del Cliente</label>
+      <label class="block text-sm font-medium mb-2" style="color: #4e4e4d">Seleccionar Cliente</label>
       <input
         type="text"
         v-model="clientQuery"
@@ -14,24 +14,30 @@
           'focus:border-color': '#e89e16',
           'focus:ring-color': '#ebbe1c40',
         }"
-        placeholder="Buscar o seleccionar cliente"
+        placeholder="Buscar cliente por nombre"
       />
-
-      <div class="absolute right-3 top-10">
-        <button v-if="showSuggestions && filteredClients.length" @click="closeSuggestions" class="text-gray-500 hover:text-gray-700">
+      <div class="relative place-self-end -top-10 right-2">
+        <button v-if="showSuggestions" @click="closeSuggestions" class="text-gray-500 hover:text-gray-700">
           Cerrar
         </button>
       </div>
-
-      <button v-if="clientQuery" @click="clearQuery" class="absolute right-3 top-10 text-gray-500 hover:text-gray-700">
+      <button
+        v-if="clientQuery"
+        @click="clearQuery"
+        class="absolute place-self-end top-10 text-gray-500 hover:text-gray-700"
+        :class="{
+          'right-[calc(50%+20px)]': !isMobile,
+          'right-[calc(0%+20px)]': isMobile,
+        }"
+      >
         ✕
       </button>
     </div>
 
-    <!-- Sugerencias de clientes -->
+    <!-- Client Suggestions -->
     <div
-      v-if="showSuggestions && filteredClients.length"
-      class="absolute z-10 w-full mt-1 bg-white border-2 rounded-lg shadow-lg max-h-60 overflow-auto"
+      v-if="showSuggestions"
+      class="absolute z-10 w-full mt-1 top-20 bg-white border-2 rounded-lg shadow-lg max-h-60 overflow-auto"
       style="border-color: #ebbe1c"
     >
       <ul class="divide-y divide-gray-200">
@@ -42,7 +48,11 @@
           class="px-4 py-3 hover:bg-gray-50 cursor-pointer transition-colors"
           style="color: #4e4e4d"
         >
-          {{ client.nombre }}
+          {{ client.cliente }}
+          <span class="text-sm text-gray-500">({{ client.region }}/{{ client.zona }})</span>
+        </li>
+        <li v-if="filteredClients.length === 0" class="px-4 py-3 text-gray-400">
+          No se encontraron clientes
         </li>
       </ul>
     </div>
@@ -53,38 +63,91 @@
 export default {
   name: 'ClientSelector',
   props: {
-    clientes: {
-      type: Array,
-      required: true
+    value: {
+      type: Object,
+      default: null
+    },
+    merchant: {
+      type: String,
+      default: null
     }
   },
   data() {
     return {
       clientQuery: '',
-      showSuggestions: false
+      showSuggestions: false,
+      clients: []
     }
   },
   computed: {
     filteredClients() {
-      return this.clientes.filter((client) =>
-        client.nombre.toLowerCase().includes(this.clientQuery.toLowerCase())
-      );
+      if (!this.clients || !Array.isArray(this.clients)) {
+        return [];
+      }
+      
+      let filtered = this.clients;
+      if (this.merchant) {
+        filtered = filtered.filter(client => client.mercaderista === this.merchant);
+      }
+      
+      if (this.clientQuery) {
+        filtered = filtered.filter(client => 
+          client.cliente.toLowerCase().includes(this.clientQuery.toLowerCase())
+        );
+      }
+      
+      return filtered;
+    },
+    isMobile() {
+      return window.innerWidth <= 768;
     }
   },
   methods: {
     selectClient(client) {
+      this.clientQuery = client.cliente;
+      this.$emit('input', client);
       this.$emit('select', client);
-      this.clientQuery = client.nombre;
       this.showSuggestions = false;
     },
     clearQuery() {
       this.clientQuery = '';
-      this.showSuggestions = false;
-      this.$emit('clear');
+      this.$emit('input', null);
     },
     closeSuggestions() {
       this.showSuggestions = false;
     }
+  },
+  watch: {
+    value: {
+      handler(newVal) {
+        if (newVal) {
+          this.clientQuery = newVal.cliente;
+        } else {
+          this.clientQuery = '';
+        }
+      },
+      immediate: true
+    }
+  },
+  created() {
+    this.isLoading = true;
+    import('@/assets/json/clients.json')
+      .then((module) => {
+        const clients = module.default || module;
+        if (Array.isArray(clients)) {
+          this.clients = clients;
+        } else {
+          console.error('Invalid clients data format:', clients);
+          this.error = 'Error loading clients data';
+        }
+      })
+      .catch(error => {
+        console.error('Error loading clients:', error);
+        this.error = 'Error loading clients data';
+      })
+      .finally(() => {
+        this.isLoading = false;
+      });
   }
 }
-</script> 
+</script>
