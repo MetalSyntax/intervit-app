@@ -2437,5 +2437,32 @@
         "zona": "MARACAIBO ESTE",
         "mercaderista": "GIRSON CONTRERAS",
         "atención": "OCCIDENTE"
+    },
+    {
+        "id": 272,
+        "cliente": "TODOS",
+        "frecuencia": "TODOS",
+        "region": "TODOS",
+        "zona": "TODOS",
+        "mercaderista": "KARINA MARCANO",
+        "atención": "COOR. TRADE MARKETING"
+    },
+    {
+        "id": 273,
+        "cliente": "TODOS",
+        "frecuencia": "TODOS",
+        "region": "TODOS",
+        "zona": "TODOS",
+        "mercaderista": "SANDRA PEREZ",
+        "atención": "DIRECCIÓN COMERCIAL"
+    },
+    {
+        "id": 274,
+        "cliente": "TODOS",
+        "frecuencia": "TODOS",
+        "region": "TODOS",
+        "zona": "TODOS",
+        "mercaderista": "ANTONIO HERNANDEZ",
+        "atención": "GER. ADMINISTRACIÓN VENTAS"
     }
 ]
