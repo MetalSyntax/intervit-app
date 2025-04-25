@@ -11,8 +11,22 @@ export default defineNuxtConfig({
 
   app: {
     head: {
+      title: 'Intervit - Una Nueva y Saludable Forma de Vida',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { name: 'description', content: 'Servicios profesionales.' },
+        { name: 'keywords', content: 'intervit' },
+        { name: 'author', content: 'Intervit' },
+        { name: 'robots', content: 'index, follow' },
+        { property: 'og:title', content: 'Intervit - Una Nueva y Saludable Forma de Vida' },
+        { property: 'og:description', content: 'Servicios profesionales' },
+        { property: 'og:type', content: 'website' },
+        { property: 'og:locale', content: 'es_ES' }
+      ],
       link: [
-        { rel: 'icon', type: 'image/png', href: 'logo.png' }
+        { rel: 'icon', type: 'image/png', href: 'logo.png' },
+        { rel: 'canonical', href: 'https://intervit.com' }
       ]
     }
   }, 
