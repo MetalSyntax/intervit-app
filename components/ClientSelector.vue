@@ -86,7 +86,12 @@ export default {
       }
       
       let filtered = this.clients;
-      if (this.merchant) {
+      
+      // Show all clients for these specific merchants
+      const specialMerchants = ['KARINA MARCANO', 'SANDRA PEREZ', 'ANTONIO HERNANDEZ'];
+      if (this.merchant && specialMerchants.includes(this.merchant.toUpperCase())) {
+        // Don't filter by merchant for these special cases
+      } else if (this.merchant) {
         filtered = filtered.filter(client => client.mercaderista === this.merchant);
       }
       
