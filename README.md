@@ -1,143 +1,165 @@
-# Aplicación de Registro de Visitas Comerciales
+# Commercial Visit Registration Application
 
-Aplicación web para gestión de visitas comerciales con registro de productos, desarrollada con Vue.js, Nuxt.js y Tailwind CSS.
+Web application for managing commercial visits with product registration, built with Vue.js, Nuxt.js, and Tailwind CSS.
 
-## 🚀 Características Principales
+## 🚀 Key Features
 
-- **Formulario Inteligente:**
-  - Campos para fecha de visita (automática)
-  - Registro de cliente con validación
-  - Selectores para frecuencia de visita y región/zona (Venezuela)
+- **Smart Form:**
+  - Automatic visit date field
+  - Client registration with validation
+  - Visit frequency and region/zone selectors (Venezuela)
   
-- **Gestión de Productos:**
-  - Selector de productos desde JSON local
-  - Vista previa detallada de productos seleccionados
-  - Sistema de agregar/eliminar productos
-  - Listado interactivo con detalles completos (código, descripción, línea)
+- **Product Management:**
+  - Product selection from local JSON
+  - Detailed product preview
+  - Add/remove product system
+  - Interactive list with complete details (code, description, line)
 
-- **Exportación de Datos:**
-  - Generación de CSV con todos los registros
-  - Nombre de archivo dinámico con fecha
-  - Restablecimiento automático de campos post-exportación
+- **Data Export:**
+  - CSV generation with all records
+  - Dynamic filename with date
+  - Automatic field reset post-export
 
-- **UI/UX Avanzada:**
-  - Notificaciones toast animadas
-  - Diseño responsivo adaptativo
-  - Paleta de colores personalizada (#e89e16, #ebbe1c, #4e4e4d, #d43123)
-  - Efectos hover y transiciones suaves
-  - Feedback visual para acciones críticas
+- **Advanced UI/UX:**
+  - Animated toast notifications
+  - Responsive adaptive design
+  - Custom color palette (#e89e16, #ebbe1c, #4e4e4d, #d43123)
+  - Smooth hover effects and transitions
+  - Visual feedback for critical actions
 
-- **Componentes Reutilizables:**
-  - Navbar con logo personalizable
-  - Formulario modular con validaciones
-  - Sistema de notificaciones integrado
-  - Footer dinámico con copyright
+- **Reusable Components:**
+  - Customizable navbar with logo
+  - Modular form with validations
+  - Integrated notification system
+  - Dynamic footer with copyright
 
-## 🛠 Tecnologías Utilizadas
+## 🛠 Technologies Used
 
 - **Frontend:**
   - Vue.js 3.x
-  - Nuxt.js
-  - Tailwind CSS 4.x
+  - Nuxt.js 3.x
+  - Tailwind CSS 3.x
+  - TypeScript
   - PostCSS
   - Autoprefixer
 
-- **Funcionalidades Adicionales:**
-  - Transiciones CSS personalizadas
+- **Additional Features:**
+  - Custom CSS transitions
   - Local JSON management
+  - Service Worker support
+  - Progressive Web App (PWA) capabilities
 
-## 📁 Estructura del Proyecto
+## 📁 Project Structure
 
-```bash
+```
 ├── assets/
-│   ├── data/                # JSON de productos
-│   └── styles/             # Configuraciones CSS globales
-├── components/             # Componentes Vue reutilizables
-├── layouts/                # Diseños principales
-├── pages/                  # Vistas de la aplicación
-├── static/                 # Assets estáticos (logo.png)
-├── nuxt.config.js          # Configuración de Nuxt
-├── tailwind.config.js      # Configuración de Tailwind
+│   ├── data/                # Product JSON data
+│   └── styles/             # Global CSS configurations
+├── components/             # Reusable Vue components
+├── public/                 # Static assets (logo.png)
+├── server/                 # Server-side code
+├── service-worker/         # PWA service worker
+├── nuxt.config.ts          # Nuxt configuration
+├── tailwind.config.js      # Tailwind configuration
 └── package.json
 ```
-## ⚙️ Configuración
-1. Variables de Entorno:
+
+## ⚙️ Configuration
+
+1. Environment Variables:
 ```bash
 NUXT_PORT=3000
 NUXT_HOST=localhost
 ```
+
 2. Tailwind Customization:
 
-Editar `tailwind.config.js` para:
-   - Ajustar colores corporativos
-   - Modificar breakpoints responsivos
-   - Personalizar clases utilitarias
+Edit `tailwind.config.js` to:
+   - Adjust corporate colors
+   - Modify responsive breakpoints
+   - Customize utility classes
 
-3. Datos de Productos:
+3. Product Data:
 
-Modificar `/assets/data/products.json` para:
-- Agregar/eliminar productos
-- Actualizar códigos y descripciones
+Modify `/assets/data/products.json` to:
+- Add/remove products
+- Update codes and descriptions
 
-## 🖥 Instalación
-1. Clonar repositorio:
+## 🖥 Installation
+
+1. Clone repository:
 ```bash
-git clone https://github.com/tu-usuario/tu-repositorio.git
+git clone https://github.com/MetalSyntax/intervit-app.git
 ```
-2. Instalar dependencias:
+
+2. Install dependencies:
 ```bash
 npm install
 ```
-3. Iniciar servidor de desarrollo:
+
+3. Start development server:
 ```bash
 npm run dev
 ```
-4. Compilar para producción:
+
+4. Build for production:
 ```bash
 npm run build
 npm start
 ```
-## 🎨 Personalización
 
-1. Tema de Colores
-Modificar en `tailwind.config.js`:
-```javascript
-theme: {
-  extend: {
-    colors: {
-      primary: '#e89e16',
-      secondary: '#ebbe1c',
-      dark: '#4e4e4d',
-      accent: '#d43123'
-    }
-  }
-}
-```
-2. Regiones de Venezuela
-Editar en el componente principal:
+## 🎨 Customization
+
+1. Notifications
+Adjust in the `saveCSV` method:
 
 ```javascript
-regionesVenezuela: [
-  'Capital', 
-  'Central',
-  'Los Llanos',
-  'Andina',
-  'Zuliana',
-  'Sur',
-  'Oriente'
-]
-```
-3. Notificaciones
-Ajustar en el método `guardarCSV`:
-
-```javascript
-// Duración de la notificación (ms)
+// Notification duration (ms)
 setTimeout(() => {
-  this.mostrarNotificacion = false
-}, 5000) // 5 segundos
+  this.showNotification = false
+}, 5000) // 5 seconds
 ```
 
-## 📄 Licencia
-MIT License - Ver archivo LICENSE para detalles.
+## 🛠️ Requirements
 
-Nota: Asegúrese de tener Node.js ≥14.x y npm ≥6.x instalados.
+- Node.js ≥14.x
+- npm ≥6.x
+
+## 📱 PWA Features
+
+- Offline support
+- Add to Home Screen
+- Push notifications
+- Service Worker integration
+
+## 🏗️ Project Setup
+
+The project is configured as a TypeScript-based Nuxt.js application with:
+- Hot Module Replacement (HMR)
+- TypeScript support
+- PWA capabilities
+- Tailwind CSS integration
+- Service Worker for offline support
+- Responsive design
+- SEO optimization
+
+
+## 🤝 Contributions
+Contributions are welcome! To collaborate:
+1. Fork the repository.
+2. Create a branch (`git checkout -b feature/your-feature-name`).
+3. Make your changes and commit them (`git commit -m 'Add new feature'`).
+4. Push your branch (`git push origin feature/your-feature-name`) and open a Pull Request.
+
+
+## 📄 License
+This project is licensed under the [MIT License](LICENSE). See the `LICENSE` file for details.
+
+
+## 💬 Support
+Have questions or found an issue?
+- 🐛 Report problems on [Issues](https://github.com/MetalSyntax/Lior-App/issues).
+
+
+## 👥 Authors
+- Wonder Diaz – [GitHub](https://github.com/MetalSyntax) | [Portfolio](https://metalsyntax.vercel.app/)
