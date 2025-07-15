@@ -1,260 +1,418 @@
 [
   {
     "id": 1,
-    "descripcion": "RHELEN ARNICA ROLL ON PLUS 90 ML",
+    "descripcion": "RHELEN ARNICA ROLL ON KIDS 90 ML  (SIN MENTOL)",
     "linea": "TERAPEUTICA",
+    "gramaje": "90 ml",
+    "presentacion": "ROLL ON",
     "cantidad": 0
   },
   {
     "id": 2,
-    "descripcion": "RHELEN ARNICA MONTANA PLUS 100 GR",
+    "descripcion": "RHELEN ARNICA MONTANA PLUS 100 GR (TARRO)",
     "linea": "TERAPEUTICA",
+    "gramaje": "100 gr",
+    "presentacion": "TARRO",
     "cantidad": 0
   },
   {
     "id": 3,
-    "descripcion": "RHELEN ARNICA SPRAY X 120 ML",
+    "descripcion": "RHELEN ARNICA MONTANA PLUS 250 GR (TARRO)",
     "linea": "TERAPEUTICA",
+    "gramaje": "250 gr",
+    "presentacion": "TARRO",
     "cantidad": 0
   },
   {
     "id": 4,
-    "descripcion": "RHELEN ARNICA PLUS CRISTAL 250 GR",
+    "descripcion": "RHELEN ARNICA PLUS CRISTAL 100 GR (TARRO)",
     "linea": "TERAPEUTICA",
+    "gramaje": "100 gr",
+    "presentacion": "TARRO",
     "cantidad": 0
   },
   {
     "id": 5,
-    "descripcion": "RHELEN GEL COOL ICE CON MENTOL X 250 ML AZUL)",
+    "descripcion": "RHELEN ARNICA PLUS CRISTAL 250 GR (TARRO)",
     "linea": "TERAPEUTICA",
+    "gramaje": "250 gr",
+    "presentacion": "TARRO",
     "cantidad": 0
   },
   {
     "id": 6,
-    "descripcion": "ACEITE CREMOSO DE ARNICA 250 ML",
+    "descripcion": "RHELEN ARNICA 120 ML (SPRAY)",
     "linea": "TERAPEUTICA",
+    "gramaje": "120 ml",
+    "presentacion": "SPRAY",
     "cantidad": 0
   },
   {
     "id": 7,
-    "descripcion": "RHELEN CREMA REFRESCANTE PARA LOS PIES 250 GR",
+    "descripcion": "ÁRNICA SPORT RHELEN CORPORAL X 120 ML (AEROSOL)",
     "linea": "TERAPEUTICA",
+    "gramaje": "120 ml",
+    "presentacion": "AEROSOL",
     "cantidad": 0
   },
   {
     "id": 8,
-    "descripcion": "RHELEN ARNICA ROLL ON 90 ML - SIN MENTOL KIDS",
+    "descripcion": "RHELEN GEL COOL ICE CON EUCALIPTO X 250 ML (VERDE)",
     "linea": "TERAPEUTICA",
+    "gramaje": "250 ml",
+    "presentacion": "TARRO",
     "cantidad": 0
   },
   {
     "id": 9,
-    "descripcion": "RHELEN ARNICA PLUS CRISTAL 100 GR",
+    "descripcion": "RHELEN GEL COOL ICE CON MENTOL X 250 ML (AZUL)",
     "linea": "TERAPEUTICA",
+    "gramaje": "250 ml",
+    "presentacion": "TARRO",
     "cantidad": 0
   },
   {
     "id": 10,
-    "descripcion": "RHELEN ARNICA ROLL ON KIDS 90 ML - SIN MENTOL",
+    "descripcion": "RHELEN CREMA REFRESCANTE PARA LOS PIES 250 GR",
     "linea": "TERAPEUTICA",
+    "gramaje": "250 gr",
+    "presentacion": "TARRO",
     "cantidad": 0
   },
   {
     "id": 11,
-    "descripcion": "ÁRNICA SPORT RHELEN SPRAY CORPORAL X 120 ML",
+    "descripcion": "RHELEN ARNICA PLUS 240 GR (FLIP TOP)",
     "linea": "TERAPEUTICA",
+    "gramaje": "240 gr",
+    "presentacion": "FLIP TOP",
     "cantidad": 0
   },
   {
     "id": 12,
-    "descripcion": "RHELEN GEL COOL ICE CON EUCALIPTO X 250 ML VERDE)",
+    "descripcion": "ACEITE CREMOSO DE ARNICA 250 ML",
     "linea": "TERAPEUTICA",
+    "gramaje": "250 ml",
+    "presentacion": "FLIP TOP",
     "cantidad": 0
   },
   {
     "id": 13,
-    "descripcion": "VITAL WAY OMEGA MAX III 50 SOFT E)",
-    "linea": "NUTRICIONAL",
+    "descripcion": "RHELEN PIERNAS CANSADAS ROLL ON 90 ML",
+    "linea": "TERAPEUTICA",
+    "gramaje": "90 ml",
+    "presentacion": "ROLL ON",
     "cantidad": 0
   },
   {
     "id": 14,
-    "descripcion": "LINAZA MOLIDA LIFESYSTEM x 250GR E)",
+    "descripcion": "LINAZA MOLIDA LIFESYSTEM 250GR ",
     "linea": "NUTRICIONAL",
+    "gramaje": "250 gr",
+    "presentacion": "TARRO",
     "cantidad": 0
   },
   {
     "id": 15,
-    "descripcion": "LINAZA CON AVENA LIFESYSTEM x 250GR E)",
+    "descripcion": "LINAZA CON AVENA LIFESYSTEM 250GR ",
     "linea": "NUTRICIONAL",
+    "gramaje": "250 gr",
+    "presentacion": "TARRO",
     "cantidad": 0
   },
   {
     "id": 16,
     "descripcion": "PROTEINA LS SOYA SABOR A CHOCOLATE 250 GR",
     "linea": "NUTRICIONAL",
+    "gramaje": "250 gr",
+    "presentacion": "TARRO",
     "cantidad": 0
   },
   {
     "id": 17,
     "descripcion": "PROTEINA LS SOYA SABOR A VAINILLA 250 GR",
     "linea": "NUTRICIONAL",
+    "gramaje": "250 gr",
+    "presentacion": "TARRO",
     "cantidad": 0
   },
   {
     "id": 18,
     "descripcion": "PROTEINA LS HUEVO SABOR A CHOCOLATE 250 GR",
     "linea": "NUTRICIONAL",
+    "gramaje": "250 gr",
+    "presentacion": "TARRO",
     "cantidad": 0
   },
   {
     "id": 19,
     "descripcion": "PROTEINA LS HUEVO SABOR A VAINILLA 250 GR",
     "linea": "NUTRICIONAL",
+    "gramaje": "250 gr",
+    "presentacion": "TARRO",
     "cantidad": 0
   },
   {
     "id": 20,
-    "descripcion": "LINAZEITE ACEITE DE LINAZA 30 CPS  E)",
-    "linea": "LINAZEITE",
+    "descripcion": "RHELEN GEL HIDRATANTE INTIMO 40 ML",
+    "linea": "INTIMA",
+    "gramaje": "40 ml",
+    "presentacion": "TUBO",
     "cantidad": 0
   },
   {
     "id": 21,
-    "descripcion": "LINAZEITE ACEITE DE LINAZA 60 CPS E)",
-    "linea": "LINAZEITE",
+    "descripcion": "RHELEN SOLUCION JABONOSA INTIMA CON ACIDO LACTICO 250 ML",
+    "linea": "INTIMA",
+    "gramaje": "250 ml",
+    "presentacion": "FLIP TOP",
     "cantidad": 0
   },
   {
     "id": 22,
-    "descripcion": "RHELEN GEL HIDRATANTE INTIMO 40 ML",
-    "linea": "INTIMA",
+    "descripcion": "RHELEN CREMA CORPORAL CON VITAMINA E 400 ML",
+    "linea": "CORPORAL",
+    "gramaje": "400 ml",
+    "presentacion": "FLIP TOP",
     "cantidad": 0
   },
   {
     "id": 23,
-    "descripcion": "RHELEN SOLUCION JABONOSA INTIMA CON ACIDO LACTICO 250 ML",
-    "linea": "INTIMA",
+    "descripcion": "RHELEN BODY CARE TROPICAL 400 ML",
+    "linea": "CORPORAL",
+    "gramaje": "400 ml",
+    "presentacion": "FLIP TOP",
     "cantidad": 0
   },
   {
     "id": 24,
-    "descripcion": "RHELEN CREMA CORPORAL CON VITAMINA E 400 ML",
+    "descripcion": "RHELEN BODY CARE FRESH 400 ML",
     "linea": "CORPORAL",
+    "gramaje": "400ml",
+    "presentacion": "FLIP TOP",
     "cantidad": 0
   },
   {
     "id": 25,
-    "descripcion": "RHELEN BODY CARE TROPICAL 400 ML",
+    "descripcion": "RHELEN CREMA CORPORAL CON VITAMINA E 250 ML",
     "linea": "CORPORAL",
+    "gramaje": "250 ml",
+    "presentacion": "FLIP TOP",
     "cantidad": 0
   },
   {
     "id": 26,
-    "descripcion": "RHELEN BODY CARE FRESH 400ML",
+    "descripcion": "RHELEN BODY CARE TROPICAL 250 ML",
     "linea": "CORPORAL",
+    "gramaje": "250 ml",
+    "presentacion": "FLIP TOP",
     "cantidad": 0
   },
   {
     "id": 27,
-    "descripcion": "RHELEN CREMA CORPORAL CON VITAMINA E 250 ML",
+    "descripcion": "RHELEN BODY CARE FRESH 250 ML",
     "linea": "CORPORAL",
+    "gramaje": "250 ml",
+    "presentacion": "FLIP TOP",
     "cantidad": 0
   },
   {
     "id": 28,
-    "descripcion": "RHELEN BODY CARE TROPICAL 250 ML",
-    "linea": "CORPORAL",
+    "descripcion": "RHELEN SIN SAL CREMA PARA PEINAR CAYENA Y VIT. E 300 ML",
+    "linea": "CAPILAR",
+    "gramaje": "300 ml",
+    "presentacion": "PUSH PULL",
     "cantidad": 0
   },
   {
     "id": 29,
-    "descripcion": "RHELEN BODY CARE FRESH 250 ML",
-    "linea": "CORPORAL",
+    "descripcion": "RHELEN SIN SAL CREMA PARA PEINAR SABILA Y COLAGENO 300 ML",
+    "linea": "CAPILAR",
+    "gramaje": "300 ml",
+    "presentacion": "PUSH PULL",
     "cantidad": 0
   },
   {
     "id": 30,
-    "descripcion": "RHELEN SIN SAL CREMA PARA PEINAR CAYENA Y VIT. E 300 ML",
+    "descripcion": "RHELEN BAÑO DE CREMA SIN SAL SABILA Y COLAGENO 250 ML",
     "linea": "CAPILAR",
+    "gramaje": "250 ml",
+    "presentacion": "TARRO",
     "cantidad": 0
   },
   {
     "id": 31,
-    "descripcion": "RHELEN SIN SAL CREMA PARA PEINAR SABILA Y COLAGENO 300 ML",
+    "descripcion": "RHELEN BAÑO DE CREMA SIN SAL CAYENA Y VITAMINA E 250 ML",
     "linea": "CAPILAR",
+    "gramaje": "250 ml",
+    "presentacion": "TARRO",
     "cantidad": 0
   },
   {
     "id": 32,
-    "descripcion": "ACONDICIONADOR NUTRITIVO REVITALIZANTE SIN SAL  400 ml",
+    "descripcion": "RHELEN SIN SAL CREMA PARA PEINAR SABILA Y COLAGENO 150 ML",
     "linea": "CAPILAR",
+    "gramaje": "150 ml",
+    "presentacion": "PUSH PULL",
     "cantidad": 0
   },
   {
     "id": 33,
-    "descripcion": "ACONDICIONADOR REESTRUCTURANTE SIN SAL 400 ml",
+    "descripcion": "RHELEN SIN SAL CREMA PARA PEINAR CAYENA Y VIT. E 150 ML",
     "linea": "CAPILAR",
+    "gramaje": "150 ml",
+    "presentacion": "PUSH PULL",
     "cantidad": 0
   },
   {
     "id": 34,
-    "descripcion": "RHELEN BAÑO DE CREMA SIN SAL SABILA Y COLAGENO 250 ML",
+    "descripcion": "CHAMPU NUTRITIVO REVITALIZANTE SIN SAL 400ML",
     "linea": "CAPILAR",
+    "gramaje": "400ml",
+    "presentacion": "FLIP TOP",
     "cantidad": 0
   },
   {
     "id": 35,
-    "descripcion": "RHELEN BAÑO DE CREMA SIN SAL CAYENA Y VITAMINA E 250 ML",
+    "descripcion": "CHAMPU NUTRITIVO REVITALIZANTE SIN SAL 250ML",
     "linea": "CAPILAR",
+    "gramaje": "250ml",
+    "presentacion": "FLIP TOP",
     "cantidad": 0
   },
   {
     "id": 36,
-    "descripcion": "RHELEN SIN SAL CREMA PARA PEINAR SABILA Y COLAGENO 150 ML",
+    "descripcion": "CHAMPU REESTRUCTURANTE SIN SAL 400 ML",
     "linea": "CAPILAR",
+    "gramaje": "400ml",
+    "presentacion": "FLIP TOP",
     "cantidad": 0
   },
   {
     "id": 37,
-    "descripcion": "RHELEN SIN SAL CREMA PARA PEINAR CAYENA Y VIT. E 150 ML",
+    "descripcion": "CHAMPU REESTRUCTURANTE SIN SAL 250 ML",
     "linea": "CAPILAR",
+    "gramaje": "250ml",
+    "presentacion": "FLIP TOP",
     "cantidad": 0
   },
   {
     "id": 38,
-    "descripcion": "CHAMPU NUTRITIVO REVITALIZANTE SIN SAL 400ML",
+    "descripcion": "ACONDICIONADOR NUTRITIVO REVITALIZANTE SIN SAL 250ML",
     "linea": "CAPILAR",
+    "gramaje": "250ml",
+    "presentacion": "FLIP TOP",
     "cantidad": 0
   },
   {
     "id": 39,
-    "descripcion": "CHAMPU NUTRITIVO REVITALIZANTE SIN SAL 250ML",
+    "descripcion": "ACONDICIONADOR REESTRUCTURANTE SIN SAL 250 ML",
     "linea": "CAPILAR",
+    "gramaje": "250ml",
+    "presentacion": "FLIP TOP",
     "cantidad": 0
   },
   {
     "id": 40,
-    "descripcion": "CHAMPU REESTRUCTURANTE SIN SAL 400ML",
+    "descripcion": "ACONDICIONADOR NUTRITIVO REVITALIZANTE SIN SAL  400 ml",
     "linea": "CAPILAR",
+    "gramaje": "400 ml",
+    "presentacion": "FLIP TOP",
     "cantidad": 0
   },
   {
     "id": 41,
-    "descripcion": "CHAMPU REESTRUCTURANTE SIN SAL 250ML",
+    "descripcion": "ACONDICIONADOR REESTRUCTURANTE SIN SAL 400 ml",
     "linea": "CAPILAR",
+    "gramaje": "400 ml",
+    "presentacion": "FLIP TOP",
     "cantidad": 0
   },
   {
     "id": 42,
-    "descripcion": "ACONDICIONADOR NUTRITIVO REVITALIZANTE SIN SAL 250ML",
+    "descripcion": "GLIESE CHAMPÚ DE CAYENA 240 ML",
     "linea": "CAPILAR",
+    "gramaje": "240 ML",
+    "presentacion": "FLIP TOP",
     "cantidad": 0
   },
   {
     "id": 43,
-    "descripcion": "ACONDICIONADOR REESTRUCTURANTE SIN SAL 250ML",
+    "descripcion": "GLIESE ACONDICIONADOR DE CAYENA 240 ML",
     "linea": "CAPILAR",
+    "gramaje": "240 ML",
+    "presentacion": "FLIP TOP",
+    "cantidad": 0
+  },
+  {
+    "id": 44,
+    "descripcion": "GLIESE CHAMPÚ DE ROMERO 240 ML",
+    "linea": "CAPILAR",
+    "gramaje": "240 ML",
+    "presentacion": "FLIP TOP",
+    "cantidad": 0
+  },
+  {
+    "id": 45,
+    "descripcion": "GLIESE ACONDICIONADOR DE ROMERO 240 ML",
+    "linea": "CAPILAR",
+    "gramaje": "240 ML",
+    "presentacion": "FLIP TOP",
+    "cantidad": 0
+  },
+  {
+    "id": 46,
+    "descripcion": "GLIESE DESODORANTE FRESCURA 90 ML",
+    "linea": "DESODORANTE",
+    "gramaje": "90 ml",
+    "presentacion": "ROLL ON",
+    "cantidad": 0
+  },
+  {
+    "id": 47,
+    "descripcion": "GLIESE DESODORANTE POWER 90 ML",
+    "linea": "DESODORANTE",
+    "gramaje": "90 ml",
+    "presentacion": "ROLL ON",
+    "cantidad": 0
+  },
+  {
+    "id": 48,
+    "descripcion": "GLIESE LOCIÓN CORPORAL PRIMAVERA 240 ML",
+    "linea": "CORPORAL",
+    "gramaje": "240 ML",
+    "presentacion": "FLIP TOP",
+    "cantidad": 0
+  },
+  {
+    "id": 49,
+    "descripcion": "CHAMPU NUTRITIVO Y REVITALIZANTE LINAZA Y QUINOA \"SIN SAL\" 400 ML",
+    "linea": "CAPILAR",
+    "gramaje": "400ml",
+    "presentacion": "FLIP TOP",
+    "cantidad": 0
+  },
+  {
+    "id": 50,
+    "descripcion": "MARCARILLA NUTRITIVO Y REVITALIZANTE LINAZA Y QUINOA \"SIN SAL\" 250 ML",
+    "linea": "CAPILAR",
+    "gramaje": "250ml",
+    "presentacion": "FLIP TOP",
+    "cantidad": 0
+  },
+  {
+    "id": 51,
+    "descripcion": "CHAMPU NUTRITIVO Y REVITALIZANTE LINAZA Y QUINOA \"SIN SAL\" 250 ML",
+    "linea": "CAPILAR",
+    "gramaje": "250 ml",
+    "presentacion": "FLIP TOP",
+    "cantidad": 0
+  },
+  {
+    "id": 52,
+    "descripcion": "MASCARILLA NUTRITIVO Y REVITALIZANTE LINAZA Y QUINOA \"SIN SAL\" 400 ML",
+    "linea": "CAPILAR",
+    "gramaje": "400ml",
+    "presentacion": "FLIP TOP",
     "cantidad": 0
   }
 ]

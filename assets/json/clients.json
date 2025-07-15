@@ -5,8 +5,9 @@
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
         "zona": "SANTA EDUVIGIS",
-        "mercaderista": "JESUS BARAJAS",
-        "atención": "CAPITAL ESTE"
+        "nombre": "JESUS BARAJAS",
+        "atención": "CAPITAL ESTE",
+        "mercaderista": "CAPITAL 02"
     },
     {
         "id": 2,
@@ -14,8 +15,9 @@
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
         "zona": "CHACAO",
-        "mercaderista": "JESUS BARAJAS",
-        "atención": "CAPITAL ESTE"
+        "nombre": "JESUS BARAJAS",
+        "atención": "CAPITAL ESTE",
+        "mercaderista": "CAPITAL 02"
     },
     {
         "id": 3,
@@ -23,8 +25,9 @@
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
         "zona": "PARQUE CENTRAL ",
-        "mercaderista": "JESUS GRANADOS",
-        "atención": "CAPITAL OESTE "
+        "nombre": "JESUS GRANADOS",
+        "atención": "CAPITAL OESTE ",
+        "mercaderista": "CAPITAL 01"
     },
     {
         "id": 4,
@@ -32,8 +35,9 @@
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
         "zona": "EL PARAISO",
-        "mercaderista": "JESUS GRANADOS",
-        "atención": "CAPITAL OESTE "
+        "nombre": "JESUS GRANADOS",
+        "atención": "CAPITAL OESTE ",
+        "mercaderista": "CAPITAL 01"
     },
     {
         "id": 5,
@@ -41,8 +45,9 @@
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
         "zona": "LAS MERCEDES",
-        "mercaderista": "JESUS BARAJAS",
-        "atención": "CAPITAL ESTE"
+        "nombre": "JESUS BARAJAS",
+        "atención": "CAPITAL ESTE",
+        "mercaderista": "CAPITAL 02"
     },
     {
         "id": 6,
@@ -50,8 +55,9 @@
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
         "zona": "CANDELARIA",
-        "mercaderista": "JESUS GRANADOS",
-        "atención": "CAPITAL OESTE "
+        "nombre": "JESUS GRANADOS",
+        "atención": "CAPITAL OESTE ",
+        "mercaderista": "CAPITAL 01"
     },
     {
         "id": 7,
@@ -59,8 +65,9 @@
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
         "zona": "MONTALBÁN ",
-        "mercaderista": "JESUS GRANADOS",
-        "atención": "CAPITAL OESTE "
+        "nombre": "JESUS GRANADOS",
+        "atención": "CAPITAL OESTE ",
+        "mercaderista": "CAPITAL 01"
     },
     {
         "id": 8,
@@ -68,8 +75,9 @@
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
         "zona": "CATIA",
-        "mercaderista": "JESUS GRANADOS",
-        "atención": "CAPITAL OESTE "
+        "nombre": "JESUS GRANADOS",
+        "atención": "CAPITAL OESTE ",
+        "mercaderista": "CAPITAL 01"
     },
     {
         "id": 9,
@@ -77,8 +85,9 @@
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
         "zona": "AV URDANETA ",
-        "mercaderista": "JESUS GRANADOS",
-        "atención": "CAPITAL OESTE "
+        "nombre": "JESUS GRANADOS",
+        "atención": "CAPITAL OESTE ",
+        "mercaderista": "CAPITAL 01"
     },
     {
         "id": 10,
@@ -86,8 +95,9 @@
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
         "zona": "CAPITOLIO",
-        "mercaderista": "JESUS GRANADOS",
-        "atención": "CAPITAL OESTE "
+        "nombre": "JESUS GRANADOS",
+        "atención": "CAPITAL OESTE ",
+        "mercaderista": "CAPITAL 01"
     },
     {
         "id": 11,
@@ -95,8 +105,9 @@
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
         "zona": "LA URBINA",
-        "mercaderista": "JESUS BARAJAS",
-        "atención": "CAPITAL ESTE"
+        "nombre": "JESUS BARAJAS",
+        "atención": "CAPITAL ESTE",
+        "mercaderista": "CAPITAL 02"
     },
     {
         "id": 12,
@@ -104,8 +115,9 @@
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
         "zona": "MILENIUM",
-        "mercaderista": "JESUS BARAJAS",
-        "atención": "CAPITAL ESTE"
+        "nombre": "JESUS BARAJAS",
+        "atención": "CAPITAL ESTE",
+        "mercaderista": "CAPITAL 02"
     },
     {
         "id": 13,
@@ -113,8 +125,9 @@
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
         "zona": "EL LIDER",
-        "mercaderista": "JESUS BARAJAS",
-        "atención": "CAPITAL ESTE"
+        "nombre": "JESUS BARAJAS",
+        "atención": "CAPITAL ESTE",
+        "mercaderista": "CAPITAL 02"
     },
     {
         "id": 14,
@@ -122,8 +135,9 @@
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
         "zona": "EL PARAISO",
-        "mercaderista": "JESUS GRANADOS",
-        "atención": "CAPITAL OESTE "
+        "nombre": "JESUS GRANADOS",
+        "atención": "CAPITAL OESTE ",
+        "mercaderista": "CAPITAL 01"
     },
     {
         "id": 15,
@@ -131,8 +145,9 @@
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
         "zona": "SABANA GRANDE",
-        "mercaderista": "JESUS BARAJAS",
-        "atención": "CAPITAL ESTE"
+        "nombre": "JESUS BARAJAS",
+        "atención": "CAPITAL ESTE",
+        "mercaderista": "CAPITAL 02"
     },
     {
         "id": 16,
@@ -140,8 +155,9 @@
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
         "zona": "CHACAO",
-        "mercaderista": "JESUS BARAJAS",
-        "atención": "CAPITAL ESTE"
+        "nombre": "JESUS BARAJAS",
+        "atención": "CAPITAL ESTE",
+        "mercaderista": "CAPITAL 02"
     },
     {
         "id": 17,
@@ -149,8 +165,9 @@
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
         "zona": "LA CARLOTA",
-        "mercaderista": "JESUS BARAJAS",
-        "atención": "CAPITAL ESTE"
+        "nombre": "JESUS BARAJAS",
+        "atención": "CAPITAL ESTE",
+        "mercaderista": "CAPITAL 02"
     },
     {
         "id": 18,
@@ -158,8 +175,9 @@
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
         "zona": "LOS CHORROS",
-        "mercaderista": "JESUS BARAJAS",
-        "atención": "CAPITAL ESTE"
+        "nombre": "JESUS BARAJAS",
+        "atención": "CAPITAL ESTE",
+        "mercaderista": "CAPITAL 02"
     },
     {
         "id": 19,
@@ -167,8 +185,9 @@
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
         "zona": "CHACAO",
-        "mercaderista": "JESUS BARAJAS",
-        "atención": "CAPITAL ESTE"
+        "nombre": "JESUS BARAJAS",
+        "atención": "CAPITAL ESTE",
+        "mercaderista": "CAPITAL 02"
     },
     {
         "id": 20,
@@ -176,8 +195,9 @@
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
         "zona": "ANTIMANO",
-        "mercaderista": "JESUS GRANADOS",
-        "atención": "CAPITAL OESTE "
+        "nombre": "JESUS GRANADOS",
+        "atención": "CAPITAL OESTE ",
+        "mercaderista": "CAPITAL 01"
     },
     {
         "id": 21,
@@ -185,8 +205,9 @@
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
         "zona": "BELLO MONTE",
-        "mercaderista": "JESUS BARAJAS",
-        "atención": "CAPITAL ESTE"
+        "nombre": "JESUS BARAJAS",
+        "atención": "CAPITAL ESTE",
+        "mercaderista": "CAPITAL 02"
     },
     {
         "id": 22,
@@ -194,8 +215,9 @@
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
         "zona": "SAN MARTIN",
-        "mercaderista": "JESUS GRANADOS",
-        "atención": "CAPITAL OESTE "
+        "nombre": "JESUS GRANADOS",
+        "atención": "CAPITAL OESTE ",
+        "mercaderista": "CAPITAL 01"
     },
     {
         "id": 23,
@@ -203,8 +225,9 @@
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
         "zona": "LOS PALOS GRANDES",
-        "mercaderista": "JESUS BARAJAS",
-        "atención": "CAPITAL ESTE"
+        "nombre": "JESUS BARAJAS",
+        "atención": "CAPITAL ESTE",
+        "mercaderista": "CAPITAL 02"
     },
     {
         "id": 24,
@@ -212,8 +235,9 @@
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
         "zona": "CAPITOLIO",
-        "mercaderista": "JESUS GRANADOS",
-        "atención": "CAPITAL OESTE "
+        "nombre": "JESUS GRANADOS",
+        "atención": "CAPITAL OESTE ",
+        "mercaderista": "CAPITAL 01"
     },
     {
         "id": 25,
@@ -221,8 +245,9 @@
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
         "zona": "LA URBINA",
-        "mercaderista": "JESUS BARAJAS",
-        "atención": "CAPITAL ESTE"
+        "nombre": "JESUS BARAJAS",
+        "atención": "CAPITAL ESTE",
+        "mercaderista": "CAPITAL 02"
     },
     {
         "id": 26,
@@ -230,8 +255,9 @@
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
         "zona": "SANTA MONICA",
-        "mercaderista": "JESUS GRANADOS",
-        "atención": "CAPITAL OESTE "
+        "nombre": "JESUS GRANADOS",
+        "atención": "CAPITAL OESTE ",
+        "mercaderista": "CAPITAL 01"
     },
     {
         "id": 27,
@@ -239,8 +265,9 @@
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
         "zona": "PETARE",
-        "mercaderista": "JESUS BARAJAS",
-        "atención": "CAPITAL ESTE"
+        "nombre": "JESUS BARAJAS",
+        "atención": "CAPITAL ESTE",
+        "mercaderista": "CAPITAL 02"
     },
     {
         "id": 28,
@@ -248,8 +275,9 @@
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
         "zona": "LA FLORIDA",
-        "mercaderista": "JESUS BARAJAS",
-        "atención": "CAPITAL ESTE"
+        "nombre": "JESUS BARAJAS",
+        "atención": "CAPITAL ESTE",
+        "mercaderista": "CAPITAL 02"
     },
     {
         "id": 29,
@@ -257,8 +285,9 @@
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
         "zona": "SABANA GRANDE",
-        "mercaderista": "JESUS BARAJAS",
-        "atención": "CAPITAL ESTE"
+        "nombre": "JESUS BARAJAS",
+        "atención": "CAPITAL ESTE",
+        "mercaderista": "CAPITAL 02"
     },
     {
         "id": 30,
@@ -266,8 +295,9 @@
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
         "zona": "CATIA",
-        "mercaderista": "JESUS GRANADOS",
-        "atención": "CAPITAL OESTE "
+        "nombre": "JESUS GRANADOS",
+        "atención": "CAPITAL OESTE ",
+        "mercaderista": "CAPITAL 01"
     },
     {
         "id": 31,
@@ -275,8 +305,9 @@
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
         "zona": "TERRAZA DEL AVILA",
-        "mercaderista": "JESUS BARAJAS",
-        "atención": "CAPITAL ESTE"
+        "nombre": "JESUS BARAJAS",
+        "atención": "CAPITAL ESTE",
+        "mercaderista": "CAPITAL 02"
     },
     {
         "id": 32,
@@ -284,8 +315,9 @@
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
         "zona": "CAPITOLIO",
-        "mercaderista": "JESUS GRANADOS",
-        "atención": "CAPITAL OESTE "
+        "nombre": "JESUS GRANADOS",
+        "atención": "CAPITAL OESTE ",
+        "mercaderista": "CAPITAL 01"
     },
     {
         "id": 33,
@@ -293,8 +325,9 @@
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
         "zona": "EL RECREO",
-        "mercaderista": "JESUS BARAJAS",
-        "atención": "CAPITAL ESTE"
+        "nombre": "JESUS BARAJAS",
+        "atención": "CAPITAL ESTE",
+        "mercaderista": "CAPITAL 02"
     },
     {
         "id": 34,
@@ -302,8 +335,9 @@
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
         "zona": "LA HOYADA ",
-        "mercaderista": "JESUS GRANADOS",
-        "atención": "CAPITAL OESTE "
+        "nombre": "JESUS GRANADOS",
+        "atención": "CAPITAL OESTE ",
+        "mercaderista": "CAPITAL 01"
     },
     {
         "id": 35,
@@ -311,8 +345,9 @@
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
         "zona": " RUIZ PINEDA / CARICUAO",
-        "mercaderista": "JESUS GRANADOS",
-        "atención": "CAPITAL OESTE "
+        "nombre": "JESUS GRANADOS",
+        "atención": "CAPITAL OESTE ",
+        "mercaderista": "CAPITAL 01"
     },
     {
         "id": 36,
@@ -320,8 +355,9 @@
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
         "zona": "AV URDANETA ",
-        "mercaderista": "JESUS GRANADOS",
-        "atención": "CAPITAL OESTE "
+        "nombre": "JESUS GRANADOS",
+        "atención": "CAPITAL OESTE ",
+        "mercaderista": "CAPITAL 01"
     },
     {
         "id": 37,
@@ -329,8 +365,9 @@
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
         "zona": "AV ANDRÉS BELLO ",
-        "mercaderista": "JESUS GRANADOS",
-        "atención": "CAPITAL OESTE "
+        "nombre": "JESUS GRANADOS",
+        "atención": "CAPITAL OESTE ",
+        "mercaderista": "CAPITAL 01"
     },
     {
         "id": 38,
@@ -338,8 +375,9 @@
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
         "zona": "AV LECUNA",
-        "mercaderista": "JESUS GRANADOS",
-        "atención": "CAPITAL OESTE "
+        "nombre": "JESUS GRANADOS",
+        "atención": "CAPITAL OESTE ",
+        "mercaderista": "CAPITAL 01"
     },
     {
         "id": 39,
@@ -347,8 +385,9 @@
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
         "zona": "CHACAO",
-        "mercaderista": "JESUS BARAJAS",
-        "atención": "CAPITAL ESTE"
+        "nombre": "JESUS BARAJAS",
+        "atención": "CAPITAL ESTE",
+        "mercaderista": "CAPITAL 02"
     },
     {
         "id": 40,
@@ -356,8 +395,9 @@
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
         "zona": "LA CALIFORNIA",
-        "mercaderista": "JESUS BARAJAS",
-        "atención": "CAPITAL ESTE"
+        "nombre": "JESUS BARAJAS",
+        "atención": "CAPITAL ESTE",
+        "mercaderista": "CAPITAL 02"
     },
     {
         "id": 41,
@@ -365,8 +405,9 @@
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
         "zona": "CCCT / CHUAO",
-        "mercaderista": "JESUS BARAJAS",
-        "atención": "CAPITAL ESTE"
+        "nombre": "JESUS BARAJAS",
+        "atención": "CAPITAL ESTE",
+        "mercaderista": "CAPITAL 02"
     },
     {
         "id": 42,
@@ -374,8 +415,9 @@
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
         "zona": "LAS MERCEDES",
-        "mercaderista": "JESUS BARAJAS",
-        "atención": "CAPITAL ESTE"
+        "nombre": "JESUS BARAJAS",
+        "atención": "CAPITAL ESTE",
+        "mercaderista": "CAPITAL 02"
     },
     {
         "id": 43,
@@ -383,8 +425,9 @@
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
         "zona": "CHACAITO",
-        "mercaderista": "JESUS BARAJAS",
-        "atención": "CAPITAL ESTE"
+        "nombre": "JESUS BARAJAS",
+        "atención": "CAPITAL ESTE",
+        "mercaderista": "CAPITAL 02"
     },
     {
         "id": 44,
@@ -392,8 +435,9 @@
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
         "zona": "SAN BERNARDINO ",
-        "mercaderista": "JESUS GRANADOS",
-        "atención": "CAPITAL OESTE "
+        "nombre": "JESUS GRANADOS",
+        "atención": "CAPITAL OESTE ",
+        "mercaderista": "CAPITAL 01"
     },
     {
         "id": 45,
@@ -401,8 +445,9 @@
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
         "zona": "AV URDANETA ",
-        "mercaderista": "JESUS GRANADOS",
-        "atención": "CAPITAL OESTE "
+        "nombre": "JESUS GRANADOS",
+        "atención": "CAPITAL OESTE ",
+        "mercaderista": "CAPITAL 01"
     },
     {
         "id": 46,
@@ -410,8 +455,9 @@
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
         "zona": "LOS SÍMBOLOS",
-        "mercaderista": "JESUS GRANADOS",
-        "atención": "CAPITAL OESTE "
+        "nombre": "JESUS GRANADOS",
+        "atención": "CAPITAL OESTE ",
+        "mercaderista": "CAPITAL 01"
     },
     {
         "id": 47,
@@ -419,8 +465,9 @@
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
         "zona": "SAN MARTIN",
-        "mercaderista": "JESUS GRANADOS",
-        "atención": "CAPITAL OESTE "
+        "nombre": "JESUS GRANADOS",
+        "atención": "CAPITAL OESTE ",
+        "mercaderista": "CAPITAL 01"
     },
     {
         "id": 48,
@@ -428,8 +475,9 @@
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
         "zona": "EL RECREO",
-        "mercaderista": "JESUS BARAJAS",
-        "atención": "CAPITAL ESTE"
+        "nombre": "JESUS BARAJAS",
+        "atención": "CAPITAL ESTE",
+        "mercaderista": "CAPITAL 02"
     },
     {
         "id": 49,
@@ -437,8 +485,9 @@
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
         "zona": "CHACAO",
-        "mercaderista": "JESUS BARAJAS",
-        "atención": "CAPITAL ESTE"
+        "nombre": "JESUS BARAJAS",
+        "atención": "CAPITAL ESTE",
+        "mercaderista": "CAPITAL 02"
     },
     {
         "id": 50,
@@ -446,8 +495,9 @@
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
         "zona": "PETARE",
-        "mercaderista": "JESUS BARAJAS",
-        "atención": "CAPITAL ESTE"
+        "nombre": "JESUS BARAJAS",
+        "atención": "CAPITAL ESTE",
+        "mercaderista": "CAPITAL 02"
     },
     {
         "id": 51,
@@ -455,2014 +505,3188 @@
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
         "zona": "PETARE",
-        "mercaderista": "JESUS BARAJAS",
-        "atención": "CAPITAL ESTE"
+        "nombre": "JESUS BARAJAS",
+        "atención": "CAPITAL ESTE",
+        "mercaderista": "CAPITAL 02"
     },
     {
         "id": 52,
+        "cliente": "LOCATEL CARICUAO",
+        "frecuencia": "SEMANAL",
+        "region": "CAPITAL",
+        "zona": "CARICUAO",
+        "nombre": "JESUS GRANADOS",
+        "atención": "CAPITAL OESTE ",
+        "mercaderista": "CAPITAL 01"
+    },
+    {
+        "id": 53,
         "cliente": "LOCATEL CHACAITO",
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
         "zona": "CHACAITO",
-        "mercaderista": "JESUS BARAJAS",
-        "atención": "CAPITAL ESTE"
-    },
-    {
-        "id": 53,
-        "cliente": "LOCATEL GALERÍA LA VEGA ",
-        "frecuencia": "SEMANAL",
-        "region": "CAPITAL",
-        "zona": "LA VEGA",
-        "mercaderista": "JESUS GRANADOS",
-        "atención": "CAPITAL OESTE "
+        "nombre": "JESUS BARAJAS",
+        "atención": "CAPITAL ESTE",
+        "mercaderista": "CAPITAL 02"
     },
     {
         "id": 54,
-        "cliente": "LOCATEL LA CALIFORNIA ",
+        "cliente": "LOCATEL EL PARAISO",
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
-        "zona": "LA CALIFORNIA",
-        "mercaderista": "JESUS BARAJAS",
-        "atención": "CAPITAL ESTE"
+        "zona": "EL PARAISO",
+        "nombre": "JESUS GRANADOS",
+        "atención": "CAPITAL OESTE ",
+        "mercaderista": "CAPITAL 01"
     },
     {
         "id": 55,
-        "cliente": "LOCATEL LA CASTELLANA ",
+        "cliente": "LOCATEL EL VALLE",
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
-        "zona": "LA CASTELLANA",
-        "mercaderista": "JESUS BARAJAS",
-        "atención": "CAPITAL ESTE"
+        "zona": "EL VALLE",
+        "nombre": "JESUS GRANADOS",
+        "atención": "CAPITAL OESTE ",
+        "mercaderista": "CAPITAL 01"
     },
     {
         "id": 56,
-        "cliente": "LOCATEL LA MARRÓN ",
+        "cliente": "LOCATEL HOSPITAL DE CLINICAS CARACAS",
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
-        "zona": "CAPITOLIO",
-        "mercaderista": "JESUS GRANADOS",
-        "atención": "CAPITAL OESTE "
+        "zona": "SAN BERNARDINO ",
+        "nombre": "JESUS GRANADOS",
+        "atención": "CAPITAL OESTE ",
+        "mercaderista": "CAPITAL 01"
     },
     {
         "id": 57,
-        "cliente": "LOCATEL LA MERCEDES ",
+        "cliente": "LOCATEL LA CASTELLANA",
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
-        "zona": "LAS MERCEDES",
-        "mercaderista": "JESUS BARAJAS",
-        "atención": "CAPITAL ESTE"
+        "zona": "LA CASTELLANA",
+        "nombre": "JESUS BARAJAS",
+        "atención": "CAPITAL ESTE",
+        "mercaderista": "CAPITAL 02"
     },
     {
         "id": 58,
-        "cliente": "LOCATEL LA YAGUARA ",
+        "cliente": "LOCATEL LA MARRÓN",
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
-        "zona": "LA YAGUARA ",
-        "mercaderista": "JESUS GRANADOS",
-        "atención": "CAPITAL OESTE "
+        "zona": "CENTRO DE CARACAS",
+        "nombre": "JESUS GRANADOS",
+        "atención": "CAPITAL OESTE ",
+        "mercaderista": "CAPITAL 01"
     },
     {
         "id": 59,
-        "cliente": "LOCATEL PETARE ",
+        "cliente": "LOCATEL LA YAGUARA",
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
-        "zona": "PETARE",
-        "mercaderista": "JESUS BARAJAS",
-        "atención": "CAPITAL ESTE"
+        "zona": "LA YAGUARA",
+        "nombre": "JESUS GRANADOS",
+        "atención": "CAPITAL OESTE ",
+        "mercaderista": "CAPITAL 01"
     },
     {
         "id": 60,
-        "cliente": "LOCATEL PLAZA BOLIVAR ",
+        "cliente": "LOCATEL PLAZA BOLIVAR",
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
-        "zona": "CAPITOLIO",
-        "mercaderista": "JESUS GRANADOS",
-        "atención": "CAPITAL OESTE "
+        "zona": "CENTRO DE CARACAS",
+        "nombre": "JESUS GRANADOS",
+        "atención": "CAPITAL OESTE ",
+        "mercaderista": "CAPITAL 01"
     },
     {
         "id": 61,
-        "cliente": "LOCATEL SAN MARTIN ",
+        "cliente": "LOCATEL SAN BERNARDINO FÉNIX",
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
-        "zona": "AV SAN MARTIN ",
-        "mercaderista": "JESUS GRANADOS",
-        "atención": "CAPITAL OESTE "
+        "zona": "SAN BERNARDINO ",
+        "nombre": "JESUS GRANADOS",
+        "atención": "CAPITAL OESTE ",
+        "mercaderista": "CAPITAL 01"
     },
     {
         "id": 62,
-        "cliente": "LOCATEL ZOOLÓGICO ",
+        "cliente": "LOCATEL SAN MARTIN",
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
-        "zona": "CC CARICUAO ZOOLÓGICO ",
-        "mercaderista": "JESUS GRANADOS",
-        "atención": "CAPITAL OESTE "
+        "zona": "SAN MARTIN",
+        "nombre": "JESUS GRANADOS",
+        "atención": "CAPITAL OESTE ",
+        "mercaderista": "CAPITAL 01"
     },
     {
         "id": 63,
-        "cliente": "MARA PLUS BELLA ARTES ",
+        "cliente": "LOCATEL SANTA MÓNICA",
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
-        "zona": "AV URDANETA ",
-        "mercaderista": "JESUS GRANADOS",
-        "atención": "CAPITAL OESTE "
+        "zona": "SANTA MONICA",
+        "nombre": "JESUS BARAJAS",
+        "atención": "CAPITAL OESTE ",
+        "mercaderista": "CAPITAL 02"
     },
     {
         "id": 64,
-        "cliente": "MARA PLUS LA CANDELARIA ",
+        "cliente": "LOCATEL SANTA PAULA",
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
-        "zona": "AV URDANETA ",
-        "mercaderista": "JESUS GRANADOS",
-        "atención": "CAPITAL OESTE "
+        "zona": "SANTA PAULA",
+        "nombre": "JESUS BARAJAS",
+        "atención": "CAPITAL OESTE ",
+        "mercaderista": "CAPITAL 02"
     },
     {
         "id": 65,
-        "cliente": "MARAPLUS LA FLORIDA",
-        "frecuencia": "SEMANAL",
-        "region": "CAPITAL",
-        "zona": "LA FLORIDA",
-        "mercaderista": "JESUS BARAJAS",
-        "atención": "CAPITAL ESTE"
-    },
-    {
-        "id": 66,
-        "cliente": "REDVITAL LA URBINA ",
-        "frecuencia": "SEMANAL",
-        "region": "CAPITAL",
-        "zona": "LA URBINA",
-        "mercaderista": "JESUS BARAJAS",
-        "atención": "CAPITAL ESTE"
-    },
-    {
-        "id": 67,
-        "cliente": "REDVITAL YAGUARA ",
-        "frecuencia": "SEMANAL",
-        "region": "CAPITAL",
-        "zona": "LA YAGUARA ",
-        "mercaderista": "JESUS GRANADOS",
-        "atención": "CAPITAL OESTE "
-    },
-    {
-        "id": 68,
         "cliente": "MEGAFARMA AV. BOLIVAR ",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "CENTRO",
-        "mercaderista": "AMELIA MORAO",
-        "atención": "ORIENTE-MATURIN"
+        "nombre": "AMELIA MORAO",
+        "atención": "ORIENTE-MATURIN",
+        "mercaderista": "MONAGAS 01"
     },
     {
-        "id": 69,
+        "id": 66,
         "cliente": "FARMADON AV. BOLIVAR",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "CENTRO",
-        "mercaderista": "AMELIA MORAO",
-        "atención": "ORIENTE-MATURIN"
+        "nombre": "AMELIA MORAO",
+        "atención": "ORIENTE-MATURIN",
+        "mercaderista": "MONAGAS 01"
     },
     {
-        "id": 70,
+        "id": 67,
         "cliente": "MEGAFARMA SAN SIMON ",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "CENTRO",
-        "mercaderista": "AMELIA MORAO",
-        "atención": "ORIENTE-MATURIN"
+        "nombre": "AMELIA MORAO",
+        "atención": "ORIENTE-MATURIN",
+        "mercaderista": "MONAGAS 01"
     },
     {
-        "id": 71,
+        "id": 68,
         "cliente": "FARMATODO BOULEVARD ",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "CENTRO",
-        "mercaderista": "AMELIA MORAO",
-        "atención": "ORIENTE-MATURIN"
+        "nombre": "AMELIA MORAO",
+        "atención": "ORIENTE-MATURIN",
+        "mercaderista": "MONAGAS 01"
     },
     {
-        "id": 72,
+        "id": 69,
         "cliente": "FARMATODO PLAZA 7",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "CENTRO",
-        "mercaderista": "AMELIA MORAO",
-        "atención": "ORIENTE-MATURIN"
+        "nombre": "AMELIA MORAO",
+        "atención": "ORIENTE-MATURIN",
+        "mercaderista": "MONAGAS 01"
     },
     {
-        "id": 73,
+        "id": 70,
         "cliente": "MEGAFARMA CHIMBORAZO",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "CENTRO",
-        "mercaderista": "AMELIA MORAO",
-        "atención": "ORIENTE-MATURIN"
+        "nombre": "AMELIA MORAO",
+        "atención": "ORIENTE-MATURIN",
+        "mercaderista": "MONAGAS 01"
     },
     {
-        "id": 74,
+        "id": 71,
         "cliente": "FARMADON CHIMBORAZO",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "CENTRO",
-        "mercaderista": "AMELIA MORAO",
-        "atención": "ORIENTE-MATURIN"
+        "nombre": "AMELIA MORAO",
+        "atención": "ORIENTE-MATURIN",
+        "mercaderista": "MONAGAS 01"
     },
     {
-        "id": 75,
+        "id": 72,
         "cliente": "EL PODEROSO JUNCAL",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "CENTRO",
-        "mercaderista": "AMELIA MORAO",
-        "atención": "ORIENTE-MATURIN"
+        "nombre": "AMELIA MORAO",
+        "atención": "ORIENTE-MATURIN",
+        "mercaderista": "MONAGAS 01"
     },
     {
-        "id": 76,
+        "id": 73,
         "cliente": "MEGAFARMA JUNCAL ",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "CENTRO",
-        "mercaderista": "AMELIA MORAO",
-        "atención": "ORIENTE-MATURIN"
+        "nombre": "AMELIA MORAO",
+        "atención": "ORIENTE-MATURIN",
+        "mercaderista": "MONAGAS 01"
     },
     {
-        "id": 77,
+        "id": 74,
         "cliente": "FARMADON JUNCAL",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "CENTRO",
-        "mercaderista": "AMELIA MORAO",
-        "atención": "ORIENTE-MATURIN"
+        "nombre": "AMELIA MORAO",
+        "atención": "ORIENTE-MATURIN",
+        "mercaderista": "MONAGAS 01"
     },
     {
-        "id": 78,
+        "id": 75,
         "cliente": "FARMACIA GLOBAL SALUD",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "CENTRO",
-        "mercaderista": "AMELIA MORAO",
-        "atención": "ORIENTE-MATURIN"
+        "nombre": "AMELIA MORAO",
+        "atención": "ORIENTE-MATURIN",
+        "mercaderista": "MONAGAS 01"
     },
     {
-        "id": 79,
+        "id": 76,
         "cliente": "FARMACIA EL OFERTON",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "CENTRO",
-        "mercaderista": "AMELIA MORAO",
-        "atención": "ORIENTE-MATURIN"
+        "nombre": "AMELIA MORAO",
+        "atención": "ORIENTE-MATURIN",
+        "mercaderista": "MONAGAS 01"
     },
     {
-        "id": 80,
+        "id": 77,
         "cliente": "FARMAPAZ SOFISALUD",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "CENTRO",
-        "mercaderista": "AMELIA MORAO",
-        "atención": "ORIENTE-MATURIN"
+        "nombre": "AMELIA MORAO",
+        "atención": "ORIENTE-MATURIN",
+        "mercaderista": "MONAGAS 01"
     },
     {
-        "id": 81,
+        "id": 78,
         "cliente": "FARMAPAZ JUNCAL",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "CENTRO",
-        "mercaderista": "AMELIA MORAO",
-        "atención": "ORIENTE-MATURIN"
+        "nombre": "AMELIA MORAO",
+        "atención": "ORIENTE-MATURIN",
+        "mercaderista": "MONAGAS 01"
     },
     {
-        "id": 82,
+        "id": 79,
         "cliente": "FARMADON",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "AV. BICENTENARIO",
-        "mercaderista": "AMELIA MORAO",
-        "atención": "ORIENTE-MATURIN"
+        "nombre": "AMELIA MORAO",
+        "atención": "ORIENTE-MATURIN",
+        "mercaderista": "MONAGAS 01"
     },
     {
-        "id": 83,
+        "id": 80,
         "cliente": "HOSPISALUD",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "AV. BICENTENARIO",
-        "mercaderista": "AMELIA MORAO",
-        "atención": "ORIENTE-MATURIN"
+        "nombre": "AMELIA MORAO",
+        "atención": "ORIENTE-MATURIN",
+        "mercaderista": "MONAGAS 01"
     },
     {
-        "id": 84,
+        "id": 81,
         "cliente": "FARMAPAZ",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "AV. BICENTENARIO",
-        "mercaderista": "AMELIA MORAO",
-        "atención": "ORIENTE-MATURIN"
+        "nombre": "AMELIA MORAO",
+        "atención": "ORIENTE-MATURIN",
+        "mercaderista": "MONAGAS 01"
     },
     {
-        "id": 85,
+        "id": 82,
         "cliente": "EL PODEROSO HOSPITAL",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "AV. BICENTENARIO",
-        "mercaderista": "AMELIA MORAO",
-        "atención": "ORIENTE-MATURIN"
+        "nombre": "AMELIA MORAO",
+        "atención": "ORIENTE-MATURIN",
+        "mercaderista": "MONAGAS 01"
     },
     {
-        "id": 86,
+        "id": 83,
         "cliente": "AUTOMERCADO MAXI",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "AV. BICENTENARIO",
-        "mercaderista": "AMELIA MORAO",
-        "atención": "ORIENTE-MATURIN"
+        "nombre": "AMELIA MORAO",
+        "atención": "ORIENTE-MATURIN",
+        "mercaderista": "MONAGAS 01"
     },
     {
-        "id": 87,
+        "id": 84,
         "cliente": "FARMADON PIAR",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "AV. BICENTENARIO",
-        "mercaderista": "AMELIA MORAO",
-        "atención": "ORIENTE-MATURIN"
+        "nombre": "AMELIA MORAO",
+        "atención": "ORIENTE-MATURIN",
+        "mercaderista": "MONAGAS 01"
     },
     {
-        "id": 88,
+        "id": 85,
         "cliente": "MEGAFARMA PIAR",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "AV. BICENTENARIO",
-        "mercaderista": "AMELIA MORAO",
-        "atención": "ORIENTE-MATURIN"
+        "nombre": "AMELIA MORAO",
+        "atención": "ORIENTE-MATURIN",
+        "mercaderista": "MONAGAS 01"
     },
     {
-        "id": 89,
+        "id": 86,
         "cliente": "FARMAPAZ LOS GUARITOS",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "LOS GUARITOS",
-        "mercaderista": "AMELIA MORAO",
-        "atención": "ORIENTE-MATURIN"
+        "nombre": "AMELIA MORAO",
+        "atención": "ORIENTE-MATURIN",
+        "mercaderista": "MONAGAS 01"
     },
     {
-        "id": 90,
+        "id": 87,
         "cliente": "FARMADON LOS GUARITOS ",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "LOS GUARITOS",
-        "mercaderista": "AMELIA MORAO",
-        "atención": "ORIENTE-MATURIN"
+        "nombre": "AMELIA MORAO",
+        "atención": "ORIENTE-MATURIN",
+        "mercaderista": "MONAGAS 01"
     },
     {
-        "id": 91,
+        "id": 88,
         "cliente": "FARMAPAZ AV. EL EJÉRCITO ",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "AV. EL EJÉRCITO ",
-        "mercaderista": "AMELIA MORAO",
-        "atención": "ORIENTE-MATURIN"
+        "nombre": "AMELIA MORAO",
+        "atención": "ORIENTE-MATURIN",
+        "mercaderista": "MONAGAS 01"
     },
     {
-        "id": 92,
+        "id": 89,
         "cliente": "AUTOMERCADO MAXI",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "AV. EL EJÉRCITO ",
-        "mercaderista": "AMELIA MORAO",
-        "atención": "ORIENTE-MATURIN"
+        "nombre": "AMELIA MORAO",
+        "atención": "ORIENTE-MATURIN",
+        "mercaderista": "MONAGAS 01"
     },
     {
-        "id": 93,
+        "id": 90,
         "cliente": "FARMAPAZ LA PUENTE",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "LA PUENTE",
-        "mercaderista": "AMELIA MORAO",
-        "atención": "ORIENTE-MATURIN"
+        "nombre": "AMELIA MORAO",
+        "atención": "ORIENTE-MATURIN",
+        "mercaderista": "MONAGAS 01"
     },
     {
-        "id": 94,
+        "id": 91,
         "cliente": "FARMADON BOQUERON",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "BOQUERÓN ",
-        "mercaderista": "AMELIA MORAO",
-        "atención": "ORIENTE-MATURIN"
+        "nombre": "AMELIA MORAO",
+        "atención": "ORIENTE-MATURIN",
+        "mercaderista": "MONAGAS 01"
     },
     {
-        "id": 95,
+        "id": 92,
         "cliente": "AUTOMERCADO GRAN MAX",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "BOQUERÓN ",
-        "mercaderista": "AMELIA MORAO",
-        "atención": "ORIENTE-MATURIN"
+        "nombre": "AMELIA MORAO",
+        "atención": "ORIENTE-MATURIN",
+        "mercaderista": "MONAGAS 01"
     },
     {
-        "id": 96,
+        "id": 93,
         "cliente": "FARMATODO TIPURO",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "TIPURO/PALMA REAL",
-        "mercaderista": "AMELIA MORAO",
-        "atención": "ORIENTE-MATURIN"
+        "nombre": "AMELIA MORAO",
+        "atención": "ORIENTE-MATURIN",
+        "mercaderista": "MONAGAS 01"
     },
     {
-        "id": 97,
+        "id": 94,
         "cliente": "MEGAFARMA TIPURO",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "TIPURO/PALMA REAL",
-        "mercaderista": "AMELIA MORAO",
-        "atención": "ORIENTE-MATURIN"
+        "nombre": "AMELIA MORAO",
+        "atención": "ORIENTE-MATURIN",
+        "mercaderista": "MONAGAS 01"
     },
     {
-        "id": 98,
+        "id": 95,
         "cliente": "MYKASA PALMA REAL",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "TIPURO/PALMA REAL",
-        "mercaderista": "AMELIA MORAO",
-        "atención": "ORIENTE-MATURIN"
+        "nombre": "AMELIA MORAO",
+        "atención": "ORIENTE-MATURIN",
+        "mercaderista": "MONAGAS 01"
     },
     {
-        "id": 99,
+        "id": 96,
         "cliente": "FARMADON PALMA REAL",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "TIPURO/PALMA REAL",
-        "mercaderista": "AMELIA MORAO",
-        "atención": "ORIENTE-MATURIN"
+        "nombre": "AMELIA MORAO",
+        "atención": "ORIENTE-MATURIN",
+        "mercaderista": "MONAGAS 01"
     },
     {
-        "id": 100,
+        "id": 97,
         "cliente": "FARMADON SERVIMAS",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "TIPURO/PALMA REAL",
-        "mercaderista": "AMELIA MORAO",
-        "atención": "ORIENTE-MATURIN"
+        "nombre": "AMELIA MORAO",
+        "atención": "ORIENTE-MATURIN",
+        "mercaderista": "MONAGAS 01"
     },
     {
-        "id": 101,
+        "id": 98,
         "cliente": "AUTOMERCADO LA VISTIMA",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "TIPURO/PALMA REAL",
-        "mercaderista": "AMELIA MORAO",
-        "atención": "ORIENTE-MATURIN"
+        "nombre": "AMELIA MORAO",
+        "atención": "ORIENTE-MATURIN",
+        "mercaderista": "MONAGAS 01"
     },
     {
-        "id": 102,
+        "id": 99,
         "cliente": "FARMADON PASEO DE TIPURO",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "TIPURO/PALMA REAL",
-        "mercaderista": "AMELIA MORAO",
-        "atención": "ORIENTE-MATURIN"
+        "nombre": "AMELIA MORAO",
+        "atención": "ORIENTE-MATURIN",
+        "mercaderista": "MONAGAS 01"
     },
     {
-        "id": 103,
+        "id": 100,
         "cliente": "MEGAFARMA LA PAZ",
         "frecuencia": "QUINCENAL",
         "region": "ORIENTE",
         "zona": "LAS AVENIDAS",
-        "mercaderista": "AMELIA MORAO",
-        "atención": "ORIENTE-MATURIN"
+        "nombre": "AMELIA MORAO",
+        "atención": "ORIENTE-MATURIN",
+        "mercaderista": "MONAGAS 01"
     },
     {
-        "id": 104,
+        "id": 101,
         "cliente": "FARMAPAZ LA PAZ",
         "frecuencia": "QUINCENAL",
         "region": "ORIENTE",
         "zona": "LAS AVENIDAS",
-        "mercaderista": "AMELIA MORAO",
-        "atención": "ORIENTE-MATURIN"
+        "nombre": "AMELIA MORAO",
+        "atención": "ORIENTE-MATURIN",
+        "mercaderista": "MONAGAS 01"
     },
     {
-        "id": 105,
+        "id": 102,
         "cliente": "FARMATODO LUIS DEL VALLE",
         "frecuencia": "QUINCENAL",
         "region": "ORIENTE",
         "zona": "LAS AVENIDAS",
-        "mercaderista": "AMELIA MORAO",
-        "atención": "ORIENTE-MATURIN"
+        "nombre": "AMELIA MORAO",
+        "atención": "ORIENTE-MATURIN",
+        "mercaderista": "MONAGAS 01"
     },
     {
-        "id": 106,
+        "id": 103,
         "cliente": "FARMAPAZ LUIS DEL VALLE",
         "frecuencia": "QUINCENAL",
         "region": "ORIENTE",
         "zona": "LAS AVENIDAS",
-        "mercaderista": "AMELIA MORAO",
-        "atención": "ORIENTE-MATURIN"
+        "nombre": "AMELIA MORAO",
+        "atención": "ORIENTE-MATURIN",
+        "mercaderista": "MONAGAS 01"
     },
     {
-        "id": 107,
+        "id": 104,
         "cliente": "FARMADON LUIS DEL VALLE",
         "frecuencia": "QUINCENAL",
         "region": "ORIENTE",
         "zona": "LAS AVENIDAS",
-        "mercaderista": "AMELIA MORAO",
-        "atención": "ORIENTE-MATURIN"
+        "nombre": "AMELIA MORAO",
+        "atención": "ORIENTE-MATURIN",
+        "mercaderista": "MONAGAS 01"
     },
     {
-        "id": 108,
+        "id": 105,
         "cliente": "MEGAFARMA LUIS DEL VALLE",
         "frecuencia": "QUINCENAL",
         "region": "ORIENTE",
         "zona": "LAS AVENIDAS",
-        "mercaderista": "AMELIA MORAO",
-        "atención": "ORIENTE-MATURIN"
+        "nombre": "AMELIA MORAO",
+        "atención": "ORIENTE-MATURIN",
+        "mercaderista": "MONAGAS 01"
     },
     {
-        "id": 109,
+        "id": 106,
         "cliente": "AUTOMERCADO MERCA MUNDO",
         "frecuencia": "QUINCENAL",
         "region": "ORIENTE",
         "zona": "LAS AVENIDAS",
-        "mercaderista": "AMELIA MORAO",
-        "atención": "ORIENTE-MATURIN"
+        "nombre": "AMELIA MORAO",
+        "atención": "ORIENTE-MATURIN",
+        "mercaderista": "MONAGAS 01"
     },
     {
-        "id": 110,
+        "id": 107,
         "cliente": "FARMATODO BELLA VISTA",
         "frecuencia": "QUINCENAL",
         "region": "CAPITAL",
         "zona": "VISTA ALEGRE",
-        "mercaderista": "JESUS GRANADOS",
-        "atención": "CAPITAL OESTE "
+        "nombre": "JESUS GRANADOS",
+        "atención": "CAPITAL OESTE ",
+        "mercaderista": "CAPITAL 01"
     },
     {
-        "id": 111,
+        "id": 108,
         "cliente": "FARMATODO SETENTA",
         "frecuencia": "QUINCENAL",
         "region": "CAPITAL",
         "zona": "MACARACUAY",
-        "mercaderista": "JESUS BARAJAS",
-        "atención": "CAPITAL ESTE"
+        "nombre": "JESUS BARAJAS",
+        "atención": "CAPITAL ESTE",
+        "mercaderista": "CAPITAL 02"
     },
     {
-        "id": 112,
+        "id": 109,
         "cliente": "FARMATODO JOYA",
         "frecuencia": "QUINCENAL",
         "region": "CAPITAL",
         "zona": "MACARACUAY",
-        "mercaderista": "JESUS BARAJAS",
-        "atención": "CAPITAL ESTE"
+        "nombre": "JESUS BARAJAS",
+        "atención": "CAPITAL ESTE",
+        "mercaderista": "CAPITAL 02"
     },
     {
-        "id": 113,
+        "id": 110,
         "cliente": "FARMATODO CHUAO ",
         "frecuencia": "QUINCENAL",
         "region": "CAPITAL",
         "zona": "CHUAO",
-        "mercaderista": "JESUS BARAJAS",
-        "atención": "CAPITAL ESTE"
+        "nombre": "JESUS BARAJAS",
+        "atención": "CAPITAL ESTE",
+        "mercaderista": "CAPITAL 02"
     },
     {
-        "id": 114,
+        "id": 111,
         "cliente": "FARMATODO ZAFIRO",
         "frecuencia": "QUINCENAL",
         "region": "CAPITAL",
         "zona": "COLINAS DE TAMANACO-VIZCAYA",
-        "mercaderista": "JESUS BARAJAS",
-        "atención": "CAPITAL ESTE"
+        "nombre": "JESUS BARAJAS",
+        "atención": "CAPITAL ESTE",
+        "mercaderista": "CAPITAL 02"
     },
     {
-        "id": 115,
+        "id": 112,
         "cliente": "FARMATODO IRENE",
         "frecuencia": "QUINCENAL",
         "region": "CAPITAL",
         "zona": "CC PLAZA LAS AMERICAS-CAFETAL",
-        "mercaderista": "JESUS BARAJAS",
-        "atención": "CAPITAL ESTE"
+        "nombre": "JESUS BARAJAS",
+        "atención": "CAPITAL ESTE",
+        "mercaderista": "CAPITAL 02"
     },
     {
-        "id": 116,
+        "id": 113,
         "cliente": "FARMATODO MONICA ",
         "frecuencia": "QUINCENAL",
         "region": "CAPITAL",
         "zona": "CERRO VERDE",
-        "mercaderista": "JESUS BARAJAS",
-        "atención": "CAPITAL ESTE"
+        "nombre": "JESUS BARAJAS",
+        "atención": "CAPITAL ESTE",
+        "mercaderista": "CAPITAL 02"
     },
     {
-        "id": 117,
+        "id": 114,
         "cliente": "FARMATODO PEDRO LUIS",
         "frecuencia": "QUINCENAL",
         "region": "CAPITAL",
         "zona": "LOS NARANJOS",
-        "mercaderista": "JESUS BARAJAS",
-        "atención": "CAPITAL ESTE"
+        "nombre": "JESUS BARAJAS",
+        "atención": "CAPITAL ESTE",
+        "mercaderista": "CAPITAL 02"
     },
     {
-        "id": 118,
+        "id": 115,
         "cliente": "FARMATODO GRACIELA",
         "frecuencia": "QUINCENAL",
         "region": "CAPITAL",
         "zona": "LA LAGUNITA",
-        "mercaderista": "JESUS BARAJAS",
-        "atención": "CAPITAL ESTE"
+        "nombre": "JESUS BARAJAS",
+        "atención": "CAPITAL ESTE",
+        "mercaderista": "CAPITAL 02"
     },
     {
-        "id": 119,
+        "id": 116,
         "cliente": "FARMATODO JOSE MIGUEL",
         "frecuencia": "QUINCENAL",
         "region": "CAPITAL",
         "zona": "LA UNIÓN-HATILLO",
-        "mercaderista": "JESUS BARAJAS",
-        "atención": "CAPITAL ESTE"
+        "nombre": "JESUS BARAJAS",
+        "atención": "CAPITAL ESTE",
+        "mercaderista": "CAPITAL 02"
     },
     {
-        "id": 120,
+        "id": 117,
         "cliente": "FARMATODO MANANTIAL",
         "frecuencia": "QUINCENAL",
         "region": "CAPITAL",
         "zona": "EL HATILLO",
-        "mercaderista": "JESUS BARAJAS",
-        "atención": "CAPITAL ESTE"
+        "nombre": "JESUS BARAJAS",
+        "atención": "CAPITAL ESTE",
+        "mercaderista": "CAPITAL 02"
     },
     {
-        "id": 121,
+        "id": 118,
         "cliente": "FARMATODO ACONCAGUA",
         "frecuencia": "QUINCENAL",
         "region": "CAPITAL",
         "zona": "SANTA FÉ",
-        "mercaderista": "JESUS BARAJAS",
-        "atención": "CAPITAL ESTE"
+        "nombre": "JESUS BARAJAS",
+        "atención": "CAPITAL ESTE",
+        "mercaderista": "CAPITAL 02"
     },
     {
-        "id": 122,
+        "id": 119,
         "cliente": "FARMATODO SUSANA ",
         "frecuencia": "QUINCENAL",
         "region": "CAPITAL",
         "zona": "PRADOS DEL ESTE",
-        "mercaderista": "JESUS BARAJAS",
-        "atención": "CAPITAL ESTE"
+        "nombre": "JESUS BARAJAS",
+        "atención": "CAPITAL ESTE",
+        "mercaderista": "CAPITAL 02"
     },
     {
-        "id": 123,
+        "id": 120,
         "cliente": "FARMATODO TEREPAIMA ",
         "frecuencia": "QUINCENAL",
         "region": "CAPITAL",
         "zona": "LA TRINIDAD",
-        "mercaderista": "JESUS BARAJAS",
-        "atención": "CAPITAL ESTE"
+        "nombre": "JESUS BARAJAS",
+        "atención": "CAPITAL ESTE",
+        "mercaderista": "CAPITAL 02"
     },
     {
-        "id": 124,
+        "id": 121,
         "cliente": "FARMATODO EXPRESO",
         "frecuencia": "QUINCENAL",
         "region": "CAPITAL",
         "zona": "BARUTA",
-        "mercaderista": "JESUS BARAJAS",
-        "atención": "CAPITAL ESTE"
+        "nombre": "JESUS BARAJAS",
+        "atención": "CAPITAL ESTE",
+        "mercaderista": "CAPITAL 02"
     },
     {
-        "id": 125,
+        "id": 122,
         "cliente": "FARMATODO ROMANA",
         "frecuencia": "QUINCENAL",
         "region": "CAPITAL",
         "zona": "CC MANZANAREZ",
-        "mercaderista": "JESUS BARAJAS",
-        "atención": "CAPITAL ESTE"
+        "nombre": "JESUS BARAJAS",
+        "atención": "CAPITAL ESTE",
+        "mercaderista": "CAPITAL 02"
     },
     {
-        "id": 126,
+        "id": 123,
         "cliente": "FARMATODO LA CANDELARIA",
         "frecuencia": "SEMANAL",
         "region": "CAPITAL",
         "zona": "CC SAMBIL LA CANDELARIA",
-        "mercaderista": "JESUS GRANADOS",
-        "atención": "CAPITAL OESTE "
+        "nombre": "JESUS GRANADOS",
+        "atención": "CAPITAL OESTE ",
+        "mercaderista": "CAPITAL 01"
     },
     {
-        "id": 127,
+        "id": 124,
         "cliente": "AIKOZ PLC",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "PUERTO LA CRUZ",
-        "mercaderista": "ROBERT LEON",
-        "atención": "ORIENTE-ANZOATEGUI"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-ANZOATEGUI",
+        "mercaderista": "ANZOATEGUI 01"
     },
     {
-        "id": 128,
+        "id": 125,
         "cliente": "MAS X MENOS JUDIBANA",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "PUERTO LA CRUZ",
-        "mercaderista": "ROBERT LEON",
-        "atención": "ORIENTE-ANZOATEGUI"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-ANZOATEGUI",
+        "mercaderista": "ANZOATEGUI 01"
     },
     {
-        "id": 129,
+        "id": 126,
         "cliente": "MAS X MENOS GUARAGUAO",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "PUERTO LA CRUZ",
-        "mercaderista": "ROBERT LEON",
-        "atención": "ORIENTE-ANZOATEGUI"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-ANZOATEGUI",
+        "mercaderista": "ANZOATEGUI 01"
     },
     {
-        "id": 130,
+        "id": 127,
         "cliente": "MAS X MENOS CALLE BOLIVAR",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "PUERTO LA CRUZ",
-        "mercaderista": "ROBERT LEON",
-        "atención": "ORIENTE-ANZOATEGUI"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-ANZOATEGUI",
+        "mercaderista": "ANZOATEGUI 01"
     },
     {
-        "id": 131,
+        "id": 128,
         "cliente": "FARMATODO LOS CEREZOS",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "PUERTO LA CRUZ",
-        "mercaderista": "ROBERT LEON",
-        "atención": "ORIENTE-ANZOATEGUI"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-ANZOATEGUI",
+        "mercaderista": "ANZOATEGUI 01"
     },
     {
-        "id": 132,
+        "id": 129,
         "cliente": "FARMATODO PASEO COLON",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "PUERTO LA CRUZ",
-        "mercaderista": "ROBERT LEON",
-        "atención": "ORIENTE-ANZOATEGUI"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-ANZOATEGUI",
+        "mercaderista": "ANZOATEGUI 01"
     },
     {
-        "id": 133,
+        "id": 130,
         "cliente": "FARMATODO CALLE LIBERTAD",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "PUERTO LA CRUZ",
-        "mercaderista": "ROBERT LEON",
-        "atención": "ORIENTE-ANZOATEGUI"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-ANZOATEGUI",
+        "mercaderista": "ANZOATEGUI 01"
     },
     {
-        "id": 134,
+        "id": 131,
         "cliente": "AIKOZ LECHERIA",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "LECHERIA",
-        "mercaderista": "ROBERT LEON",
-        "atención": "ORIENTE-ANZOATEGUI"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-ANZOATEGUI",
+        "mercaderista": "ANZOATEGUI 01"
     },
     {
-        "id": 135,
+        "id": 132,
         "cliente": "MAS X MENOS LECHERIA",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "LECHERIA",
-        "mercaderista": "ROBERT LEON",
-        "atención": "ORIENTE-ANZOATEGUI"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-ANZOATEGUI",
+        "mercaderista": "ANZOATEGUI 01"
     },
     {
-        "id": 136,
+        "id": 133,
         "cliente": "TODOHOGAR LECHERIAS",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "LECHERIA",
-        "mercaderista": "ROBERT LEON",
-        "atención": "ORIENTE-ANZOATEGUI"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-ANZOATEGUI",
+        "mercaderista": "ANZOATEGUI 01"
     },
     {
-        "id": 137,
+        "id": 134,
         "cliente": "TODOHOGAR COLINA",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "LECHERIA",
-        "mercaderista": "ROBERT LEON",
-        "atención": "ORIENTE-ANZOATEGUI"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-ANZOATEGUI",
+        "mercaderista": "ANZOATEGUI 01"
     },
     {
-        "id": 138,
+        "id": 135,
         "cliente": "HAO SUPERMARKET",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "LECHERIA",
-        "mercaderista": "ROBERT LEON",
-        "atención": "ORIENTE-ANZOATEGUI"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-ANZOATEGUI",
+        "mercaderista": "ANZOATEGUI 01"
     },
     {
-        "id": 139,
+        "id": 136,
         "cliente": "DELEITE CAFÉ",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "LECHERIA",
-        "mercaderista": "ROBERT LEON",
-        "atención": "ORIENTE-ANZOATEGUI"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-ANZOATEGUI",
+        "mercaderista": "ANZOATEGUI 01"
     },
     {
-        "id": 140,
+        "id": 137,
         "cliente": "LIMPIATODO LECHERIAS",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "LECHERIA",
-        "mercaderista": "ROBERT LEON",
-        "atención": "ORIENTE-ANZOATEGUI"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-ANZOATEGUI",
+        "mercaderista": "ANZOATEGUI 01"
     },
     {
-        "id": 141,
+        "id": 138,
         "cliente": "TODOHOGAR LA CHICA",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "BARCELONA",
-        "mercaderista": "ROBERT LEON",
-        "atención": "ORIENTE-ANZOATEGUI"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-ANZOATEGUI",
+        "mercaderista": "ANZOATEGUI 01"
     },
     {
-        "id": 142,
+        "id": 139,
         "cliente": "LIMPIATODO LA CHICA",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "BARCELONA",
-        "mercaderista": "ROBERT LEON",
-        "atención": "ORIENTE-ANZOATEGUI"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-ANZOATEGUI",
+        "mercaderista": "ANZOATEGUI 01"
     },
     {
-        "id": 143,
+        "id": 140,
         "cliente": "FARMAOFERTAS ",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "BARCELONA",
-        "mercaderista": "ROBERT LEON",
-        "atención": "ORIENTE-ANZOATEGUI"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-ANZOATEGUI",
+        "mercaderista": "ANZOATEGUI 01"
     },
     {
-        "id": 144,
+        "id": 141,
         "cliente": "AIKOZ NUEVA BARCELONA",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "BARCELONA",
-        "mercaderista": "ROBERT LEON",
-        "atención": "ORIENTE-ANZOATEGUI"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-ANZOATEGUI",
+        "mercaderista": "ANZOATEGUI 01"
     },
     {
-        "id": 145,
+        "id": 142,
         "cliente": "FARMATODO NEVERI",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "BARCELONA",
-        "mercaderista": "ROBERT LEON",
-        "atención": "ORIENTE-ANZOATEGUI"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-ANZOATEGUI",
+        "mercaderista": "ANZOATEGUI 01"
     },
     {
-        "id": 146,
+        "id": 143,
         "cliente": "MERK TODOS",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "BARCELONA",
-        "mercaderista": "ROBERT LEON",
-        "atención": "ORIENTE-ANZOATEGUI"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-ANZOATEGUI",
+        "mercaderista": "ANZOATEGUI 01"
     },
     {
-        "id": 147,
+        "id": 144,
         "cliente": "FARMATODO PUENTE REAL",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "BARCELONA",
-        "mercaderista": "ROBERT LEON",
-        "atención": "ORIENTE-ANZOATEGUI"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-ANZOATEGUI",
+        "mercaderista": "ANZOATEGUI 01"
     },
     {
-        "id": 148,
+        "id": 145,
         "cliente": "AIKOZ VENECIA",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "BARCELONA",
-        "mercaderista": "ROBERT LEON",
-        "atención": "ORIENTE-ANZOATEGUI"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-ANZOATEGUI",
+        "mercaderista": "ANZOATEGUI 01"
     },
     {
-        "id": 149,
+        "id": 146,
         "cliente": "MAS X MENOS HIPER",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "BARCELONA",
-        "mercaderista": "ROBERT LEON",
-        "atención": "ORIENTE-ANZOATEGUI"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-ANZOATEGUI",
+        "mercaderista": "ANZOATEGUI 01"
     },
     {
-        "id": 150,
+        "id": 147,
         "cliente": "TODOHOGAR HOSPITAL",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "BARCELONA",
-        "mercaderista": "ROBERT LEON",
-        "atención": "ORIENTE-ANZOATEGUI"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-ANZOATEGUI",
+        "mercaderista": "ANZOATEGUI 01"
     },
     {
-        "id": 151,
+        "id": 148,
         "cliente": "TODOHOGAR INTERCOMUNAL",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "BARCELONA",
-        "mercaderista": "ROBERT LEON",
-        "atención": "ORIENTE-ANZOATEGUI"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-ANZOATEGUI",
+        "mercaderista": "ANZOATEGUI 01"
     },
     {
-        "id": 152,
+        "id": 149,
         "cliente": "TODOHOGAR VISTAMAR",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "BARCELONA",
-        "mercaderista": "ROBERT LEON",
-        "atención": "ORIENTE-ANZOATEGUI"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-ANZOATEGUI",
+        "mercaderista": "ANZOATEGUI 01"
     },
     {
-        "id": 153,
+        "id": 150,
         "cliente": "FARMACIA VISTAMAR",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "BARCELONA",
-        "mercaderista": "ROBERT LEON",
-        "atención": "ORIENTE-ANZOATEGUI"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-ANZOATEGUI",
+        "mercaderista": "ANZOATEGUI 01"
     },
     {
-        "id": 154,
+        "id": 151,
         "cliente": "FARMACIA JOCARI",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "BARCELONA",
-        "mercaderista": "ROBERT LEON",
-        "atención": "ORIENTE-ANZOATEGUI"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-ANZOATEGUI",
+        "mercaderista": "ANZOATEGUI 01"
     },
     {
-        "id": 155,
+        "id": 152,
         "cliente": "SUPERMERCADO MEGA BARATON,C.A                                                                       ",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "PUERTO LA CRUZ",
-        "mercaderista": "ROBERT LEON",
-        "atención": "ORIENTE-ANZOATEGUI"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-ANZOATEGUI",
+        "mercaderista": "ANZOATEGUI 01"
     },
     {
-        "id": 156,
+        "id": 153,
         "cliente": "ALIMEX 666",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "PUERTO LA CRUZ",
-        "mercaderista": "ROBERT LEON",
-        "atención": "ORIENTE-ANZOATEGUI"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-ANZOATEGUI",
+        "mercaderista": "ANZOATEGUI 01"
     },
     {
-        "id": 157,
+        "id": 154,
         "cliente": "LIMPIATODO SUCRE",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "PUERTO LA CRUZ",
-        "mercaderista": "ROBERT LEON",
-        "atención": "ORIENTE-ANZOATEGUI"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-ANZOATEGUI",
+        "mercaderista": "ANZOATEGUI 01"
     },
     {
-        "id": 158,
+        "id": 155,
         "cliente": "LIMPIATODO LIBERTAD",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "PUERTO LA CRUZ",
-        "mercaderista": "ROBERT LEON",
-        "atención": "ORIENTE-ANZOATEGUI"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-ANZOATEGUI",
+        "mercaderista": "ANZOATEGUI 01"
     },
     {
-        "id": 159,
+        "id": 156,
         "cliente": "FARMACIA REGINA",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "PUERTO LA CRUZ",
-        "mercaderista": "ROBERT LEON",
-        "atención": "ORIENTE-ANZOATEGUI"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-ANZOATEGUI",
+        "mercaderista": "ANZOATEGUI 01"
     },
     {
-        "id": 160,
-        "cliente": "LA POLLERA ",
-        "frecuencia": "SEMANAL",
-        "region": "BARQUISIMETO",
-        "zona": "ZONA- ESTE ",
-        "mercaderista": "MARGIA BRITO",
-        "atención": "BARQUISIMETO OESTE"
-    },
-    {
-        "id": 161,
-        "cliente": "FARMACIA NUEVO SIGLO C.C CHURUN MERU ",
-        "frecuencia": "SEMANAL",
-        "region": "BARQUISIMETO",
-        "zona": "ZONA- ESTE ",
-        "mercaderista": "MARGIA BRITO",
-        "atención": "BARQUISIMETO OESTE"
-    },
-    {
-        "id": 162,
-        "cliente": "FARMACIA NUEVO SIGLO SAMBIL ",
-        "frecuencia": "SEMANAL",
-        "region": "BARQUISIMETO",
-        "zona": "ZONA- ESTE ",
-        "mercaderista": "MARGIA BRITO",
-        "atención": "BARQUISIMETO OESTE"
-    },
-    {
-        "id": 163,
-        "cliente": "FARMACIA SAN IGNACIO C.C EL LLANERO ",
-        "frecuencia": "SEMANAL",
-        "region": "BARQUISIMETO",
-        "zona": "ZONA- ESTE ",
-        "mercaderista": "MARGIA BRITO",
-        "atención": "BARQUISIMETO OESTE"
-    },
-    {
-        "id": 164,
-        "cliente": "MERKAFUR ESTE ",
-        "frecuencia": "SEMANAL",
-        "region": "BARQUISIMETO",
-        "zona": "ZONA-ESTE ",
-        "mercaderista": "MARGIA BRITO",
-        "atención": "BARQUISIMETO OESTE"
-    },
-    {
-        "id": 165,
-        "cliente": "COMERCIAL EL MAGO ",
-        "frecuencia": "SEMANAL",
-        "region": "BARQUISIMETO",
-        "zona": "ZONA-CENTRO ",
-        "mercaderista": "MARGIA BRITO",
-        "atención": "BARQUISIMETO OESTE"
-    },
-    {
-        "id": 166,
-        "cliente": "FARMACIA SAN IGNACIO DE LA 33",
-        "frecuencia": "SEMANAL",
-        "region": "BARQUISIMETO",
-        "zona": "ZONA- CENTRO ",
-        "mercaderista": "MARGIA BRITO",
-        "atención": "BARQUISIMETO OESTE"
-    },
-    {
-        "id": 167,
-        "cliente": "NATURAL ES MEJOR - BIO NATURAL ",
-        "frecuencia": "SEMANAL",
-        "region": "BARQUISIMETO",
-        "zona": "ZONA-CENTRO ",
-        "mercaderista": "MARGIA BRITO",
-        "atención": "BARQUISIMETO OESTE"
-    },
-    {
-        "id": 168,
-        "cliente": "AL NATURAL ES MEJOR, C.A.",
-        "frecuencia": "SEMANAL",
-        "region": "BARQUISIMETO",
-        "zona": "ZONA-CENTRO ",
-        "mercaderista": "MARGIA BRITO",
-        "atención": "BARQUISIMETO OESTE"
-    },
-    {
-        "id": 169,
-        "cliente": "CENTRO DE ORIENTACIÓN NATURISTA ",
-        "frecuencia": "SEMANAL",
-        "region": "BARQUISIMETO",
-        "zona": "ZONA -CENTRO",
-        "mercaderista": "MARGIA BRITO",
-        "atención": "BARQUISIMETO OESTE"
-    },
-    {
-        "id": 170,
-        "cliente": "HIPERMERCADO KARI ",
-        "frecuencia": "SEMANAL",
-        "region": "BARQUISIMETO",
-        "zona": "ZONA - CABUDARE  ",
-        "mercaderista": "MARGIA BRITO",
-        "atención": "BARQUISIMETO OESTE"
-    },
-    {
-        "id": 171,
-        "cliente": "PERFUMERIA PROFESIONAL ",
-        "frecuencia": "SEMANAL",
-        "region": "BARQUISIMETO",
-        "zona": "ZONA - CABUDARE  ",
-        "mercaderista": "MARGIA BRITO",
-        "atención": "BARQUISIMETO OESTE"
-    },
-    {
-        "id": 172,
-        "cliente": "FARMACIA SAN IGNACIO LAS MERCEDES ",
-        "frecuencia": "SEMANAL",
-        "region": "BARQUISIMETO",
-        "zona": "ZONA - CABUDARE  ",
-        "mercaderista": "MARGIA BRITO",
-        "atención": "BARQUISIMETO OESTE"
-    },
-    {
-        "id": 173,
-        "cliente": "HIPERMERCADO KARI C.C TRAKI ",
-        "frecuencia": "SEMANAL",
-        "region": "BARQUISIMETO",
-        "zona": "ZONA - CABUDARE  ",
-        "mercaderista": "MARGIA BRITO",
-        "atención": "BARQUISIMETO OESTE"
-    },
-    {
-        "id": 174,
-        "cliente": "FARMACIA SAN IGNACIO CENTRO ",
-        "frecuencia": "SEMANAL",
-        "region": "BARQUISIMETO",
-        "zona": "ZONA - CABUDARE  ",
-        "mercaderista": "MARGIA BRITO",
-        "atención": "BARQUISIMETO OESTE"
-    },
-    {
-        "id": 175,
-        "cliente": "MERKAFUR CABUDARE ",
-        "frecuencia": "SEMANAL",
-        "region": "BARQUISIMETO",
-        "zona": "ZONA - CABUDARE  ",
-        "mercaderista": "MARGIA BRITO",
-        "atención": "BARQUISIMETO OESTE"
-    },
-    {
-        "id": 176,
-        "cliente": "LA POLLERA C.C MANGO CENTER ",
-        "frecuencia": "SEMANAL",
-        "region": "BARQUISIMETO",
-        "zona": "ZONA - CABUDARE  ",
-        "mercaderista": "MARGIA BRITO",
-        "atención": "BARQUISIMETO OESTE"
-    },
-    {
-        "id": 177,
-        "cliente": "COOPERATIVA EL TRIUNFO ",
-        "frecuencia": "SEMANAL",
-        "region": "BARQUISIMETO",
-        "zona": "ZONA-CENTRO ",
-        "mercaderista": "MARGIA BRITO",
-        "atención": "BARQUISIMETO OESTE"
-    },
-    {
-        "id": 178,
-        "cliente": "FARMACIA SAN IGNACIO SAN FRANCISCO ",
-        "frecuencia": "SEMANAL",
-        "region": "BARQUISIMETO",
-        "zona": "ZONA-CENTRO ",
-        "mercaderista": "MARGIA BRITO",
-        "atención": "BARQUISIMETO OESTE"
-    },
-    {
-        "id": 179,
-        "cliente": "FARMACIA SAN IGNACIO CON 55",
-        "frecuencia": "SEMANAL",
-        "region": "BARQUISIMETO",
-        "zona": "ZONA-CENTRO ",
-        "mercaderista": "MARGIA BRITO",
-        "atención": "BARQUISIMETO OESTE"
-    },
-    {
-        "id": 180,
-        "cliente": "MERKAFUR ",
-        "frecuencia": "SEMANAL",
-        "region": "BARQUISIMETO",
-        "zona": "ZONA-CENTRO ",
-        "mercaderista": "MARGIA BRITO",
-        "atención": "BARQUISIMETO OESTE"
-    },
-    {
-        "id": 181,
-        "cliente": "HIPERMERCADO KARI ",
-        "frecuencia": "SEMANAL",
-        "region": "BARQUISIMETO",
-        "zona": "ZONA-CENTRO ",
-        "mercaderista": "MARGIA BRITO",
-        "atención": "BARQUISIMETO OESTE"
-    },
-    {
-        "id": 182,
-        "cliente": "FARMACIA SAN IGNACIO DE LA 61",
-        "frecuencia": "SEMANAL",
-        "region": "BARQUISIMETO",
-        "zona": "ZONA-CENTRO ",
-        "mercaderista": "MARGIA BRITO",
-        "atención": "BARQUISIMETO OESTE"
-    },
-    {
-        "id": 183,
-        "cliente": "FARMACIA SAN IGNACIO 49 CON 25",
-        "frecuencia": "SEMANAL",
-        "region": "BARQUISIMETO",
-        "zona": "OESTE",
-        "mercaderista": "MARGIA BRITO",
-        "atención": "BARQUISIMETO OESTE"
-    },
-    {
-        "id": 184,
-        "cliente": "IMPULSO FARMACIA NUEVO SIGLO 20 CON 31 ",
-        "frecuencia": "SEMANAL",
-        "region": "BARQUISIMETO",
-        "zona": "OESTE",
-        "mercaderista": "MARGIA BRITO",
-        "atención": "BARQUISIMETO OESTE"
-    },
-    {
-        "id": 185,
-        "cliente": "COMERCIAL EL MAGO ",
-        "frecuencia": "SEMANAL",
-        "region": "BARQUISIMETO",
-        "zona": "OESTE",
-        "mercaderista": "MARGIA BRITO",
-        "atención": "BARQUISIMETO OESTE"
-    },
-    {
-        "id": 186,
-        "cliente": "HIPERMERCADO KARI ",
-        "frecuencia": "SEMANAL",
-        "region": "BARQUISIMETO",
-        "zona": "OESTE",
-        "mercaderista": "MARGIA BRITO",
-        "atención": "BARQUISIMETO OESTE"
-    },
-    {
-        "id": 187,
-        "cliente": "FARMACIA SAN IGNACIO DE LA 42",
-        "frecuencia": "SEMANAL",
-        "region": "BARQUISIMETO",
-        "zona": "OESTE",
-        "mercaderista": "MARGIA BRITO",
-        "atención": "BARQUISIMETO OESTE"
-    },
-    {
-        "id": 188,
-        "cliente": "NATURAESSENCE",
-        "frecuencia": "SEMANAL",
-        "region": "BARQUISIMETO",
-        "zona": "OESTE",
-        "mercaderista": "MARGIA BRITO",
-        "atención": "BARQUISIMETO OESTE"
-    },
-    {
-        "id": 189,
-        "cliente": "FARMACIA SAN IGNACIO DE LA 33 CON 26 ",
-        "frecuencia": "SEMANAL",
-        "region": "BARQUISIMETO",
-        "zona": "OESTE",
-        "mercaderista": "MARGIA BRITO",
-        "atención": "BARQUISIMETO OESTE"
-    },
-    {
-        "id": 190,
+        "id": 157,
         "cliente": "MAXICONSUMO",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "PUERTO ORDAZ",
-        "mercaderista": "MARIANNYS RAMIREZ",
-        "atención": "ORIENTE-BOLIVAR"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-BOLIVAR",
+        "mercaderista": "BOLIVAR 01"
     },
     {
-        "id": 191,
+        "id": 158,
         "cliente": "HIPERMERCADO PEKIN EL GUAMO",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "PUERTO ORDAZ",
-        "mercaderista": "MARIANNYS RAMIREZ",
-        "atención": "ORIENTE-BOLIVAR"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-BOLIVAR",
+        "mercaderista": "BOLIVAR 01"
     },
     {
-        "id": 192,
+        "id": 159,
         "cliente": "FARMACIA LALA",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "PUERTO ORDAZ",
-        "mercaderista": "MARIANNYS RAMIREZ",
-        "atención": "ORIENTE-BOLIVAR"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-BOLIVAR",
+        "mercaderista": "BOLIVAR 01"
     },
     {
-        "id": 193,
+        "id": 160,
         "cliente": "HIPERMERCADO EL GUAMO",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "PUERTO ORDAZ",
-        "mercaderista": "MARIANNYS RAMIREZ",
-        "atención": "ORIENTE-BOLIVAR"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-BOLIVAR",
+        "mercaderista": "BOLIVAR 01"
     },
     {
-        "id": 194,
+        "id": 161,
         "cliente": "FARMACIA ISABELL",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "PUERTO ORDAZ",
-        "mercaderista": "MARIANNYS RAMIREZ",
-        "atención": "ORIENTE-BOLIVAR"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-BOLIVAR",
+        "mercaderista": "BOLIVAR 01"
     },
     {
-        "id": 195,
+        "id": 162,
         "cliente": "BODEGON LA CARIBEÑA  III",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "PUERTO ORDAZ",
-        "mercaderista": "MARIANNYS RAMIREZ",
-        "atención": "ORIENTE-BOLIVAR"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-BOLIVAR",
+        "mercaderista": "BOLIVAR 01"
     },
     {
-        "id": 196,
+        "id": 163,
         "cliente": "DIAMARKET UNARE",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "PUERTO ORDAZ",
-        "mercaderista": "MARIANNYS RAMIREZ",
-        "atención": "ORIENTE-BOLIVAR"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-BOLIVAR",
+        "mercaderista": "BOLIVAR 01"
     },
     {
-        "id": 197,
+        "id": 164,
         "cliente": "FARMACARACAS",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "PUERTO ORDAZ",
-        "mercaderista": "MARIANNYS RAMIREZ",
-        "atención": "ORIENTE-BOLIVAR"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-BOLIVAR",
+        "mercaderista": "BOLIVAR 01"
     },
     {
-        "id": 198,
+        "id": 165,
         "cliente": "ALIMENTOS CASA EL PRIMO",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "PUERTO ORDAZ",
-        "mercaderista": "MARIANNYS RAMIREZ",
-        "atención": "ORIENTE-BOLIVAR"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-BOLIVAR",
+        "mercaderista": "BOLIVAR 01"
     },
     {
-        "id": 199,
+        "id": 166,
         "cliente": "FARMALLOVIZNA ",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "PUERTO ORDAZ",
-        "mercaderista": "MARIANNYS RAMIREZ",
-        "atención": "ORIENTE-BOLIVAR"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-BOLIVAR",
+        "mercaderista": "BOLIVAR 01"
     },
     {
-        "id": 200,
+        "id": 167,
         "cliente": "FARMALIVIO",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "PUERTO ORDAZ",
-        "mercaderista": "MARIANNYS RAMIREZ",
-        "atención": "ORIENTE-BOLIVAR"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-BOLIVAR",
+        "mercaderista": "BOLIVAR 01"
     },
     {
-        "id": 201,
+        "id": 168,
         "cliente": "HIPERMERCADO UNARE CENTER",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "PUERTO ORDAZ",
-        "mercaderista": "MARIANNYS RAMIREZ",
-        "atención": "ORIENTE-BOLIVAR"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-BOLIVAR",
+        "mercaderista": "BOLIVAR 01"
     },
     {
-        "id": 202,
+        "id": 169,
         "cliente": "BODEGON LA CARIBEÑA I",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "PUERTO ORDAZ",
-        "mercaderista": "MARIANNYS RAMIREZ",
-        "atención": "ORIENTE-BOLIVAR"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-BOLIVAR",
+        "mercaderista": "BOLIVAR 01"
     },
     {
-        "id": 203,
+        "id": 170,
         "cliente": "SANTO TOME CENTRAL DE UNARE ",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "UNARE",
-        "mercaderista": "MARIANNYS RAMIREZ",
-        "atención": "ORIENTE-BOLIVAR"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-BOLIVAR",
+        "mercaderista": "BOLIVAR 01"
     },
     {
-        "id": 204,
+        "id": 171,
         "cliente": "LLOVIZNA MARKET",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "UNARE",
-        "mercaderista": "MARIANNYS RAMIREZ",
-        "atención": "ORIENTE-BOLIVAR"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-BOLIVAR",
+        "mercaderista": "BOLIVAR 01"
     },
     {
-        "id": 205,
+        "id": 172,
         "cliente": "FARMACIA NAZARET",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "UNARE",
-        "mercaderista": "MARIANNYS RAMIREZ",
-        "atención": "ORIENTE-BOLIVAR"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-BOLIVAR",
+        "mercaderista": "BOLIVAR 01"
     },
     {
-        "id": 206,
+        "id": 173,
         "cliente": "FARMACIA 286",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "UNARE",
-        "mercaderista": "MARIANNYS RAMIREZ",
-        "atención": "ORIENTE-BOLIVAR"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-BOLIVAR",
+        "mercaderista": "BOLIVAR 01"
     },
     {
-        "id": 207,
+        "id": 174,
         "cliente": "UNARE CENTER",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "UNARE",
-        "mercaderista": "MARIANNYS RAMIREZ",
-        "atención": "ORIENTE-BOLIVAR"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-BOLIVAR",
+        "mercaderista": "BOLIVAR 01"
     },
     {
-        "id": 208,
+        "id": 175,
         "cliente": "MAYORISTA",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "PUERTO ORDAZ",
-        "mercaderista": "MARIANNYS RAMIREZ",
-        "atención": "ORIENTE-BOLIVAR"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-BOLIVAR",
+        "mercaderista": "BOLIVAR 01"
     },
     {
-        "id": 209,
+        "id": 176,
         "cliente": "FARMARORAIMA",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "PUERTO ORDAZ",
-        "mercaderista": "MARIANNYS RAMIREZ",
-        "atención": "ORIENTE-BOLIVAR"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-BOLIVAR",
+        "mercaderista": "BOLIVAR 01"
     },
     {
-        "id": 210,
+        "id": 177,
         "cliente": "FARMACARONI",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "PUERTO ORDAZ",
-        "mercaderista": "MARIANNYS RAMIREZ",
-        "atención": "ORIENTE-BOLIVAR"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-BOLIVAR",
+        "mercaderista": "BOLIVAR 01"
     },
     {
-        "id": 211,
+        "id": 178,
         "cliente": "FARMAGUAYANA",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "PUERTO ORDAZ",
-        "mercaderista": "MARIANNYS RAMIREZ",
-        "atención": "ORIENTE-BOLIVAR"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-BOLIVAR",
+        "mercaderista": "BOLIVAR 01"
     },
     {
-        "id": 212,
+        "id": 179,
         "cliente": "FARMATEPUY",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "PUERTO ORDAZ",
-        "mercaderista": "MARIANNYS RAMIREZ",
-        "atención": "ORIENTE-BOLIVAR"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-BOLIVAR",
+        "mercaderista": "BOLIVAR 01"
     },
     {
-        "id": 213,
+        "id": 180,
         "cliente": "FARMACIA  PZO",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "PUERTO ORDAZ",
-        "mercaderista": "MARIANNYS RAMIREZ",
-        "atención": "ORIENTE-BOLIVAR"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-BOLIVAR",
+        "mercaderista": "BOLIVAR 01"
     },
     {
-        "id": 214,
+        "id": 181,
         "cliente": "BODEGON LA CARIBEÑA  ",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "PUERTO ORDAZ",
-        "mercaderista": "MARIANNYS RAMIREZ",
-        "atención": "ORIENTE-BOLIVAR"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-BOLIVAR",
+        "mercaderista": "BOLIVAR 01"
     },
     {
-        "id": 215,
+        "id": 182,
         "cliente": "SANTO TOME CENTRAL CASTILLITO",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "PUERTO ORDAZ",
-        "mercaderista": "MARIANNYS RAMIREZ",
-        "atención": "ORIENTE-BOLIVAR"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-BOLIVAR",
+        "mercaderista": "BOLIVAR 01"
     },
     {
-        "id": 216,
+        "id": 183,
         "cliente": "FARMACIA HOSPIFARMA",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "PUERTO ORDAZ",
-        "mercaderista": "MARIANNYS RAMIREZ",
-        "atención": "ORIENTE-BOLIVAR"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-BOLIVAR",
+        "mercaderista": "BOLIVAR 01"
     },
     {
-        "id": 217,
+        "id": 184,
         "cliente": "FARMAECONOMIA SAN ELIAS",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "PUERTO ORDAZ",
-        "mercaderista": "MARIANNYS RAMIREZ",
-        "atención": "ORIENTE-BOLIVAR"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-BOLIVAR",
+        "mercaderista": "BOLIVAR 01"
     },
     {
-        "id": 218,
+        "id": 185,
         "cliente": "BODEGON LA CARIBEÑA  II",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "PUERTO ORDAZ",
-        "mercaderista": "MARIANNYS RAMIREZ",
-        "atención": "ORIENTE-BOLIVAR"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-BOLIVAR",
+        "mercaderista": "BOLIVAR 01"
     },
     {
-        "id": 219,
+        "id": 186,
         "cliente": "FARMACIA AMAZONIA",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "PUERTO ORDAZ",
-        "mercaderista": "MARIANNYS RAMIREZ",
-        "atención": "ORIENTE-BOLIVAR"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-BOLIVAR",
+        "mercaderista": "BOLIVAR 01"
     },
     {
-        "id": 220,
+        "id": 187,
         "cliente": "SUPER ELITE",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "SAN FELIX",
-        "mercaderista": "MARIANNYS RAMIREZ",
-        "atención": "ORIENTE-BOLIVAR"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-BOLIVAR",
+        "mercaderista": "BOLIVAR 01"
     },
     {
-        "id": 221,
+        "id": 188,
         "cliente": "COQUETERIA ",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "SAN FELIX",
-        "mercaderista": "MARIANNYS RAMIREZ",
-        "atención": "ORIENTE-BOLIVAR"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-BOLIVAR",
+        "mercaderista": "BOLIVAR 01"
     },
     {
-        "id": 222,
+        "id": 189,
         "cliente": "H MARKET",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "SAN FELIX",
-        "mercaderista": "MARIANNYS RAMIREZ",
-        "atención": "ORIENTE-BOLIVAR"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-BOLIVAR",
+        "mercaderista": "BOLIVAR 01"
     },
     {
-        "id": 223,
+        "id": 190,
         "cliente": "FARMACIA MANAL",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "SAN FELIX",
-        "mercaderista": "MARIANNYS RAMIREZ",
-        "atención": "ORIENTE-BOLIVAR"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-BOLIVAR",
+        "mercaderista": "BOLIVAR 01"
     },
     {
-        "id": 224,
+        "id": 191,
         "cliente": "FARMACENTRO",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "SAN FELIX",
-        "mercaderista": "MARIANNYS RAMIREZ",
-        "atención": "ORIENTE-BOLIVAR"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-BOLIVAR",
+        "mercaderista": "BOLIVAR 01"
     },
     {
-        "id": 225,
+        "id": 192,
         "cliente": "FARMACIA SANTO TOME ",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "SAN FELIX",
-        "mercaderista": "MARIANNYS RAMIREZ",
-        "atención": "ORIENTE-BOLIVAR"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-BOLIVAR",
+        "mercaderista": "BOLIVAR 01"
     },
     {
-        "id": 226,
+        "id": 193,
         "cliente": "FARMAOFERTA LA ECONOMICA",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "SAN FELIX",
-        "mercaderista": "MARIANNYS RAMIREZ",
-        "atención": "ORIENTE-BOLIVAR"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-BOLIVAR",
+        "mercaderista": "BOLIVAR 01"
     },
     {
-        "id": 227,
+        "id": 194,
         "cliente": "FARMAOFERTA TIERRA SANTA ",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "SAN FELIX",
-        "mercaderista": "MARIANNYS RAMIREZ",
-        "atención": "ORIENTE-BOLIVAR"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-BOLIVAR",
+        "mercaderista": "BOLIVAR 01"
     },
     {
-        "id": 228,
+        "id": 195,
         "cliente": "FARMAHORRO LA ECONOMICA",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "SAN FELIX",
-        "mercaderista": "MARIANNYS RAMIREZ",
-        "atención": "ORIENTE-BOLIVAR"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-BOLIVAR",
+        "mercaderista": "BOLIVAR 01"
     },
     {
-        "id": 229,
+        "id": 196,
         "cliente": "FARMA SALUD PLUS 1",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "SAN FELIX",
-        "mercaderista": "MARIANNYS RAMIREZ",
-        "atención": "ORIENTE-BOLIVAR"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-BOLIVAR",
+        "mercaderista": "BOLIVAR 01"
     },
     {
-        "id": 230,
+        "id": 197,
         "cliente": "HIPER VIP",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "SAN FELIX",
-        "mercaderista": "MARIANNYS RAMIREZ",
-        "atención": "ORIENTE-BOLIVAR"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-BOLIVAR",
+        "mercaderista": "BOLIVAR 01"
     },
     {
-        "id": 231,
+        "id": 198,
         "cliente": "FARMACIA EL DORADO",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "SAN FELIX",
-        "mercaderista": "MARIANNYS RAMIREZ",
-        "atención": "ORIENTE-BOLIVAR"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-BOLIVAR",
+        "mercaderista": "BOLIVAR 01"
     },
     {
-        "id": 232,
+        "id": 199,
         "cliente": "FARMAAHORRO LA ECONOMICA ",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "SAN FELIX",
-        "mercaderista": "MARIANNYS RAMIREZ",
-        "atención": "ORIENTE-BOLIVAR"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-BOLIVAR",
+        "mercaderista": "BOLIVAR 01"
     },
     {
-        "id": 233,
+        "id": 200,
         "cliente": "TIENDA NATURISTA LINO",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "SAN FELIX",
-        "mercaderista": "MARIANNYS RAMIREZ",
-        "atención": "ORIENTE-BOLIVAR"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-BOLIVAR",
+        "mercaderista": "BOLIVAR 01"
     },
     {
-        "id": 234,
+        "id": 201,
         "cliente": "FARMACIA FARMAX",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "SAN FELIX",
-        "mercaderista": "MARIANNYS RAMIREZ",
-        "atención": "ORIENTE-BOLIVAR"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-BOLIVAR",
+        "mercaderista": "BOLIVAR 01"
     },
     {
-        "id": 235,
+        "id": 202,
         "cliente": "FARMACIA LA 45",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "SAN FELIX",
-        "mercaderista": "MARIANNYS RAMIREZ",
-        "atención": "ORIENTE-BOLIVAR"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-BOLIVAR",
+        "mercaderista": "BOLIVAR 01"
     },
     {
-        "id": 236,
+        "id": 203,
         "cliente": "FARMASALUD 17 DE DICIEMBRE",
         "frecuencia": "SEMANAL",
         "region": "ORIENTE",
         "zona": "SAN FELIX",
-        "mercaderista": "MARIANNYS RAMIREZ",
-        "atención": "ORIENTE-BOLIVAR"
+        "nombre": "VACANTE",
+        "atención": "ORIENTE-BOLIVAR",
+        "mercaderista": "BOLIVAR 01"
     },
     {
-        "id": 237,
-        "cliente": "MARAPLUS COROMOTO",
-        "frecuencia": "SEMANAL",
-        "region": "OCCIDENTE",
-        "zona": "MARACAIBO ESTE",
-        "mercaderista": "GIRSON CONTRERAS",
-        "atención": "OCCIDENTE"
-    },
-    {
-        "id": 238,
-        "cliente": "MARAPLUS MALL PASEO  ",
-        "frecuencia": "SEMANAL",
-        "region": "OCCIDENTE",
-        "zona": "MARACAIBO ESTE",
-        "mercaderista": "GIRSON CONTRERAS",
-        "atención": "OCCIDENTE"
-    },
-    {
-        "id": 239,
+        "id": 204,
         "cliente": "FARMAVENEZUELA",
         "frecuencia": "SEMANAL",
         "region": "OCCIDENTE",
-        "zona": "MARACAIBO ESTE",
-        "mercaderista": "GIRSON CONTRERAS",
-        "atención": "OCCIDENTE"
+        "zona": "MARACAIBO SUR",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO SUR",
+        "mercaderista": "MARACAIBO 01"
     },
     {
-        "id": 240,
+        "id": 205,
         "cliente": "ALKOSTO COROMOTO",
         "frecuencia": "SEMANAL",
         "region": "OCCIDENTE",
-        "zona": "MARACAIBO ESTE",
-        "mercaderista": "GIRSON CONTRERAS",
-        "atención": "OCCIDENTE"
+        "zona": "MARACAIBO SUR",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO SUR",
+        "mercaderista": "MARACAIBO 01"
     },
     {
-        "id": 241,
+        "id": 206,
         "cliente": "SUPERMERCADO FORTUNA 2021",
         "frecuencia": "SEMANAL",
         "region": "OCCIDENTE",
-        "zona": "MARACAIBO ESTE",
-        "mercaderista": "GIRSON CONTRERAS",
-        "atención": "OCCIDENTE"
+        "zona": "MARACAIBO SUR",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO SUR",
+        "mercaderista": "MARACAIBO 01"
     },
     {
-        "id": 242,
+        "id": 207,
         "cliente": "PANADERÍA DIANA",
         "frecuencia": "SEMANAL",
         "region": "OCCIDENTE",
-        "zona": "MARACAIBO ESTE",
-        "mercaderista": "GIRSON CONTRERAS",
-        "atención": "OCCIDENTE"
+        "zona": "MARACAIBO SUR",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO SUR",
+        "mercaderista": "MARACAIBO 01"
     },
     {
-        "id": 243,
+        "id": 208,
         "cliente": "FIORELLA COROMOTO",
         "frecuencia": "SEMANAL",
         "region": "OCCIDENTE",
-        "zona": "MARACAIBO ESTE",
-        "mercaderista": "GIRSON CONTRERAS",
-        "atención": "OCCIDENTE"
+        "zona": "MARACAIBO SUR",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO SUR",
+        "mercaderista": "MARACAIBO 01"
     },
     {
-        "id": 244,
+        "id": 209,
         "cliente": "FARMATODO COSTA AZUL",
         "frecuencia": "SEMANAL",
         "region": "OCCIDENTE",
-        "zona": "MARACAIBO ESTE",
-        "mercaderista": "GIRSON CONTRERAS",
-        "atención": "OCCIDENTE"
+        "zona": "MARACAIBO SUR",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO SUR",
+        "mercaderista": "MARACAIBO 01"
     },
     {
-        "id": 245,
+        "id": 210,
         "cliente": "MULTITIENDA FAMILIA",
         "frecuencia": "SEMANAL",
         "region": "OCCIDENTE",
-        "zona": "MARACAIBO ESTE",
-        "mercaderista": "GIRSON CONTRERAS",
-        "atención": "OCCIDENTE"
+        "zona": "MARACAIBO SUR",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO SUR",
+        "mercaderista": "MARACAIBO 01"
     },
     {
-        "id": 246,
+        "id": 211,
         "cliente": "MULTITIENDA SUR AMÉRICA",
         "frecuencia": "SEMANAL",
         "region": "OCCIDENTE",
-        "zona": "MARACAIBO ESTE",
-        "mercaderista": "GIRSON CONTRERAS",
-        "atención": "OCCIDENTE"
+        "zona": "MARACAIBO SUR",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO SUR",
+        "mercaderista": "MARACAIBO 01"
     },
     {
-        "id": 247,
+        "id": 212,
         "cliente": "FARMA EXPRESS 24 SOUTH CENTER",
         "frecuencia": "SEMANAL",
         "region": "OCCIDENTE",
-        "zona": "MARACAIBO ESTE",
-        "mercaderista": "GIRSON CONTRERAS",
-        "atención": "OCCIDENTE"
+        "zona": "MARACAIBO SUR",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO SUR",
+        "mercaderista": "MARACAIBO 01"
     },
     {
-        "id": 248,
+        "id": 213,
         "cliente": "FARMA EXPRESS AV 18",
         "frecuencia": "SEMANAL",
         "region": "OCCIDENTE",
-        "zona": "MARACAIBO ESTE",
-        "mercaderista": "GIRSON CONTRERAS",
-        "atención": "OCCIDENTE"
+        "zona": "MARACAIBO SUR",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO SUR",
+        "mercaderista": "MARACAIBO 01"
     },
     {
-        "id": 249,
+        "id": 214,
         "cliente": "SÚPER GRAN SURTIDO",
         "frecuencia": "SEMANAL",
         "region": "OCCIDENTE",
-        "zona": "MARACAIBO ESTE",
-        "mercaderista": "GIRSON CONTRERAS",
-        "atención": "OCCIDENTE"
+        "zona": "MARACAIBO SUR",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO SUR",
+        "mercaderista": "MARACAIBO 01"
     },
     {
-        "id": 250,
+        "id": 215,
         "cliente": "SUPER MARKET LA POPULAR",
         "frecuencia": "SEMANAL",
         "region": "OCCIDENTE",
-        "zona": "MARACAIBO ESTE",
-        "mercaderista": "GIRSON CONTRERAS",
-        "atención": "OCCIDENTE"
+        "zona": "MARACAIBO SUR",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO SUR",
+        "mercaderista": "MARACAIBO 01"
     },
     {
-        "id": 251,
+        "id": 216,
         "cliente": "SUPER MARKET LA POPULAR A1",
         "frecuencia": "SEMANAL",
         "region": "OCCIDENTE",
-        "zona": "MARACAIBO ESTE",
-        "mercaderista": "GIRSON CONTRERAS",
-        "atención": "OCCIDENTE"
+        "zona": "MARACAIBO SUR",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO SUR",
+        "mercaderista": "MARACAIBO 01"
     },
     {
-        "id": 252,
+        "id": 217,
         "cliente": "FARMATODO C2",
         "frecuencia": "SEMANAL",
         "region": "OCCIDENTE",
-        "zona": "MARACAIBO ESTE",
-        "mercaderista": "GIRSON CONTRERAS",
-        "atención": "OCCIDENTE"
+        "zona": "MARACAIBO SUR",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO SUR",
+        "mercaderista": "MARACAIBO 01"
     },
     {
-        "id": 253,
-        "cliente": "MARA PLUS LA RUBIO",
-        "frecuencia": "SEMANAL",
-        "region": "OCCIDENTE",
-        "zona": "MARACAIBO ESTE",
-        "mercaderista": "GIRSON CONTRERAS",
-        "atención": "OCCIDENTE"
-    },
-    {
-        "id": 254,
-        "cliente": "MARA PLUS COCHE",
-        "frecuencia": "SEMANAL",
-        "region": "OCCIDENTE",
-        "zona": "MARACAIBO ESTE",
-        "mercaderista": "GIRSON CONTRERAS",
-        "atención": "OCCIDENTE"
-    },
-    {
-        "id": 255,
+        "id": 218,
         "cliente": "FARMACIA FARMAEXPRESS NORTE C.A,",
         "frecuencia": "SEMANAL",
         "region": "OCCIDENTE",
-        "zona": "MARACAIBO ESTE",
-        "mercaderista": "GIRSON CONTRERAS",
-        "atención": "OCCIDENTE"
+        "zona": "MARACAIBO SUR",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO SUR",
+        "mercaderista": "MARACAIBO 01"
     },
     {
-        "id": 256,
+        "id": 219,
         "cliente": "FARMATODO LAS DELICIAS ",
         "frecuencia": "SEMANAL",
         "region": "OCCIDENTE",
-        "zona": "MARACAIBO ESTE",
-        "mercaderista": "GIRSON CONTRERAS",
-        "atención": "OCCIDENTE"
+        "zona": "MARACAIBO SUR",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO SUR",
+        "mercaderista": "MARACAIBO 01"
     },
     {
-        "id": 257,
+        "id": 220,
         "cliente": "SUPERMERCADO SAMBA LATINO C.A.,",
         "frecuencia": "SEMANAL",
         "region": "OCCIDENTE",
-        "zona": "MARACAIBO ESTE",
-        "mercaderista": "GIRSON CONTRERAS",
-        "atención": "OCCIDENTE"
+        "zona": "MARACAIBO SUR",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO SUR",
+        "mercaderista": "MARACAIBO 01"
     },
     {
-        "id": 258,
+        "id": 221,
         "cliente": "FRESH MARKET, C.A. ",
         "frecuencia": "SEMANAL",
         "region": "OCCIDENTE",
-        "zona": "MARACAIBO ESTE",
-        "mercaderista": "GIRSON CONTRERAS",
-        "atención": "OCCIDENTE"
+        "zona": "MARACAIBO SUR",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO SUR",
+        "mercaderista": "MARACAIBO 01"
     },
     {
-        "id": 259,
+        "id": 222,
         "cliente": "TIERRA NEGRA ",
         "frecuencia": "SEMANAL",
         "region": "OCCIDENTE",
-        "zona": "MARACAIBO ESTE",
-        "mercaderista": "GIRSON CONTRERAS",
-        "atención": "OCCIDENTE"
+        "zona": "MARACAIBO SUR",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO SUR",
+        "mercaderista": "MARACAIBO 01"
     },
     {
-        "id": 260,
+        "id": 223,
         "cliente": "FARMACIA FARMAEXPRESS 24 BELLA VISTA ",
         "frecuencia": "SEMANAL",
         "region": "OCCIDENTE",
-        "zona": "MARACAIBO ESTE",
-        "mercaderista": "GIRSON CONTRERAS",
-        "atención": "OCCIDENTE"
+        "zona": "MARACAIBO SUR",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO SUR",
+        "mercaderista": "MARACAIBO 01"
     },
     {
-        "id": 261,
+        "id": 224,
         "cliente": "FARMACIA YA! AV UNIVERSIDAD",
         "frecuencia": "SEMANAL",
         "region": "OCCIDENTE",
-        "zona": "MARACAIBO ESTE",
-        "mercaderista": "GIRSON CONTRERAS",
-        "atención": "OCCIDENTE"
+        "zona": "MARACAIBO SUR",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO SUR",
+        "mercaderista": "MARACAIBO 01"
     },
     {
-        "id": 262,
+        "id": 225,
         "cliente": "FARMAPLUS CECILIO ACOSTA",
         "frecuencia": "SEMANAL",
         "region": "OCCIDENTE",
-        "zona": "MARACAIBO ESTE",
-        "mercaderista": "GIRSON CONTRERAS",
-        "atención": "OCCIDENTE"
+        "zona": "MARACAIBO SUR",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO SUR",
+        "mercaderista": "MARACAIBO 01"
     },
     {
-        "id": 263,
+        "id": 226,
         "cliente": "FARMAPLUS MILAGRO NORTE",
         "frecuencia": "SEMANAL",
         "region": "OCCIDENTE",
-        "zona": "MARACAIBO ESTE",
-        "mercaderista": "GIRSON CONTRERAS",
-        "atención": "OCCIDENTE"
+        "zona": "MARACAIBO SUR",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO SUR",
+        "mercaderista": "MARACAIBO 01"
     },
     {
-        "id": 264,
+        "id": 227,
         "cliente": "FARMACIA FARMA SERVICIOS LA FUENTE BELLAS ARTES C. A",
         "frecuencia": "SEMANAL",
         "region": "OCCIDENTE",
-        "zona": "MARACAIBO ESTE",
-        "mercaderista": "GIRSON CONTRERAS",
-        "atención": "OCCIDENTE"
+        "zona": "MARACAIBO SUR",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO SUR",
+        "mercaderista": "MARACAIBO 01"
     },
     {
-        "id": 265,
+        "id": 228,
         "cliente": "SUPERMARKET FIORELLA CITY,",
         "frecuencia": "SEMANAL",
         "region": "OCCIDENTE",
-        "zona": "MARACAIBO ESTE",
-        "mercaderista": "GIRSON CONTRERAS",
-        "atención": "OCCIDENTE"
+        "zona": "MARACAIBO SUR",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO SUR",
+        "mercaderista": "MARACAIBO 01"
     },
     {
-        "id": 266,
+        "id": 229,
         "cliente": "FRESH MARKET, \n",
         "frecuencia": "SEMANAL",
         "region": "OCCIDENTE",
-        "zona": "MARACAIBO ESTE",
-        "mercaderista": "GIRSON CONTRERAS",
-        "atención": "OCCIDENTE"
+        "zona": "MARACAIBO SUR",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO SUR",
+        "mercaderista": "MARACAIBO 01"
     },
     {
-        "id": 267,
+        "id": 230,
         "cliente": "FF,OPERADORA JLA, C.A (FASTO),\n",
         "frecuencia": "SEMANAL",
         "region": "OCCIDENTE",
-        "zona": "MARACAIBO ESTE",
-        "mercaderista": "GIRSON CONTRERAS",
-        "atención": "OCCIDENTE"
+        "zona": "MARACAIBO SUR",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO SUR",
+        "mercaderista": "MARACAIBO 01"
     },
     {
-        "id": 268,
+        "id": 231,
         "cliente": "FARMACIA FARMAEXPRESS FUERZAS ARMADAS, \n",
         "frecuencia": "SEMANAL",
         "region": "OCCIDENTE",
-        "zona": "MARACAIBO ESTE",
-        "mercaderista": "GIRSON CONTRERAS",
-        "atención": "OCCIDENTE"
+        "zona": "MARACAIBO SUR",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO SUR",
+        "mercaderista": "MARACAIBO 01"
     },
     {
-        "id": 269,
+        "id": 232,
         "cliente": "FARMACIA MILLENNIUM 2000 (FARMACIAS YA!), ",
         "frecuencia": "SEMANAL",
         "region": "OCCIDENTE",
-        "zona": "MARACAIBO ESTE",
-        "mercaderista": "GIRSON CONTRERAS",
-        "atención": "OCCIDENTE"
+        "zona": "MARACAIBO SUR",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO SUR",
+        "mercaderista": "MARACAIBO 01"
     },
     {
-        "id": 270,
+        "id": 233,
         "cliente": "HIPERMERCADO FIORELLA, C.A. (GOAJIRA), ",
         "frecuencia": "SEMANAL",
         "region": "OCCIDENTE",
-        "zona": "MARACAIBO ESTE",
-        "mercaderista": "GIRSON CONTRERAS",
-        "atención": "OCCIDENTE"
+        "zona": "MARACAIBO SUR",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO SUR",
+        "mercaderista": "MARACAIBO 01"
     },
     {
-        "id": 271,
+        "id": 234,
         "cliente": "FARMATODO FUERZAS ARMADAS",
         "frecuencia": "SEMANAL",
         "region": "OCCIDENTE",
-        "zona": "MARACAIBO ESTE",
-        "mercaderista": "GIRSON CONTRERAS",
-        "atención": "OCCIDENTE"
+        "zona": "MARACAIBO SUR",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO SUR",
+        "mercaderista": "MARACAIBO 01"
+    },
+    {
+        "id": 235,
+        "cliente": "FARMACIA FARMAEXPRESS LA LIMPIA",
+        "frecuencia": "SEMANAL",
+        "region": "OCCIDENTE",
+        "zona": "MARACAIBO NORTE",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO NORTE",
+        "mercaderista": "MARACAIBO 01"
+    },
+    {
+        "id": 236,
+        "cliente": "SUPERMARKET FIORELLA CITY",
+        "frecuencia": "SEMANAL",
+        "region": "OCCIDENTE",
+        "zona": "MARACAIBO NORTE",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO NORTE",
+        "mercaderista": "MARACAIBO 01"
+    },
+    {
+        "id": 237,
+        "cliente": "FARMACIA FARMAEXPRESS 24 BELLA VISTA ",
+        "frecuencia": "SEMANAL",
+        "region": "OCCIDENTE",
+        "zona": "MARACAIBO NORTE",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO NORTE",
+        "mercaderista": "MARACAIBO 01"
+    },
+    {
+        "id": 238,
+        "cliente": "SUPERMARKET FIORELLA CITY ",
+        "frecuencia": "SEMANAL",
+        "region": "OCCIDENTE",
+        "zona": "MARACAIBO NORTE",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO NORTE",
+        "mercaderista": "MARACAIBO 01"
+    },
+    {
+        "id": 239,
+        "cliente": "SUPER MARKET FIORELLA AMPARO ",
+        "frecuencia": "SEMANAL",
+        "region": "OCCIDENTE",
+        "zona": "MARACAIBO NORTE",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO NORTE",
+        "mercaderista": "MARACAIBO 01"
+    },
+    {
+        "id": 240,
+        "cliente": "FARMACIA GLOBALMED AMPARO ",
+        "frecuencia": "SEMANAL",
+        "region": "OCCIDENTE",
+        "zona": "MARACAIBO NORTE",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO NORTE",
+        "mercaderista": "MARACAIBO 01"
+    },
+    {
+        "id": 241,
+        "cliente": "GLOBALMED SAN MIGUEL ",
+        "frecuencia": "SEMANAL",
+        "region": "OCCIDENTE",
+        "zona": "MARACAIBO NORTE",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO NORTE",
+        "mercaderista": "MARACAIBO 01"
+    },
+    {
+        "id": 242,
+        "cliente": "FARMAEXPRESS C2",
+        "frecuencia": "SEMANAL",
+        "region": "OCCIDENTE",
+        "zona": "MARACAIBO NORTE",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO NORTE",
+        "mercaderista": "MARACAIBO 01"
+    },
+    {
+        "id": 243,
+        "cliente": "MEGA KAIRO`S C2",
+        "frecuencia": "SEMANAL",
+        "region": "OCCIDENTE",
+        "zona": "MARACAIBO NORTE",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO NORTE",
+        "mercaderista": "MARACAIBO 01"
+    },
+    {
+        "id": 244,
+        "cliente": "SUPER TIENDA OCCIDENTAL 1 ",
+        "frecuencia": "SEMANAL",
+        "region": "OCCIDENTE",
+        "zona": "MARACAIBO NORTE",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO NORTE",
+        "mercaderista": "MARACAIBO 01"
+    },
+    {
+        "id": 245,
+        "cliente": "SUPER MARKET FIORELLA SAN MIGUEL",
+        "frecuencia": "SEMANAL",
+        "region": "OCCIDENTE",
+        "zona": "MARACAIBO NORTE",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO NORTE",
+        "mercaderista": "MARACAIBO 01"
+    },
+    {
+        "id": 246,
+        "cliente": "FRESH MARKET FFOPERADORA JLA C.A (FASTO)",
+        "frecuencia": "SEMANAL",
+        "region": "OCCIDENTE",
+        "zona": "MARACAIBO NORTE",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO NORTE",
+        "mercaderista": "MARACAIBO 01"
+    },
+    {
+        "id": 247,
+        "cliente": "FARMACIA FARMAEXPRESS FUERZAS ARMADAS ",
+        "frecuencia": "SEMANAL",
+        "region": "OCCIDENTE",
+        "zona": "MARACAIBO NORTE",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO NORTE",
+        "mercaderista": "MARACAIBO 01"
+    },
+    {
+        "id": 248,
+        "cliente": "FARMACIA MILLENNIUM 2000 (FARMACIAS YA!) ",
+        "frecuencia": "SEMANAL",
+        "region": "OCCIDENTE",
+        "zona": "MARACAIBO NORTE",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO NORTE",
+        "mercaderista": "MARACAIBO 01"
+    },
+    {
+        "id": 249,
+        "cliente": "HIPERMERCADO FIORELLA C.A. (GOAJIRA) ",
+        "frecuencia": "SEMANAL",
+        "region": "OCCIDENTE",
+        "zona": "MARACAIBO NORTE",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO NORTE",
+        "mercaderista": "MARACAIBO 01"
+    },
+    {
+        "id": 250,
+        "cliente": "SUPERMERCADO COSMO",
+        "frecuencia": "SEMANAL",
+        "region": "OCCIDENTE",
+        "zona": "MARACAIBO NORTE",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO NORTE",
+        "mercaderista": "MARACAIBO 01"
+    },
+    {
+        "id": 251,
+        "cliente": "FARMACIA FARMAEXPRESS NORTE C.A",
+        "frecuencia": "SEMANAL",
+        "region": "OCCIDENTE",
+        "zona": "MARACAIBO NORTE",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO NORTE",
+        "mercaderista": "MARACAIBO 01"
+    },
+    {
+        "id": 252,
+        "cliente": "GO 24 GROUP C. A ",
+        "frecuencia": "SEMANAL",
+        "region": "OCCIDENTE",
+        "zona": "MARACAIBO NORTE",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO NORTE",
+        "mercaderista": "MARACAIBO 01"
+    },
+    {
+        "id": 253,
+        "cliente": "SUPERMERCADO SAMBA LATINO C.A.",
+        "frecuencia": "SEMANAL",
+        "region": "OCCIDENTE",
+        "zona": "MARACAIBO NORTE",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO NORTE",
+        "mercaderista": "MARACAIBO 01"
+    },
+    {
+        "id": 254,
+        "cliente": "FRESH MARKET C.A. TIERRA NEGRA ",
+        "frecuencia": "SEMANAL",
+        "region": "OCCIDENTE",
+        "zona": "MARACAIBO NORTE",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO NORTE",
+        "mercaderista": "MARACAIBO 01"
+    },
+    {
+        "id": 255,
+        "cliente": "FARMACIA FARMA SERVICIOS BELLA VISTA ",
+        "frecuencia": "SEMANAL",
+        "region": "OCCIDENTE",
+        "zona": "MARACAIBO NORTE",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO NORTE",
+        "mercaderista": "MARACAIBO 01"
+    },
+    {
+        "id": 256,
+        "cliente": "FARMACIA YA! AV UNIVERSIDAD.",
+        "frecuencia": "SEMANAL",
+        "region": "OCCIDENTE",
+        "zona": "MARACAIBO NORTE",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO NORTE",
+        "mercaderista": "MARACAIBO 01"
+    },
+    {
+        "id": 257,
+        "cliente": "FARMAPLUS CECILIO ACOSTA",
+        "frecuencia": "SEMANAL",
+        "region": "OCCIDENTE",
+        "zona": "MARACAIBO NORTE",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO NORTE",
+        "mercaderista": "MARACAIBO 01"
+    },
+    {
+        "id": 258,
+        "cliente": "FARMAPLUS MILAGRO NORTE ",
+        "frecuencia": "SEMANAL",
+        "region": "OCCIDENTE",
+        "zona": "MARACAIBO NORTE",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO NORTE",
+        "mercaderista": "MARACAIBO 01"
+    },
+    {
+        "id": 259,
+        "cliente": "FARMACIA FARMA SERVICIOS LA FUENTE BELLAS ARTES",
+        "frecuencia": "SEMANAL",
+        "region": "OCCIDENTE",
+        "zona": "MARACAIBO NORTE",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO NORTE",
+        "mercaderista": "MARACAIBO 01"
+    },
+    {
+        "id": 260,
+        "cliente": "FRESH MARKET FFOPERADORA JLA C.A (FASTO)",
+        "frecuencia": "SEMANAL",
+        "region": "OCCIDENTE",
+        "zona": "MARACAIBO NORTE",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO NORTE",
+        "mercaderista": "MARACAIBO 01"
+    },
+    {
+        "id": 261,
+        "cliente": "FARMACIA FARMAEXPRESS FUERZAS ARMADAS ",
+        "frecuencia": "SEMANAL",
+        "region": "OCCIDENTE",
+        "zona": "MARACAIBO NORTE",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO NORTE",
+        "mercaderista": "MARACAIBO 01"
+    },
+    {
+        "id": 262,
+        "cliente": "FARMACIA MILLENNIUM 2000 (FARMACIAS YA!) ",
+        "frecuencia": "SEMANAL",
+        "region": "OCCIDENTE",
+        "zona": "MARACAIBO NORTE",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO NORTE",
+        "mercaderista": "MARACAIBO 01"
+    },
+    {
+        "id": 263,
+        "cliente": "HIPERMERCADO FIORELLA C.A. (GOAJIRA) ",
+        "frecuencia": "SEMANAL",
+        "region": "OCCIDENTE",
+        "zona": "MARACAIBO NORTE",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO NORTE",
+        "mercaderista": "MARACAIBO 01"
+    },
+    {
+        "id": 264,
+        "cliente": "SUPERMERCADO COSMO",
+        "frecuencia": "SEMANAL",
+        "region": "OCCIDENTE",
+        "zona": "MARACAIBO NORTE",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO NORTE",
+        "mercaderista": "MARACAIBO 01"
+    },
+    {
+        "id": 265,
+        "cliente": "CREA - DESARROLLOSSOCIEDAD ANONIMA",
+        "frecuencia": "SEMANAL",
+        "region": "OCCIDENTE",
+        "zona": "MARACAIBO NORTE",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO NORTE",
+        "mercaderista": "MARACAIBO 01"
+    },
+    {
+        "id": 266,
+        "cliente": "FARMACIA TIERRA NEGRA ",
+        "frecuencia": "SEMANAL",
+        "region": "OCCIDENTE",
+        "zona": "MARACAIBO NORTE",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO NORTE",
+        "mercaderista": "MARACAIBO 01"
+    },
+    {
+        "id": 267,
+        "cliente": "FARMACIA FARMA SERVICIO LA LIMPIA ",
+        "frecuencia": "SEMANAL",
+        "region": "OCCIDENTE",
+        "zona": "MARACAIBO NORTE",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO NORTE",
+        "mercaderista": "MARACAIBO 01"
+    },
+    {
+        "id": 268,
+        "cliente": "FARMACIA FARMAEXPRESS 24 LA 72 ",
+        "frecuencia": "SEMANAL",
+        "region": "OCCIDENTE",
+        "zona": "MARACAIBO NORTE",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO NORTE",
+        "mercaderista": "MARACAIBO 01"
+    },
+    {
+        "id": 269,
+        "cliente": "SUPER MARKET SANTA BARBARA",
+        "frecuencia": "SEMANAL",
+        "region": "OCCIDENTE",
+        "zona": "MARACAIBO NORTE",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO NORTE",
+        "mercaderista": "MARACAIBO 01"
+    },
+    {
+        "id": 270,
+        "cliente": "FARMATODO ELSIS",
+        "frecuencia": "SEMANAL",
+        "region": "LARA",
+        "zona": "BARQUISIMETO",
+        "nombre": "MARGIA BRITO",
+        "atención": "BARQUISIMETO CENTRO ",
+        "mercaderista": "BARQUISIMETO 01"
+    },
+    {
+        "id": 271,
+        "cliente": "FARMATODO ENSO",
+        "frecuencia": "SEMANAL",
+        "region": "LARA",
+        "zona": "CABUDARE / TARABANA",
+        "nombre": "DAYANA LOPEZ",
+        "atención": "CABUDARE / TARABANA",
+        "mercaderista": "BARQUISIMETO 02"
     },
     {
         "id": 272,
-        "cliente": "TODOS",
-        "frecuencia": "TODOS",
-        "region": "TODOS",
-        "zona": "TODOS",
-        "mercaderista": "KARINA MARCANO",
-        "atención": "COOR. TRADE MARKETING"
+        "cliente": "FARMATODO ZUBILLAGA HERMANOS",
+        "frecuencia": "SEMANAL",
+        "region": "LARA",
+        "zona": "CARORA",
+        "nombre": "DAYANA LOPEZ",
+        "atención": "CARORA",
+        "mercaderista": "BARQUISIMETO 02"
     },
     {
         "id": 273,
-        "cliente": "TODOS",
-        "frecuencia": "TODOS",
-        "region": "TODOS",
-        "zona": "TODOS",
-        "mercaderista": "SANDRA PEREZ",
-        "atención": "DIRECCIÓN COMERCIAL"
+        "cliente": "REDVITAL LA LIMPIA",
+        "frecuencia": "SEMANAL",
+        "region": "OCCIDENTE",
+        "zona": "MARACAIBO",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO",
+        "mercaderista": "MARACAIBO 01"
     },
     {
         "id": 274,
-        "cliente": "TODOS",
-        "frecuencia": "TODOS",
-        "region": "TODOS",
-        "zona": "TODOS",
-        "mercaderista": "ANTONIO HERNANDEZ",
-        "atención": "GER. ADMINISTRACIÓN VENTAS"
+        "cliente": "REDVITAL 5 DE JULIO",
+        "frecuencia": "SEMANAL",
+        "region": "OCCIDENTE",
+        "zona": "MARACAIBO",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO",
+        "mercaderista": "MARACAIBO 01"
+    },
+    {
+        "id": 275,
+        "cliente": "REDVITAL BELLA VISTA",
+        "frecuencia": "SEMANAL",
+        "region": "OCCIDENTE",
+        "zona": "MARACAIBO",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO",
+        "mercaderista": "MARACAIBO 01"
+    },
+    {
+        "id": 276,
+        "cliente": "REDVITAL SANTA TERESA DEL TUY",
+        "frecuencia": "SEMANAL",
+        "region": "CAPITAL",
+        "zona": "SANTA TERESA DEL TUY",
+        "nombre": "VACANTE",
+        "atención": "SANTA TERESA DEL TUY",
+        "mercaderista": "COOR.TRADE MARKETING"
+    },
+    {
+        "id": 277,
+        "cliente": "REDVITAL OCUMARE DEL TUY",
+        "frecuencia": "SEMANAL",
+        "region": "CAPITAL",
+        "zona": "OCUMARE DEL TUY",
+        "nombre": "VACANTE",
+        "atención": "OCUMARE DEL TUY",
+        "mercaderista": "COOR.TRADE MARKETING"
+    },
+    {
+        "id": 278,
+        "cliente": "REDVITAL CARRIZAL",
+        "frecuencia": "SEMANAL",
+        "region": "CAPITAL",
+        "zona": "CARRIZAL",
+        "nombre": "JESUS BARAJAS",
+        "atención": "CAPITAL ESTE",
+        "mercaderista": "CAPITAL 02"
+    },
+    {
+        "id": 279,
+        "cliente": "REDVITAL LA URBINA",
+        "frecuencia": "SEMANAL",
+        "region": "CAPITAL",
+        "zona": "LA URBINA",
+        "nombre": "JESUS BARAJAS",
+        "atención": "CAPITAL ESTE",
+        "mercaderista": "CAPITAL 02"
+    },
+    {
+        "id": 280,
+        "cliente": "REDVITAL GUARENAS",
+        "frecuencia": "SEMANAL",
+        "region": "CAPITAL",
+        "zona": "GUARENAS",
+        "nombre": "JESUS BARAJAS",
+        "atención": "CAPITAL ESTE",
+        "mercaderista": "CAPITAL 02"
+    },
+    {
+        "id": 281,
+        "cliente": "REDVITAL ALTOS MIRANDINOS",
+        "frecuencia": "SEMANAL",
+        "region": "CAPITAL",
+        "zona": "ALTOS MIRANDINOS",
+        "nombre": "JESUS BARAJAS",
+        "atención": "CAPITAL ESTE",
+        "mercaderista": "CAPITAL 02"
+    },
+    {
+        "id": 282,
+        "cliente": "REDVITAL GUATIRE",
+        "frecuencia": "SEMANAL",
+        "region": "CAPITAL",
+        "zona": "GUATIRE",
+        "nombre": "VACANTE",
+        "atención": "GUATIRE",
+        "mercaderista": "COOR.TRADE MARKETING"
+    },
+    {
+        "id": 283,
+        "cliente": "REDVITAL BARQUISIMETO",
+        "frecuencia": "SEMANAL",
+        "region": "LARA",
+        "zona": "BARQUISIMETO",
+        "nombre": "DAYANA LOPEZ",
+        "atención": "BARQUISIMETO ESTE",
+        "mercaderista": "BARQUISIMETO 02"
+    },
+    {
+        "id": 284,
+        "cliente": "REDVITAL CC RÍO LAMA",
+        "frecuencia": "SEMANAL",
+        "region": "LARA",
+        "zona": "CC RÍO LAMA",
+        "nombre": "DAYANA LOPEZ",
+        "atención": "BARQUISIMETO ESTE",
+        "mercaderista": "BARQUISIMETO 02"
+    },
+    {
+        "id": 285,
+        "cliente": "REDVITAL LA YAGUARA",
+        "frecuencia": "SEMANAL",
+        "region": "CAPITAL",
+        "zona": "LA YAGUARA",
+        "nombre": "JESUS GRANADOS",
+        "atención": "CAPITAL OESTE ",
+        "mercaderista": "CAPITAL 01"
+    },
+    {
+        "id": 286,
+        "cliente": "REDVITAL LA GUAIRA",
+        "frecuencia": "SEMANAL",
+        "region": "CAPITAL",
+        "zona": "LA GUAIRA",
+        "nombre": "JESUS GRANADOS",
+        "atención": "CAPITAL OESTE ",
+        "mercaderista": "CAPITAL 01"
+    },
+    {
+        "id": 287,
+        "cliente": "REDVITAL LA VIÑA",
+        "frecuencia": "SEMANAL",
+        "region": "CENTRO",
+        "zona": "VALENCIA - LA VIÑA",
+        "nombre": "VACANTE",
+        "atención": "LA VIÑA",
+        "mercaderista": "COOR.TRADE MARKETING"
+    },
+    {
+        "id": 288,
+        "cliente": "REDVITAL LA VIÑA PLAZA",
+        "frecuencia": "SEMANAL",
+        "region": "CENTRO",
+        "zona": "VALENCIA - LA VIÑA PLAZA",
+        "nombre": "VACANTE",
+        "atención": "LA VIÑA PLAZA",
+        "mercaderista": "COOR.TRADE MARKETING"
+    },
+    {
+        "id": 289,
+        "cliente": "REDVITAL SAN DIEGO",
+        "frecuencia": "SEMANAL",
+        "region": "CENTRO",
+        "zona": "SAN DIEGO",
+        "nombre": "VACANTE",
+        "atención": "SAN DIEGO",
+        "mercaderista": "COOR.TRADE MARKETING"
+    },
+    {
+        "id": 290,
+        "cliente": "REDVITAL CC CRISTAL",
+        "frecuencia": "SEMANAL",
+        "region": "CENTRO",
+        "zona": "VALENCIA - CC CRISTAL",
+        "nombre": "VACANTE",
+        "atención": "CC CRISTAL",
+        "mercaderista": "COOR.TRADE MARKETING"
+    },
+    {
+        "id": 291,
+        "cliente": "REDVITAL PUERTO CABELLO",
+        "frecuencia": "SEMANAL",
+        "region": "CENTRO",
+        "zona": "PUERTO CABELLO",
+        "nombre": "VACANTE",
+        "atención": "PUERTO CABELLO",
+        "mercaderista": "COOR.TRADE MARKETING"
+    },
+    {
+        "id": 292,
+        "cliente": "REDVITAL MARACAY",
+        "frecuencia": "SEMANAL",
+        "region": "CENTRO",
+        "zona": "MARACAY",
+        "nombre": "VACANTE",
+        "atención": "MARACAY",
+        "mercaderista": "COOR.TRADE MARKETING"
+    },
+    {
+        "id": 293,
+        "cliente": "REDVITAL TURMERO",
+        "frecuencia": "SEMANAL",
+        "region": "CENTRO",
+        "zona": "TURMERO",
+        "nombre": "VACANTE",
+        "atención": "TURMERO",
+        "mercaderista": "COOR.TRADE MARKETING"
+    },
+    {
+        "id": 294,
+        "cliente": "MARAPLUS LA CANDELARIA",
+        "frecuencia": "SEMANAL",
+        "region": "CAPITAL",
+        "zona": "LA CANDELARIA",
+        "nombre": "JESUS GRANADOS",
+        "atención": "CAPITAL OESTE ",
+        "mercaderista": "CAPITAL 01"
+    },
+    {
+        "id": 295,
+        "cliente": "MARAPLUS LA CANDELARIA EXPRESS (BELLAS ARTES)",
+        "frecuencia": "SEMANAL",
+        "region": "CAPITAL",
+        "zona": "BELLAS ARTES",
+        "nombre": "JESUS GRANADOS",
+        "atención": "CAPITAL OESTE ",
+        "mercaderista": "CAPITAL 01"
+    },
+    {
+        "id": 296,
+        "cliente": "MARAPLUS LA FLORIDA",
+        "frecuencia": "SEMANAL",
+        "region": "CAPITAL",
+        "zona": "LA FLORIDA",
+        "nombre": "JESUS BARAJAS",
+        "atención": "CAPITAL ESTE",
+        "mercaderista": "CAPITAL 02"
+    },
+    {
+        "id": 297,
+        "cliente": "MARAPLUS LA CASTELLANA",
+        "frecuencia": "SEMANAL",
+        "region": "CAPITAL",
+        "zona": "LA CASTELLANA",
+        "nombre": "JESUS BARAJAS",
+        "atención": "CAPITAL ESTE",
+        "mercaderista": "CAPITAL 02"
+    },
+    {
+        "id": 298,
+        "cliente": "MARAPLUS LA LIMPIA",
+        "frecuencia": "SEMANAL",
+        "region": "OCCIDENTE",
+        "zona": "MARACAIBO",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO",
+        "mercaderista": "MARACAIBO 01"
+    },
+    {
+        "id": 299,
+        "cliente": "MARAPLUS LA FUENTE",
+        "frecuencia": "SEMANAL",
+        "region": "OCCIDENTE",
+        "zona": "MARACAIBO",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO",
+        "mercaderista": "MARACAIBO 01"
+    },
+    {
+        "id": 300,
+        "cliente": "MARAPLUS DELICIAS (LA RUBIO)",
+        "frecuencia": "SEMANAL",
+        "region": "OCCIDENTE",
+        "zona": "MARACAIBO",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO",
+        "mercaderista": "MARACAIBO 01"
+    },
+    {
+        "id": 301,
+        "cliente": "MARAPLUS LA ESTRELLA ",
+        "frecuencia": "SEMANAL",
+        "region": "OCCIDENTE",
+        "zona": "MARACAIBO",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO",
+        "mercaderista": "MARACAIBO 01"
+    },
+    {
+        "id": 302,
+        "cliente": "MARAPLUS SANTA CLARA",
+        "frecuencia": "SEMANAL",
+        "region": "OCCIDENTE",
+        "zona": "MARACAIBO",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO",
+        "mercaderista": "MARACAIBO 01"
+    },
+    {
+        "id": 303,
+        "cliente": "MARAPLUS CENTRO",
+        "frecuencia": "SEMANAL",
+        "region": "OCCIDENTE",
+        "zona": "MARACAIBO",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO",
+        "mercaderista": "MARACAIBO 01"
+    },
+    {
+        "id": 304,
+        "cliente": "MARAPLUS DR PORTILLO",
+        "frecuencia": "SEMANAL",
+        "region": "OCCIDENTE",
+        "zona": "MARACAIBO",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO",
+        "mercaderista": "MARACAIBO 01"
+    },
+    {
+        "id": 305,
+        "cliente": "MARAPLUS CIRCUNVALACIÓN N2",
+        "frecuencia": "SEMANAL",
+        "region": "OCCIDENTE",
+        "zona": "MARACAIBO",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO",
+        "mercaderista": "MARACAIBO 01"
+    },
+    {
+        "id": 306,
+        "cliente": "MARAPLUS LA COROMOTO",
+        "frecuencia": "SEMANAL",
+        "region": "OCCIDENTE",
+        "zona": "MARACAIBO",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO",
+        "mercaderista": "MARACAIBO 01"
+    },
+    {
+        "id": 307,
+        "cliente": "MARAPLUS MALL PASEO SAN FRANCISCO",
+        "frecuencia": "SEMANAL",
+        "region": "OCCIDENTE",
+        "zona": "MARACAIBO",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO",
+        "mercaderista": "MARACAIBO 01"
+    },
+    {
+        "id": 308,
+        "cliente": "MARAPLUS TIERRA NEGRA",
+        "frecuencia": "SEMANAL",
+        "region": "OCCIDENTE",
+        "zona": "MARACAIBO",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO",
+        "mercaderista": "MARACAIBO 01"
+    },
+    {
+        "id": 309,
+        "cliente": "MARAPLUS FUERZAS ARMADAS",
+        "frecuencia": "SEMANAL",
+        "region": "OCCIDENTE",
+        "zona": "MARACAIBO",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO",
+        "mercaderista": "MARACAIBO 01"
+    },
+    {
+        "id": 310,
+        "cliente": "MARAPLUS BELLA VISTA",
+        "frecuencia": "SEMANAL",
+        "region": "OCCIDENTE",
+        "zona": "MARACAIBO",
+        "nombre": "VACANTE",
+        "atención": "MARACAIBO",
+        "mercaderista": "MARACAIBO 01"
+    },
+    {
+        "id": 311,
+        "cliente": "MARAPLUS LOS RUICES",
+        "frecuencia": "SEMANAL",
+        "region": "CAPITAL",
+        "zona": "LOS RUICES",
+        "nombre": "JESUS BARAJAS",
+        "atención": "CAPITAL ESTE",
+        "mercaderista": "CAPITAL 02"
+    },
+    {
+        "id": 312,
+        "cliente": "COOPERATIVA EL TRIUNFO ",
+        "frecuencia": "SEMANAL",
+        "region": "LARA",
+        "zona": "ZONA-OESTE",
+        "nombre": "MARGIA BRITO",
+        "atención": "BARQUSIMETO OESTE",
+        "mercaderista": "BARQUISIMETO 01"
+    },
+    {
+        "id": 313,
+        "cliente": "FARMATODO ONIX (CARRERA 54)",
+        "frecuencia": "SEMANAL",
+        "region": "LARA",
+        "zona": "BARQUISIMETO",
+        "nombre": "MARGIA BRITO",
+        "atención": "BARQUSIMETO OESTE",
+        "mercaderista": "BARQUISIMETO 01"
+    },
+    {
+        "id": 314,
+        "cliente": "FARMATODO MARYCARMEN (CARRERA 19 CON 32)",
+        "frecuencia": "SEMANAL",
+        "region": "LARA",
+        "zona": "BARQUISIMETO",
+        "nombre": "MARGIA BRITO",
+        "atención": "BARQUSIMETO OESTE",
+        "mercaderista": "BARQUISIMETO 01"
+    },
+    {
+        "id": 315,
+        "cliente": "HIPERMERCADO KARI (BARQUISIMETO)",
+        "frecuencia": "SEMANAL",
+        "region": "LARA",
+        "zona": "ZONA-OESTE",
+        "nombre": "MARGIA BRITO",
+        "atención": "BARQUSIMETO OESTE",
+        "mercaderista": "BARQUISIMETO 01"
+    },
+    {
+        "id": 316,
+        "cliente": "INVERSIONES LA EMUNAH (SEGURO SOCIAL)",
+        "frecuencia": "SEMANAL",
+        "region": "LARA",
+        "zona": "ZONA-OESTE",
+        "nombre": "MARGIA BRITO",
+        "atención": "BARQUSIMETO OESTE",
+        "mercaderista": "BARQUISIMETO 01"
+    },
+    {
+        "id": 317,
+        "cliente": "FARMACIA SAN IGNACIO (CARRERA 50)",
+        "frecuencia": "SEMANAL",
+        "region": "LARA",
+        "zona": "ZONA-OESTE",
+        "nombre": "MARGIA BRITO",
+        "atención": "BARQUSIMETO OESTE",
+        "mercaderista": "BARQUISIMETO 01"
+    },
+    {
+        "id": 318,
+        "cliente": "FARMACIA CAJA DE AGUA ",
+        "frecuencia": "SEMANAL",
+        "region": "LARA",
+        "zona": "ZONA-OESTE",
+        "nombre": "MARGIA BRITO",
+        "atención": "BARQUSIMETO OESTE",
+        "mercaderista": "BARQUISIMETO 01"
+    },
+    {
+        "id": 319,
+        "cliente": "FARMACIA SAN IGNACIO DE LA 42 CON 19",
+        "frecuencia": "SEMANAL",
+        "region": "LARA",
+        "zona": "ZONA-OESTE",
+        "nombre": "MARGIA BRITO",
+        "atención": "BARQUSIMETO OESTE",
+        "mercaderista": "BARQUISIMETO 01"
+    },
+    {
+        "id": 320,
+        "cliente": "FARMACIA SAN IGNACIO (CIUDAD CRESPUCULAR)",
+        "frecuencia": "SEMANAL",
+        "region": "LARA",
+        "zona": "ZONA-OESTE",
+        "nombre": "MARGIA BRITO",
+        "atención": "BARQUSIMETO OESTE",
+        "mercaderista": "BARQUISIMETO 01"
+    },
+    {
+        "id": 321,
+        "cliente": "FARMACIA SAN IGNACIO (CARRERA 36)",
+        "frecuencia": "SEMANAL",
+        "region": "LARA",
+        "zona": "ZONA-OESTE",
+        "nombre": "MARGIA BRITO",
+        "atención": "BARQUSIMETO OESTE",
+        "mercaderista": "BARQUISIMETO 01"
+    },
+    {
+        "id": 322,
+        "cliente": "CENTRO DE ORIENTACIÓN NATURISTA ",
+        "frecuencia": "SEMANAL",
+        "region": "LARA",
+        "zona": "ZONA-OESTE",
+        "nombre": "MARGIA BRITO",
+        "atención": "BARQUSIMETO OESTE",
+        "mercaderista": "BARQUISIMETO 01"
+    },
+    {
+        "id": 323,
+        "cliente": "NATURA ESSENCE ",
+        "frecuencia": "SEMANAL",
+        "region": "LARA",
+        "zona": "ZONA-OESTE",
+        "nombre": "MARGIA BRITO",
+        "atención": "BARQUSIMETO OESTE",
+        "mercaderista": "BARQUISIMETO 01"
+    },
+    {
+        "id": 324,
+        "cliente": "LAS COSAS NATURALES Y ALGO MAS ",
+        "frecuencia": "SEMANAL",
+        "region": "LARA",
+        "zona": "ZONA-OESTE",
+        "nombre": "MARGIA BRITO",
+        "atención": "BARQUSIMETO OESTE",
+        "mercaderista": "BARQUISIMETO 01"
+    },
+    {
+        "id": 325,
+        "cliente": "FARMACIA SAN IGNACIO (CARRERA 18)",
+        "frecuencia": "SEMANAL",
+        "region": "LARA",
+        "zona": "ZONA-OESTE",
+        "nombre": "MARGIA BRITO",
+        "atención": "BARQUISIMETO CENTRO ",
+        "mercaderista": "BARQUISIMETO 01"
+    },
+    {
+        "id": 326,
+        "cliente": "FARMACIA NUEVO (CARRERA 31)",
+        "frecuencia": "SEMANAL",
+        "region": "LARA",
+        "zona": "ZONA-OESTE",
+        "nombre": "MARGIA BRITO",
+        "atención": "BARQUISIMETO CENTRO ",
+        "mercaderista": "BARQUISIMETO 01"
+    },
+    {
+        "id": 327,
+        "cliente": "FARMACIA NUEVO SIGLO (CARRERA 29)",
+        "frecuencia": "SEMANAL",
+        "region": "LARA",
+        "zona": "ZONA-OESTE",
+        "nombre": "MARGIA BRITO",
+        "atención": "BARQUISIMETO CENTRO ",
+        "mercaderista": "BARQUISIMETO 01"
+    },
+    {
+        "id": 328,
+        "cliente": "FARMACIA NUEVO SIGLO (CARRERA 28)",
+        "frecuencia": "SEMANAL",
+        "region": "LARA",
+        "zona": "ZONA-OESTE",
+        "nombre": "MARGIA BRITO",
+        "atención": "BARQUISIMETO CENTRO ",
+        "mercaderista": "BARQUISIMETO 01"
+    },
+    {
+        "id": 329,
+        "cliente": "FARMACIA NUEVO SIGLO (CARRERA 27)",
+        "frecuencia": "SEMANAL",
+        "region": "LARA",
+        "zona": "ZONA-OESTE",
+        "nombre": "MARGIA BRITO",
+        "atención": "BARQUISIMETO CENTRO ",
+        "mercaderista": "BARQUISIMETO 01"
+    },
+    {
+        "id": 330,
+        "cliente": "FARMACIA SAN IGNACIO (CARRERA 19)",
+        "frecuencia": "SEMANAL",
+        "region": "LARA",
+        "zona": "ZONA-OESTE",
+        "nombre": "MARGIA BRITO",
+        "atención": "BARQUISIMETO CENTRO ",
+        "mercaderista": "BARQUISIMETO 01"
+    },
+    {
+        "id": 331,
+        "cliente": "COMERCIAL EL MAGO ",
+        "frecuencia": "SEMANAL",
+        "region": "LARA",
+        "zona": "ZONA-CENTRO ",
+        "nombre": "MARGIA BRITO",
+        "atención": "BARQUISIMETO CENTRO ",
+        "mercaderista": "BARQUISIMETO 01"
+    },
+    {
+        "id": 332,
+        "cliente": "FARMACIA SAN IGNACIO (CARRERA 33)",
+        "frecuencia": "SEMANAL",
+        "region": "LARA",
+        "zona": "ZONA-CENTRO ",
+        "nombre": "MARGIA BRITO",
+        "atención": "BARQUISIMETO CENTRO ",
+        "mercaderista": "BARQUISIMETO 01"
+    },
+    {
+        "id": 333,
+        "cliente": "FARMACIA SAN IGNACIO (CARRERA 22)",
+        "frecuencia": "SEMANAL",
+        "region": "LARA",
+        "zona": "ZONA-CENTRO ",
+        "nombre": "MARGIA BRITO",
+        "atención": "BARQUISIMETO CENTRO ",
+        "mercaderista": "BARQUISIMETO 01"
+    },
+    {
+        "id": 334,
+        "cliente": "FARMATODO JIRAHARA (SAMBIL)",
+        "frecuencia": "SEMANAL",
+        "region": "LARA",
+        "zona": "BARQUISIMETO",
+        "nombre": "DAYANA LOPEZ",
+        "atención": "BARQUISIMETO ESTE",
+        "mercaderista": "BARQUISIMETO 02"
+    },
+    {
+        "id": 335,
+        "cliente": "LA POLLERA ",
+        "frecuencia": "SEMANAL",
+        "region": "LARA",
+        "zona": "ZONA - ESTE",
+        "nombre": "DAYANA LOPEZ",
+        "atención": "BARQUISIMETO ESTE",
+        "mercaderista": "BARQUISIMETO 02"
+    },
+    {
+        "id": 336,
+        "cliente": "FARMACIA NUEVO SIGLO (C.C CHURUN MERU)",
+        "frecuencia": "SEMANAL",
+        "region": "LARA",
+        "zona": "ZONA - ESTE",
+        "nombre": "DAYANA LOPEZ",
+        "atención": "BARQUISIMETO ESTE",
+        "mercaderista": "BARQUISIMETO 02"
+    },
+    {
+        "id": 337,
+        "cliente": "FARMACIA NUEVO SIGLO (SAMBIL)",
+        "frecuencia": "SEMANAL",
+        "region": "LARA",
+        "zona": "ZONA - ESTE",
+        "nombre": "DAYANA LOPEZ",
+        "atención": "BARQUISIMETO ESTE",
+        "mercaderista": "BARQUISIMETO 02"
+    },
+    {
+        "id": 338,
+        "cliente": "FARMACIA SAN IGNACIO (C.C EL LLANERO)",
+        "frecuencia": "SEMANAL",
+        "region": "LARA",
+        "zona": "ZONA - ESTE",
+        "nombre": "DAYANA LOPEZ",
+        "atención": "BARQUISIMETO ESTE",
+        "mercaderista": "BARQUISIMETO 02"
+    },
+    {
+        "id": 339,
+        "cliente": "MERKAFUR (ESTE)",
+        "frecuencia": "SEMANAL",
+        "region": "LARA",
+        "zona": "ZONA - ESTE",
+        "nombre": "DAYANA LOPEZ",
+        "atención": "BARQUISIMETO ESTE",
+        "mercaderista": "BARQUISIMETO 02"
+    },
+    {
+        "id": 340,
+        "cliente": "FARMATODO DEL PASEO ",
+        "frecuencia": "SEMANAL",
+        "region": "LARA",
+        "zona": "BARQUISIMETO",
+        "nombre": "DAYANA LOPEZ",
+        "atención": "BARQUISIMETO ESTE",
+        "mercaderista": "BARQUISIMETO 02"
+    },
+    {
+        "id": 341,
+        "cliente": "FARMATODO BOSQUE (AV LARA)",
+        "frecuencia": "SEMANAL",
+        "region": "LARA",
+        "zona": "BARQUISIMETO",
+        "nombre": "DAYANA LOPEZ",
+        "atención": "BARQUISIMETO ESTE",
+        "mercaderista": "BARQUISIMETO 02"
+    },
+    {
+        "id": 342,
+        "cliente": "FARMATODO ACERINA (AV. 20)",
+        "frecuencia": "SEMANAL",
+        "region": "LARA",
+        "zona": "BARQUISIMETO",
+        "nombre": "DAYANA LOPEZ",
+        "atención": "BARQUISIMETO ESTE",
+        "mercaderista": "BARQUISIMETO 02"
+    },
+    {
+        "id": 343,
+        "cliente": "FARMACIA SAN IGNACIO DE LA 19 CON 12",
+        "frecuencia": "SEMANAL",
+        "region": "LARA",
+        "zona": "ZONA - ESTE",
+        "nombre": "DAYANA LOPEZ",
+        "atención": "BARQUISIMETO ESTE",
+        "mercaderista": "BARQUISIMETO 02"
+    },
+    {
+        "id": 344,
+        "cliente": "FARMACIA NUEVO SIGLO ARENA PLAZA ",
+        "frecuencia": "SEMANAL",
+        "region": "LARA",
+        "zona": "ZONA - ESTE",
+        "nombre": "DAYANA LOPEZ",
+        "atención": "BARQUISIMETO ESTE",
+        "mercaderista": "BARQUISIMETO 02"
+    },
+    {
+        "id": 345,
+        "cliente": "FARMACIA SAN IGNACIO EL LLANERO ",
+        "frecuencia": "SEMANAL",
+        "region": "LARA",
+        "zona": "ZONA - ESTE",
+        "nombre": "DAYANA LOPEZ",
+        "atención": "BARQUISIMETO ESTE",
+        "mercaderista": "BARQUISIMETO 02"
+    },
+    {
+        "id": 346,
+        "cliente": "NUEVO SIGLO (TIENDA)",
+        "frecuencia": "SEMANAL",
+        "region": "LARA",
+        "zona": "ZONA - ESTE",
+        "nombre": "DAYANA LOPEZ",
+        "atención": "BARQUISIMETO ESTE",
+        "mercaderista": "BARQUISIMETO 02"
+    },
+    {
+        "id": 347,
+        "cliente": "FARMACIA SAN IGNACIO (AV. CARABOBO)",
+        "frecuencia": "SEMANAL",
+        "region": "LARA",
+        "zona": "ZONA - ESTE",
+        "nombre": "DAYANA LOPEZ",
+        "atención": "BARQUISIMETO ESTE",
+        "mercaderista": "BARQUISIMETO 02"
+    },
+    {
+        "id": 348,
+        "cliente": "FARMATODO PARQUE (IGLESIA LA COROMOTO)",
+        "frecuencia": "SEMANAL",
+        "region": "LARA",
+        "zona": "BARQUISIMETO",
+        "nombre": "DAYANA LOPEZ",
+        "atención": "BARQUISIMETO ESTE",
+        "mercaderista": "BARQUISIMETO 02"
+    },
+    {
+        "id": 349,
+        "cliente": "FARMACIA NUEVO SIGLO (HOSPITAL)",
+        "frecuencia": "SEMANAL",
+        "region": "LARA",
+        "zona": "ZONA - ESTE",
+        "nombre": "DAYANA LOPEZ",
+        "atención": "BARQUISIMETO ESTE",
+        "mercaderista": "BARQUISIMETO 02"
+    },
+    {
+        "id": 350,
+        "cliente": "TIENDA NATURISTA BIO NATURAL ",
+        "frecuencia": "SEMANAL",
+        "region": "LARA",
+        "zona": "ZONA - ESTE",
+        "nombre": "DAYANA LOPEZ",
+        "atención": "BARQUISIMETO ESTE",
+        "mercaderista": "BARQUISIMETO 02"
+    },
+    {
+        "id": 351,
+        "cliente": "FARMACIA SAN IGNACIO (AVENIDA MORAN) ",
+        "frecuencia": "SEMANAL",
+        "region": "LARA",
+        "zona": "ZONA - ESTE",
+        "nombre": "DAYANA LOPEZ",
+        "atención": "BARQUISIMETO ESTE",
+        "mercaderista": "BARQUISIMETO 02"
+    },
+    {
+        "id": 352,
+        "cliente": "COMECIAL GRAN VARGAS ",
+        "frecuencia": "SEMANAL",
+        "region": "LARA",
+        "zona": "ZONA - ESTE",
+        "nombre": "DAYANA LOPEZ",
+        "atención": "BARQUISIMETO ESTE",
+        "mercaderista": "BARQUISIMETO 02"
+    },
+    {
+        "id": 353,
+        "cliente": "FARMATODO LA MORAN ",
+        "frecuencia": "SEMANAL",
+        "region": "LARA",
+        "zona": "BARQUISIMETO",
+        "nombre": "DAYANA LOPEZ",
+        "atención": "BARQUISIMETO ESTE",
+        "mercaderista": "BARQUISIMETO 02"
+    },
+    {
+        "id": 354,
+        "cliente": "COMERCIAL VILLA 2020",
+        "frecuencia": "SEMANAL",
+        "region": "LARA",
+        "zona": "ZONA - ESTE",
+        "nombre": "DAYANA LOPEZ",
+        "atención": "BARQUISIMETO ESTE",
+        "mercaderista": "BARQUISIMETO 02"
+    },
+    {
+        "id": 355,
+        "cliente": "AL NATURAL ES MEJOR ",
+        "frecuencia": "SEMANAL",
+        "region": "LARA",
+        "zona": "ZONA - ESTE",
+        "nombre": "DAYANA LOPEZ",
+        "atención": "BARQUISIMETO ESTE",
+        "mercaderista": "BARQUISIMETO 02"
+    },
+    {
+        "id": 356,
+        "cliente": "FARMATODO CIENCIA (CC LAS TRINITARIAS)",
+        "frecuencia": "SEMANAL",
+        "region": "LARA",
+        "zona": "BARQUISIMETO",
+        "nombre": "DAYANA LOPEZ",
+        "atención": "BARQUISIMETO ESTE",
+        "mercaderista": "BARQUISIMETO 02"
+    },
+    {
+        "id": 357,
+        "cliente": "HIPERMERCADO KARI (CABUDARE)",
+        "frecuencia": "SEMANAL",
+        "region": "LARA",
+        "zona": "CABUDARE",
+        "nombre": "DAYANA LOPEZ",
+        "atención": "CABUDARE",
+        "mercaderista": "BARQUISIMETO 02"
+    },
+    {
+        "id": 358,
+        "cliente": "PERFUMERIA PROFESIONAL ",
+        "frecuencia": "SEMANAL",
+        "region": "LARA",
+        "zona": "CABUDARE",
+        "nombre": "DAYANA LOPEZ",
+        "atención": "CABUDARE",
+        "mercaderista": "BARQUISIMETO 02"
+    },
+    {
+        "id": 359,
+        "cliente": "FARMACIA SAN IGNACIO (LAS MERCEDES)",
+        "frecuencia": "SEMANAL",
+        "region": "LARA",
+        "zona": "CABUDARE",
+        "nombre": "DAYANA LOPEZ",
+        "atención": "CABUDARE",
+        "mercaderista": "BARQUISIMETO 02"
+    },
+    {
+        "id": 360,
+        "cliente": "FARMACIA SAN IGNACIO (CENTRO)",
+        "frecuencia": "SEMANAL",
+        "region": "LARA",
+        "zona": "CABUDARE",
+        "nombre": "DAYANA LOPEZ",
+        "atención": "CABUDARE",
+        "mercaderista": "BARQUISIMETO 02"
+    },
+    {
+        "id": 361,
+        "cliente": "MERKAFUR CABUDARE ",
+        "frecuencia": "SEMANAL",
+        "region": "LARA",
+        "zona": "CABUDARE",
+        "nombre": "DAYANA LOPEZ",
+        "atención": "CABUDARE",
+        "mercaderista": "BARQUISIMETO 02"
+    },
+    {
+        "id": 362,
+        "cliente": "LA POLLERA (C.C MANGO CENTER)",
+        "frecuencia": "SEMANAL",
+        "region": "LARA",
+        "zona": "CABUDARE",
+        "nombre": "DAYANA LOPEZ",
+        "atención": "CABUDARE",
+        "mercaderista": "BARQUISIMETO 02"
+    },
+    {
+        "id": 363,
+        "cliente": "FARMACIA NUEVO SIGLO (C.C METROPOLIS)",
+        "frecuencia": "SEMANAL",
+        "region": "LARA",
+        "zona": "CABUDARE",
+        "nombre": "DAYANA LOPEZ",
+        "atención": "CABUDARE",
+        "mercaderista": "BARQUISIMETO 02"
+    },
+    {
+        "id": 364,
+        "cliente": "FARMATODO FLORESTA (CABUDARE)",
+        "frecuencia": "SEMANAL",
+        "region": "LARA",
+        "zona": "CABUDARE",
+        "nombre": "DAYANA LOPEZ",
+        "atención": "CABUDARA",
+        "mercaderista": "BARQUISIMETO 02"
+    },
+    {
+        "id": 365,
+        "cliente": "FARMACIA NUEVO SIGLO (CABUDARE)",
+        "frecuencia": "SEMANAL",
+        "region": "LARA",
+        "zona": "CABUDARE",
+        "nombre": "DAYANA LOPEZ",
+        "atención": "CABUDARE",
+        "mercaderista": "BARQUISIMETO 02"
+    },
+    {
+        "id": 366,
+        "cliente": "FARMACIA SAN IGNACIO (CABUDARE VIA TRAKI)",
+        "frecuencia": "SEMANAL",
+        "region": "LARA",
+        "zona": "CABUDARE",
+        "nombre": "DAYANA LOPEZ",
+        "atención": "CABUDARE",
+        "mercaderista": "BARQUISIMETO 02"
+    },
+    {
+        "id": 367,
+        "cliente": "NACIONAL",
+        "frecuencia": "SEMANAL",
+        "region": "NACIONAL",
+        "zona": "NACIONAL",
+        "nombre": "KARINA MARCANO",
+        "atención": "NACIONAL",
+        "mercaderista": "COOR.TRADE MARKETING"
+    },
+    {
+        "id": 368,
+        "cliente": "NACIONAL",
+        "frecuencia": "SEMANAL",
+        "region": "NACIONAL",
+        "zona": "NACIONAL",
+        "nombre": "ANTONIO HERNANDEZ",
+        "atención": "NACIONAL",
+        "mercaderista": "GERENTE ADM. VENTAS"
+    },
+    {
+        "id": 369,
+        "cliente": "NACIONAL",
+        "frecuencia": "SEMANAL",
+        "region": "NACIONAL",
+        "zona": "NACIONAL",
+        "nombre": "SANDRA PEREZ",
+        "atención": "NACIONAL",
+        "mercaderista": "DIRECCIÓN NACIONAL"
     }
 ]

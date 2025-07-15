@@ -49,7 +49,7 @@
           style="color: #4e4e4d"
         >
           {{ product.descripcion }}
-        <div class="text-sm mt-1" style="color: #4e4e4d80">{{ product.linea }}</div>
+        <div class="text-sm mt-1" style="color: #4e4e4d80">{{ product.linea }} - {{ product.presentacion }} - {{ product.gramaje }}</div>
         </li>
         <li v-if="filteredProducts.length === 0" class="px-4 py-3 text-gray-400">
           No se encontraron productos
