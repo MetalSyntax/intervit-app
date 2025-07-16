@@ -1,538 +1,552 @@
 [
     {
         "id": 1,
-        "nombre": "FC PHARMA ÁRNICA + ALCANFOR FC 90GR (ROLL-ON AZUL)",
+        "nombre": "FC PHARMA ÁRNICA FC PLUS 90GR TERMOACTIVO (ROLL-ON GRIS)",
         "linea": "TERAPEUTICA",
         "marca": "ÁRNICA FC",
         "competidor": "1RA COMPETENCIA"
     },
     {
         "id": 2,
-        "nombre": "FC PHARMA ÁRNICA FC SPORT GEL CORPORAL X 250 GR (TARRO AZUL)",
+        "nombre": "FC PHARMA ARNICA FC FORTE EXTRACTO HOJA DE MANGO 90GR (ROLL-ON AMARILLO)",
         "linea": "TERAPEUTICA",
         "marca": "ÁRNICA FC",
         "competidor": "1RA COMPETENCIA"
     },
     {
         "id": 3,
-        "nombre": "FC PHARMA ARNICA EXTRACTO HOJA DE MANGO GEL PARA MASAJES 250GR (TARRO AMARILLO)",
+        "nombre": "FC PHARMA ÁRNICA + ALCANFOR FC 90GR (ROLL-ON AZUL)",
         "linea": "TERAPEUTICA",
         "marca": "ÁRNICA FC",
         "competidor": "1RA COMPETENCIA"
     },
     {
         "id": 4,
-        "nombre": "FC PHARMA ÁRNICA FC PLUS 250GR (TARRO GRIS)",
+        "nombre": "FC PHARMA ÁRNICA FC SPORT GEL CORPORAL X 250 GR (TARRO AZUL)",
         "linea": "TERAPEUTICA",
         "marca": "ÁRNICA FC",
         "competidor": "1RA COMPETENCIA"
     },
     {
         "id": 5,
-        "nombre": "FC PHARMA ÁRNICA FC X 75 GR AEROSOL",
+        "nombre": "FC PHARMA ARNICA EXTRACTO HOJA DE MANGO GEL PARA MASAJES 250GR (TARRO AMARILLO)",
         "linea": "TERAPEUTICA",
         "marca": "ÁRNICA FC",
         "competidor": "1RA COMPETENCIA"
     },
     {
         "id": 6,
-        "nombre": "FC PHARMA ÁRNICA FC  ACEITE CREMOSO X 200 ML (ACEITE CREMOSO)",
+        "nombre": "FC PHARMA ÁRNICA FC PLUS 250GR (TARRO GRIS)",
         "linea": "TERAPEUTICA",
         "marca": "ÁRNICA FC",
         "competidor": "1RA COMPETENCIA"
     },
     {
         "id": 7,
+        "nombre": "FC PHARMA ÁRNICA FC X 75 GR AEROSOL",
+        "linea": "TERAPEUTICA",
+        "marca": "ÁRNICA FC",
+        "competidor": "1RA COMPETENCIA"
+    },
+    {
+        "id": 8,
+        "nombre": "FC PHARMA ÁRNICA FC  ACEITE CREMOSO X 200 ML (ACEITE CREMOSO)",
+        "linea": "TERAPEUTICA",
+        "marca": "ÁRNICA FC",
+        "competidor": "1RA COMPETENCIA"
+    },
+    {
+        "id": 9,
         "nombre": "BY COHER CREMA HIDRATANTE PARA PIES URI FOOT UREA AL 10% X 200 ML",
         "linea": "TERAPEUTICA",
         "marca": "BY",
         "competidor": "1RA COMPETENCIA"
     },
     {
-        "id": 8,
+        "id": 10,
         "nombre": "DULCILINA PROTEINA DE SOYA SOY PROTEIN ISOLATE SABOR CHOCOLATE X 250 G",
         "linea": "NUTRICIONAL",
         "marca": "DULCILINA",
         "competidor": "1RA COMPETENCIA"
     },
     {
-        "id": 9,
+        "id": 11,
         "nombre": "DULCILINA PROTEINA DE SOYA SOY PROTEIN ISOLATE SABOR VAINILLA X 250 GR",
         "linea": "NUTRICIONAL",
         "marca": "DULCILINA",
         "competidor": "1RA COMPETENCIA"
     },
     {
-        "id": 10,
+        "id": 12,
         "nombre": "PURE EGG PROTEINA VAINILLA X 250G",
         "linea": "NUTRICIONAL",
         "marca": "PURE EGG",
         "competidor": "1RA COMPETENCIA"
     },
     {
-        "id": 11,
+        "id": 13,
         "nombre": "PURE EGG PROTEINA CHOCOLATE X 250G",
         "linea": "NUTRICIONAL",
         "marca": "PURE EGG",
         "competidor": "1RA COMPETENCIA"
     },
     {
-        "id": 12,
+        "id": 14,
         "nombre": "PROSALUD LINAZA MOLINA",
         "linea": "NUTRICIONAL",
         "marca": "PROSALUD",
         "competidor": "1RA COMPETENCIA"
     },
     {
-        "id": 13,
+        "id": 15,
         "nombre": "PERLAVIS JABÓN INTIMO FEMME BIO PLUS X 360 ML (TAPA MORADA)",
         "linea": "INTIMA",
         "marca": "PERLAVIS",
         "competidor": "1RA COMPETENCIA"
     },
     {
-        "id": 14,
+        "id": 16,
         "nombre": "INTYLACT JABON INTIMO HIDRATANTE X 220 ML",
         "linea": "INTIMA",
         "marca": "INTYLACT",
         "competidor": "2DA COMPETENCIA"
     },
     {
-        "id": 15,
+        "id": 17,
         "nombre": "NOSOTRAS JABON INTIMO 200 ML",
         "linea": "INTIMA",
         "marca": "NOSOTRAS",
         "competidor": "2DA COMPETENCIA"
     },
     {
-        "id": 16,
+        "id": 18,
         "nombre": "ZOAH GEL DE LIMPIEZA INTIMA X 250 ML",
         "linea": "INTIMA",
         "marca": "NOSOTRAS",
         "competidor": "2DA COMPETENCIA"
     },
     {
-        "id": 17,
+        "id": 19,
         "nombre": "INTYLACT GEL HIDRATANTE INTIMO X 50 ML (GEL INTIMO)",
         "linea": "INTIMA",
         "marca": "INTYLACT",
         "competidor": "1RA COMPETENCIA"
     },
     {
-        "id": 18,
+        "id": 20,
         "nombre": "DERMOX CREMA CORPORAL NUTRITIVA HYDRA PLUS VITAMINA E + COCO X 200 ML (ETIQUETA AMARILLA)",
         "linea": "CORPORAL",
         "marca": "DERMOX",
         "competidor": "1RA COMPETENCIA"
     },
     {
-        "id": 19,
+        "id": 21,
         "nombre": "DERMOX CREMA CORPORAL NUTRITIVA HYDRA PLUS VITAMINA E + COCO X 365 ML (ETIQUETA AMARILLA)",
         "linea": "CORPORAL",
         "marca": "DERMOX",
         "competidor": "1RA COMPETENCIA"
     },
     {
-        "id": 20,
+        "id": 22,
         "nombre": "DERMOX CREMA CORPORAL HUMECTANTE VITAMINA E + GLICERINA 200 ML (ETIQUETA ROSADA)",
         "linea": "CORPORAL",
         "marca": "DERMOX",
         "competidor": "1RA COMPETENCIA"
     },
     {
-        "id": 21,
+        "id": 23,
         "nombre": "DERMOX CREMA CORPORAL HUMECTANTE VITAMINA E + GLICERINA 365 ML (ETIQUETA ROSADA)",
         "linea": "CORPORAL",
         "marca": "DERMOX",
         "competidor": "1RA COMPETENCIA"
     },
     {
-        "id": 22,
+        "id": 24,
         "nombre": "DERMOX CREMA CORPORAL REAFIRMANTE VITAMINA E + COLAGENO 200 ML (ETIQUETA MORADA)",
         "linea": "CORPORAL",
         "marca": "DERMOX",
         "competidor": "1RA COMPETENCIA"
     },
     {
-        "id": 23,
+        "id": 25,
         "nombre": "DERMOX CREMA CORPORAL REAFIRMANTE VITAMINA E + COLAGENO 365 ML (ETIQUETA MORADA)",
         "linea": "CORPORAL",
         "marca": "DERMOX",
         "competidor": "1RA COMPETENCIA"
     },
     {
-        "id": 24,
+        "id": 26,
         "nombre": "DERMOX CREMA CORPORAL HIDRATANTE VITAMINA E + PROTEINA DE LECHA 200 ML (ETIQUETA AZUL)",
         "linea": "CORPORAL",
         "marca": "DERMOX",
         "competidor": "1RA COMPETENCIA"
     },
     {
-        "id": 25,
+        "id": 27,
         "nombre": "DERMOX CREMA CORPORAL HIDRATANTE VITAMINA E + PROTEINA DE LECHA 365 ML (ETIQUETA AZUL)",
         "linea": "CORPORAL",
         "marca": "DERMOX",
         "competidor": "1RA COMPETENCIA"
     },
     {
-        "id": 26,
+        "id": 28,
         "nombre": "EVERY NIGHT CREMA CORPORAL HIDRATACIÓN MÁXIMA COCO & AVENA  200 ML ",
         "linea": "CORPORAL",
         "marca": "EVERY",
         "competidor": "2DA COMPETENCIA"
     },
     {
-        "id": 27,
+        "id": 29,
         "nombre": "EVERY NIGHT CREMA CORPORAL HIDRATACIÓN MÁXIMA COCO & AVENA  365 ML ",
         "linea": "CORPORAL",
         "marca": "EVERY",
         "competidor": "2DA COMPETENCIA"
     },
     {
-        "id": 28,
+        "id": 30,
         "nombre": "EVERY NIGHT CREMA CORPORAL HIDRATACIÓN SUAVE MILK  200 ML ",
         "linea": "CORPORAL",
         "marca": "EVERY",
         "competidor": "2DA COMPETENCIA"
     },
     {
-        "id": 29,
+        "id": 31,
         "nombre": "EVERY NIGHT CREMA CORPORAL HIDRATACIÓN SUAVE MILK  365 ML ",
         "linea": "CORPORAL",
         "marca": "EVERY",
         "competidor": "2DA COMPETENCIA"
     },
     {
-        "id": 30,
+        "id": 32,
         "nombre": "EVERY NIGHT CREMA CORPORAL ULTRA ANTIOXIDANTE CACAO & FRUTOS ROJOS 200 ML ",
         "linea": "CORPORAL",
         "marca": "EVERY",
         "competidor": "2DA COMPETENCIA"
     },
     {
-        "id": 31,
+        "id": 33,
         "nombre": "EVERY NIGHT CREMA CORPORAL ULTRA ANTIOXIDANTE CACAO & FRUTOS ROJOS 365 ML ",
         "linea": "CORPORAL",
         "marca": "EVERY",
         "competidor": "2DA COMPETENCIA"
     },
     {
-        "id": 32,
+        "id": 34,
         "nombre": "EVERY NIGHT CREMA CORPORAL HIDRATACIÓN PROFUNDA REPARADORA MIEL & TRIGO 200 ML ",
         "linea": "CORPORAL",
         "marca": "EVERY",
         "competidor": "2DA COMPETENCIA"
     },
     {
-        "id": 33,
+        "id": 35,
         "nombre": "EVERY NIGHT CREMA CORPORAL HIDRATACIÓN PROFUNDA REPARADORA MIEL & TRIGO 365 ML ",
         "linea": "CORPORAL",
         "marca": "EVERY",
         "competidor": "2DA COMPETENCIA"
     },
     {
-        "id": 34,
+        "id": 36,
         "nombre": "VALMY LOCIÓN CORPORAL SKIN SOLUTIONS REAFIRMANTE 240 ML (ETIQUETA VERDE)",
         "linea": "CORPORAL",
         "marca": "VALMY",
         "competidor": "2DA COMPETENCIA"
     },
     {
-        "id": 35,
+        "id": 37,
         "nombre": "VALMY LOCIÓN CORPORAL SKIN SOLUTIONS S.O.S 240 ML (ROJA)",
         "linea": "CORPORAL",
         "marca": "VALMY",
         "competidor": "2DA COMPETENCIA"
     },
     {
-        "id": 36,
+        "id": 38,
         "nombre": "VALMY LOCIÓN CORPORAL SKIN SOLUTIONS EXTREMA RESEQUEDAD 240 ML (ROSADA)",
         "linea": "CORPORAL",
         "marca": "VALMY",
         "competidor": "2DA COMPETENCIA"
     },
     {
-        "id": 37,
+        "id": 39,
         "nombre": "VALMY LOCIÓN CORPORAL SKIN SOLUTIONS PIELES SENSIBLES 240 ML (ROSADA)",
         "linea": "CORPORAL",
         "marca": "VALMY",
         "competidor": "2DA COMPETENCIA"
     },
     {
-        "id": 38,
+        "id": 40,
         "nombre": "PANTENE ACONDICIONADOR KERATINA X 300 ML (SIN SAL)",
         "linea": "CAPILAR",
         "marca": "PANTENE",
         "competidor": "1RA COMPETENCIA"
     },
     {
-        "id": 39,
+        "id": 41,
         "nombre": "PANTENE CHAMPÚ KERATINA X 400 ML (SIN SAL)",
         "linea": "CAPILAR",
         "marca": "PANTENE",
         "competidor": "1RA COMPETENCIA"
     },
     {
-        "id": 40,
+        "id": 42,
         "nombre": "PANTENE ACONDICIONADOR COLAGENO X 400 ML (SIN SAL)",
         "linea": "CAPILAR",
         "marca": "PANTENE",
         "competidor": "1RA COMPETENCIA"
     },
     {
-        "id": 41,
+        "id": 43,
         "nombre": "PANTENE CHAMPÚ COLAGENO X 400 ML (SIN SAL)",
         "linea": "CAPILAR",
         "marca": "PANTENE",
         "competidor": "1RA COMPETENCIA"
     },
     {
-        "id": 42,
+        "id": 44,
         "nombre": "PANTENE ACONDICIONADOR RESTAURACION X 400 ML (SIN SAL)",
         "linea": "CAPILAR",
         "marca": "PANTENE",
         "competidor": "1RA COMPETENCIA"
     },
     {
-        "id": 43,
+        "id": 45,
         "nombre": "PANTENE CHAMPÚ RESTAURACION X 400 ML (SIN SAL)",
         "linea": "CAPILAR",
         "marca": "PANTENE",
         "competidor": "1RA COMPETENCIA"
     },
     {
-        "id": 44,
+        "id": 46,
         "nombre": "PANTENE CREMA PARA PEINAR RESTAURACIÓN 300 ML (SIN SAL)",
         "linea": "CAPILAR",
         "marca": "PANTENE",
         "competidor": "1RA COMPETENCIA"
     },
     {
-        "id": 45,
+        "id": 47,
         "nombre": "PANTENE CREMA PARA PEINAR COLAGENO 300 ML (SIN SAL)",
         "linea": "CAPILAR",
         "marca": "PANTENE",
         "competidor": "1RA COMPETENCIA"
     },
     {
-        "id": 46,
+        "id": 48,
         "nombre": "NUTRIT RESTAURA MAX SHAMPOO 600ML (SIN SAL)",
         "linea": "CAPILAR",
         "marca": "NUTRIT",
         "competidor": "2DA COMPETENCIA"
     },
     {
-        "id": 47,
+        "id": 49,
         "nombre": "NUTRIT KERATIN MAX SHAMPOO 600ML (SIN SAL)",
         "linea": "CAPILAR",
         "marca": "NUTRIT",
         "competidor": "2DA COMPETENCIA"
     },
     {
-        "id": 48,
+        "id": 50,
         "nombre": "NUTRIT REPARA MAX SHAMPOO 600ML (SIN SAL)",
         "linea": "CAPILAR",
         "marca": "NUTRIT",
         "competidor": "2DA COMPETENCIA"
     },
     {
-        "id": 49,
+        "id": 51,
         "nombre": "NUTRIT RESTAURA MAX ACONDICIONADOR 600ML (SIN SAL)",
         "linea": "CAPILAR",
         "marca": "NUTRIT",
         "competidor": "2DA COMPETENCIA"
     },
     {
-        "id": 50,
+        "id": 52,
         "nombre": "NUTRIT KERATIN MAX ACONDICIONADOR 600ML (SIN SAL)",
         "linea": "CAPILAR",
         "marca": "NUTRIT",
         "competidor": "2DA COMPETENCIA"
     },
     {
-        "id": 51,
+        "id": 53,
         "nombre": "NUTRIT REPARA MAX ACONDICIONADOR 600ML (SIN SAL)",
         "linea": "CAPILAR",
         "marca": "NUTRIT",
         "competidor": "2DA COMPETENCIA"
     },
     {
-        "id": 52,
+        "id": 54,
         "nombre": "VITANE SHAMPOO RESTAURACIÓN 6 EN 1 X 400 ML (SIN SAL)",
         "linea": "CAPILAR",
         "marca": "VITANE",
         "competidor": "2DA COMPETENCIA"
     },
     {
-        "id": 53,
+        "id": 55,
         "nombre": "VITANE ACONDICIONADOR RESTAURACIÓN 6 EN 1 X 400 ML (SIN SAL)",
         "linea": "CAPILAR",
         "marca": "VITANE",
         "competidor": "2DA COMPETENCIA"
     },
     {
-        "id": 54,
+        "id": 56,
         "nombre": "VITANE SHAMPOO ALTA NUTRICIÓN X 400 ML (SIN SAL)",
         "linea": "CAPILAR",
         "marca": "VITANE",
         "competidor": "2DA COMPETENCIA"
     },
     {
-        "id": 55,
+        "id": 57,
         "nombre": "VITANE ACONDICIONADOR ALTA NUTRICIÓN X 400 ML (SIN SAL)",
         "linea": "CAPILAR",
         "marca": "VITANE",
         "competidor": "2DA COMPETENCIA"
     },
     {
-        "id": 56,
+        "id": 58,
         "nombre": "FORELLE SHAMPOO DE ARGAN X 240 ML (SIN SAL)",
         "linea": "CAPILAR",
         "marca": "FORELLE",
         "competidor": "2DA COMPETENCIA"
     },
     {
-        "id": 57,
+        "id": 59,
         "nombre": "MODELLA SHAMPOO REESTRUCTURACIÓN PROFUNDA CON KERATINA X 375 ML (SIN SAL)",
         "linea": "CAPILAR",
         "marca": "MODELLA",
         "competidor": "2DA COMPETENCIA"
     },
     {
-        "id": 58,
+        "id": 60,
         "nombre": "MODELLA ACONDICIONADOR REESTRUCTURACIÓN PROFUNDA CON KERATINA X 375 ML (SIN SAL)",
         "linea": "CAPILAR",
         "marca": "MODELLA",
         "competidor": "2DA COMPETENCIA"
     },
     {
-        "id": 59,
+        "id": 61,
         "nombre": "ELEGANCE PROFESIONAL (BIO TECNOLOGY) HIDRATACIÓN CAPILAR 240ML",
         "linea": "CAPILAR",
         "marca": "ELEGANCEE",
         "competidor": "2DA COMPETENCIA"
     },
     {
-        "id": 60,
+        "id": 62,
         "nombre": "ELEGANCE PROFESIONAL (BIO TECNOLOGY) RENOVACIÓN MOLECULAR 240ML",
         "linea": "CAPILAR",
         "marca": "ELEGANCEE",
         "competidor": "2DA COMPETENCIA"
     },
     {
-        "id": 61,
+        "id": 63,
         "nombre": "MYSTIC SHAMPOO HIDRACOLOR 400 ML (SIN SAL)",
         "linea": "CAPILAR",
         "marca": "MYSTIC",
         "competidor": "2DA COMPETENCIA"
     },
     {
-        "id": 62,
-        "nombre": "MYSTIC SHAMPOO HYDRA FRIZZ 400 ML (SIN SAL)",
-        "linea": "CAPILAR",
-        "marca": "MYSTIC",
-        "competidor": "2DA COMPETENCIA"
-    },
-    {
-        "id": 63,
-        "nombre": "MYSTIC SHAMPOO HYDRA FRIZZ 400 ML (SIN SAL)",
-        "linea": "CAPILAR",
-        "marca": "MYSTIC",
-        "competidor": "2DA COMPETENCIA"
-    },
-    {
         "id": 64,
-        "nombre": "MYSTIC SHAMPOO HYDRA VOLUMEN 400 ML (SIN SAL)",
+        "nombre": "MYSTIC SHAMPOO HYDRA FRIZZ 400 ML (SIN SAL)",
         "linea": "CAPILAR",
         "marca": "MYSTIC",
         "competidor": "2DA COMPETENCIA"
     },
     {
         "id": 65,
-        "nombre": "MYSTIC SHAMPOO HYDRA 10 EN 1 400 ML (SIN SAL)",
+        "nombre": "MYSTIC SHAMPOO HYDRA FRIZZ 400 ML (SIN SAL)",
         "linea": "CAPILAR",
         "marca": "MYSTIC",
         "competidor": "2DA COMPETENCIA"
     },
     {
         "id": 66,
+        "nombre": "MYSTIC SHAMPOO HYDRA VOLUMEN 400 ML (SIN SAL)",
+        "linea": "CAPILAR",
+        "marca": "MYSTIC",
+        "competidor": "2DA COMPETENCIA"
+    },
+    {
+        "id": 67,
+        "nombre": "MYSTIC SHAMPOO HYDRA 10 EN 1 400 ML (SIN SAL)",
+        "linea": "CAPILAR",
+        "marca": "MYSTIC",
+        "competidor": "2DA COMPETENCIA"
+    },
+    {
+        "id": 68,
         "nombre": "PLANTURA KERATINA 400 ML (SIN SAL)",
         "linea": "CAPILAR",
         "marca": "PLANTURA",
         "competidor": "2DA COMPETENCIA"
     },
     {
-        "id": 67,
+        "id": 69,
         "nombre": "PLANTURA CHAMPU KERATINA 400 ML (SIN SAL)",
         "linea": "CAPILAR",
         "marca": "PLANTURA",
         "competidor": "2DA COMPETENCIA"
     },
     {
-        "id": 68,
+        "id": 70,
         "nombre": "PLANTURA CHAMPU CON ACEITE DE COCA 400 ML (SIN SAL)",
         "linea": "CAPILAR",
         "marca": "PLANTURA",
         "competidor": "2DA COMPETENCIA"
     },
     {
-        "id": 69,
+        "id": 71,
         "nombre": "SEDAL SHAMPOO CERAMIDAS 340 ML (ENVASE ROSADO)",
         "linea": "CAPILAR",
         "marca": "SEDAL",
         "competidor": "2DA COMPETENCIA"
     },
     {
-        "id": 70,
+        "id": 72,
         "nombre": "SEDAL ACONDICIONADOR CERAMIDAS 340 ML (ENVASE ROSADO)",
         "linea": "CAPILAR",
         "marca": "SEDAL",
         "competidor": "2DA COMPETENCIA"
     },
     {
-        "id": 71,
+        "id": 73,
         "nombre": "SKALA EXPERT SHAMPOO BABOSA 325 ML (ENVASE AZUL CLARO)",
         "linea": "CAPILAR",
         "marca": "SKALA",
         "competidor": "2DA COMPETENCIA"
     },
     {
-        "id": 72,
+        "id": 74,
         "nombre": "SKALA EXPERT ACONDICIONADOR BABOSA 325 ML (ENVASE AZUL CLARO)",
         "linea": "CAPILAR",
         "marca": "SKALA",
         "competidor": "2DA COMPETENCIA"
     },
     {
-        "id": 73,
+        "id": 75,
         "nombre": "SKALA EXPERT SHAMPOO BOMBA DE VITAMINAS 325 ML (ENVASE BLANCO)",
         "linea": "CAPILAR",
         "marca": "SKALA",
         "competidor": "2DA COMPETENCIA"
     },
     {
-        "id": 74,
+        "id": 76,
         "nombre": "SKALA EXPERT ACONDICIONADOR BOMBA DE VITAMINAS 325 ML (ENVASE BLANCO)",
         "linea": "CAPILAR",
         "marca": "SKALA",
         "competidor": "2DA COMPETENCIA"
     },
     {
-        "id": 75,
+        "id": 77,
         "nombre": "SKALA EXPERT SHAMPOO RESTAURACIÓN 12 EN 1 325 ML (ENVASE BLANCO CON TAPA VINOTINTO)",
         "linea": "CAPILAR",
         "marca": "SKALA",
         "competidor": "2DA COMPETENCIA"
     },
     {
-        "id": 76,
+        "id": 78,
         "nombre": "SKALA EXPERT ACONDICIONADOR RESTAURACIÓN 12 EN 1 325 ML (ENVASE BLANCO CON TAPA VINOTINTO)",
         "linea": "CAPILAR",
         "marca": "SKALA",
         "competidor": "2DA COMPETENCIA"
     },
     {
-        "id": 77,
+        "id": 79,
         "nombre": "NO HAY COMPETENCIA EN EL PDV",
         "linea": "NO HAY COMPETENCIA EN EL PDV",
         "marca": "NO HAY COMPETENCIA EN EL PDV",
